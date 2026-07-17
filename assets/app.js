@@ -1,6 +1,4 @@
-from pathlib import Path
-
-app_js = r'''const DATA = window.ANTIMICROBIAL_APP_DATA;
+const DATA = window.ANTIMICROBIAL_APP_DATA;
 
 const state = {
   mode: 'drug',
@@ -15,27 +13,27 @@ const state = {
   limit: 20
 };
 
-const $ = (selector) => document.querySelector(selector);
+const $ = (s) => document.querySelector(s);
 
-const esc = (value = '') =>
-  String(value).replace(
+const esc = (v = '') =>
+  String(v).replace(
     /[&<>"']/g,
-    (char) =>
+    (c) =>
       ({
         '&': '&amp;',
         '<': '&lt;',
         '>': '&gt;',
         '"': '&quot;',
         "'": '&#039;'
-      })[char]
+      })[c]
   );
 
-const norm = (value = '') =>
-  String(value)
+const norm = (v = '') =>
+  String(v)
     .toLowerCase()
     .replace(/[^a-z0-9\u4e00-\u9fff]+/g, '');
 
-const statusLabel = (status) =>
+const statusLabel = (s) =>
   ({
     allowed: '可使用',
     not_recommended: '不建議使用',
@@ -45,227 +43,205 @@ const statusLabel = (status) =>
     incompatible: '不相容',
     uncertain: '不確定',
     instruction: '依指示'
-  })[status] || status || 'N/D';
+  })[s] || s;
 
-const groupLabel = (group) =>
+const groupLabel = (g) =>
   ({
     all: '全部',
     Antibacterial: '抗細菌',
     Antifungal: '抗黴菌',
     Antiviral: '抗病毒',
     'Anti-TB': '抗結核'
-  })[group] || group || '其他';
+  })[g] || g;
 
-function safeSetText(selector, value) {
-  const element = $(selector);
-  if (element) element.textContent = value ?? '';
+function formatDateTime(v) {
+  if (!v) return 'N/D';
+
+  const d = new Date(v);
+
+  return Number.isNaN(d.getTime())
+    ? v
+    : new Intl.DateTimeFormat('zh-TW', {
+        timeZone: 'Asia/Taipei',
+        year: 'numeric',
+        month: '2-digit',
+        day: '2-digit',
+        hour: '2-digit',
+        minute: '2-digit',
+        hour12: false
+      }).format(d);
 }
 
-function formatDateTime(value) {
-  if (!value) return 'N/D';
-
-  const date = new Date(value);
-  if (Number.isNaN(date.getTime())) return String(value);
-
-  return new Intl.DateTimeFormat('zh-TW', {
-    timeZone: 'Asia/Taipei',
-    year: 'numeric',
-    month: '2-digit',
-    day: '2-digit',
-    hour: '2-digit',
-    minute: '2-digit',
-    hour12: false
-  }).format(date);
+function initialOf(d) {
+  return (d.genericName || '#').trim().charAt(0).toUpperCase();
 }
 
-function initialOf(drug) {
-  return (drug?.genericName || '#').trim().charAt(0).toUpperCase();
+function alphaMatch(c, b) {
+  if (b === 'all') return true;
+
+  const n = c.charCodeAt(0);
+
+  return b === 'A-F'
+    ? n >= 65 && n <= 70
+    : b === 'G-L'
+      ? n >= 71 && n <= 76
+      : b === 'M-R'
+        ? n >= 77 && n <= 82
+        : b === 'S-Z'
+          ? n >= 83 && n <= 90
+          : true;
 }
 
-function alphaMatch(initial, band) {
-  if (band === 'all') return true;
-
-  const code = initial.charCodeAt(0);
-
-  if (band === 'A-F') return code >= 65 && code <= 70;
-  if (band === 'G-L') return code >= 71 && code <= 76;
-  if (band === 'M-R') return code >= 77 && code <= 82;
-  if (band === 'S-Z') return code >= 83 && code <= 90;
-
-  return true;
-}
-
-function searchable(drug) {
-  const products = Array.isArray(drug?.products) ? drug.products : [];
-  const aliases = Array.isArray(drug?.aliases) ? drug.aliases : [];
-
+function searchable(d) {
   return norm(
     [
-      drug?.genericName,
-      drug?.className,
-      drug?.mechanism,
-      drug?.group,
-      ...aliases,
-      ...products.flatMap((product) => [
-        product?.brandName,
-        product?.hospitalDrugId,
-        product?.procedureCode,
-        product?.strength
+      d.genericName,
+      d.className,
+      d.mechanism,
+      d.group,
+      ...d.aliases,
+      ...d.products.flatMap((p) => [
+        p.brandName,
+        p.hospitalDrugId,
+        p.procedureCode,
+        p.strength
       ])
     ].join(' ')
   );
 }
 
-function filteredDrugs() {
-  let drugs = Array.isArray(DATA?.drugs) ? [...DATA.drugs] : [];
+function filtered() {
+  let x = DATA.drugs.slice();
 
   if (state.group !== 'all') {
-    drugs = drugs.filter((drug) => drug.group === state.group);
+    x = x.filter((d) => d.group === state.group);
   }
 
   if (state.className !== 'all') {
-    drugs = drugs.filter((drug) => drug.className === state.className);
+    x = x.filter((d) => d.className === state.className);
   }
 
   if (state.alpha !== 'all') {
-    drugs = drugs.filter((drug) =>
-      alphaMatch(initialOf(drug), state.alpha)
-    );
+    x = x.filter((d) => alphaMatch(initialOf(d), state.alpha));
   }
 
-  const query = norm(state.query);
+  const q = norm(state.query);
 
-  if (query) {
-    drugs = drugs.filter((drug) => searchable(drug).includes(query));
+  if (q) {
+    x = x.filter((d) => searchable(d).includes(q));
   }
 
-  drugs.sort((a, b) => {
-    if (state.sort === 'brand') {
-      return (a.products?.[0]?.brandName || '').localeCompare(
-        b.products?.[0]?.brandName || '',
-        'en'
-      );
-    }
+  x.sort((a, b) =>
+    state.sort === 'brand'
+      ? (a.products[0]?.brandName || '').localeCompare(
+          b.products[0]?.brandName || '',
+          'en'
+        )
+      : state.sort === 'class'
+        ? (a.className || '').localeCompare(b.className || '', 'en') ||
+          a.genericName.localeCompare(b.genericName, 'en')
+        : a.genericName.localeCompare(b.genericName, 'en')
+  );
 
-    if (state.sort === 'class') {
-      return (
-        (a.className || '').localeCompare(b.className || '', 'en') ||
-        (a.genericName || '').localeCompare(b.genericName || '', 'en')
-      );
-    }
-
-    return (a.genericName || '').localeCompare(
-      b.genericName || '',
-      'en'
-    );
-  });
-
-  return drugs;
+  return x;
 }
 
 function renderGroups() {
-  const container = $('#groupFilters');
-  if (!container) return;
-
   const groups = [
     'all',
-    ...new Set((DATA.drugs || []).map((drug) => drug.group).filter(Boolean))
+    ...new Set(DATA.drugs.map((d) => d.group))
   ];
 
-  container.innerHTML = groups
+  $('#groupFilters').innerHTML = groups
     .map(
-      (group) => `
+      (g) => `
         <button
-          class="filter-chip ${state.group === group ? 'active' : ''}"
-          data-group="${esc(group)}"
+          class="filter-chip ${state.group === g ? 'active' : ''}"
+          data-g="${esc(g)}"
         >
-          ${esc(groupLabel(group))}
+          ${esc(groupLabel(g))}
         </button>
       `
     )
     .join('');
 
-  container.querySelectorAll('[data-group]').forEach((button) => {
-    button.addEventListener('click', () => {
-      state.group = button.dataset.group;
-      state.className = 'all';
-      state.limit = 20;
-      renderDrugMode();
+  $('#groupFilters')
+    .querySelectorAll('button')
+    .forEach((b) => {
+      b.onclick = () => {
+        state.group = b.dataset.g;
+        state.className = 'all';
+        state.limit = 20;
+        renderDrugMode();
+      };
     });
-  });
 }
 
 function renderClasses() {
-  const select = $('#classFilter');
-  if (!select) return;
-
-  const pool = (DATA.drugs || []).filter(
-    (drug) => state.group === 'all' || drug.group === state.group
+  const pool = DATA.drugs.filter(
+    (d) => state.group === 'all' || d.group === state.group
   );
 
-  const classes = [
-    ...new Set(pool.map((drug) => drug.className).filter(Boolean))
+  const cls = [
+    ...new Set(pool.map((d) => d.className))
   ].sort();
 
-  select.innerHTML = `
+  $('#classFilter').innerHTML = `
     <option value="all">全部藥理分類</option>
-    ${classes
+    ${cls
       .map(
-        (className) =>
-          `<option value="${esc(className)}">${esc(className)}</option>`
+        (c) =>
+          `<option value="${esc(c)}">${esc(c)}</option>`
       )
       .join('')}
   `;
 
-  select.value = classes.includes(state.className)
+  $('#classFilter').value = cls.includes(state.className)
     ? state.className
     : 'all';
 }
 
 function listHTML(items) {
-  let currentLetter = '';
+  let current = '';
 
   return items
-    .map((drug) => {
-      const letter = initialOf(drug);
-      const heading =
-        letter !== currentLetter
-          ? `<div class="letter-heading">${esc(letter)}</div>`
+    .map((d) => {
+      const l = initialOf(d);
+
+      const head =
+        l !== current
+          ? `<div class="letter-heading">${esc(l)}</div>`
           : '';
 
-      currentLetter = letter;
+      current = l;
 
-      const adultDoses = Array.isArray(drug.adultDoses)
-        ? drug.adultDoses
-        : [];
-
-      const hasDose = adultDoses.some(
-        (row) =>
-          row?.dose_display &&
-          row.dose_display !== 'N/D' &&
-          row.dose_display !== '無資料（N/D）'
+      const available = d.adultDoses.some(
+        (x) => x.dose_display !== 'N/D'
       );
 
-      const brands = (drug.products || [])
-        .map((product) => product.brandName)
-        .filter(Boolean)
-        .join('、');
-
       return `
-        ${heading}
+        ${head}
+
         <button
           class="result-item ${
-            state.selectedConcept === drug.conceptId ? 'active' : ''
+            state.selectedConcept === d.conceptId
+              ? 'active'
+              : ''
           }"
-          data-concept-id="${esc(drug.conceptId)}"
+          data-id="${esc(d.conceptId)}"
         >
-          <div class="generic">${esc(drug.genericName)}</div>
-          <div class="brands">${esc(brands)}</div>
+          <div class="generic">${esc(d.genericName)}</div>
+
+          <div class="brands">
+            ${esc(d.products.map((p) => p.brandName).join('、'))}
+          </div>
+
           <div class="meta">
-            <span class="badge ${hasDose ? '' : 'nd'}">
-              ${hasDose ? '有劑量資料' : '部分資料 N/D'}
+            <span class="badge ${available ? '' : 'nd'}">
+              ${available ? '有劑量資料' : '部分資料 N/D'}
             </span>
-            <span>${esc(drug.className)}</span>
+
+            <span>${esc(d.className)}</span>
           </div>
         </button>
       `;
@@ -274,126 +250,118 @@ function listHTML(items) {
 }
 
 function renderDrugList() {
-  const resultList = $('#resultList');
-  const showMore = $('#showMore');
-
-  if (!resultList) return;
-
-  const all = filteredDrugs();
+  const all = filtered();
   const shown = all.slice(0, state.limit);
 
-  const productCount = all.reduce(
-    (count, drug) => count + (drug.products?.length || 0),
-    0
-  );
+  $('#sidebarTitle').textContent = '藥品';
 
-  safeSetText('#sidebarTitle', '藥品');
-  safeSetText(
-    '#resultCount',
-    `符合 ${all.length} 種成分／${productCount} 個品項`
-  );
+  $('#resultCount').textContent =
+    `符合 ${all.length} 種成分／` +
+    `${all.reduce((n, d) => n + d.products.length, 0)} 個品項`;
 
-  resultList.innerHTML =
+  $('#resultList').innerHTML =
     listHTML(shown) ||
     '<div class="backlog-box">沒有符合的藥品。</div>';
 
-  if (showMore) {
-    showMore.style.display = all.length > state.limit ? 'block' : 'none';
-  }
+  $('#showMore').style.display =
+    all.length > state.limit ? 'block' : 'none';
 
-  resultList.querySelectorAll('[data-concept-id]').forEach((button) => {
-    button.addEventListener('click', () => {
-      state.selectedConcept = button.dataset.conceptId;
+  $('#resultList')
+    .querySelectorAll('[data-id]')
+    .forEach((b) => {
+      b.onclick = () => {
+        state.selectedConcept = b.dataset.id;
 
-      const drug = DATA.drugs.find(
-        (item) => item.conceptId === state.selectedConcept
-      );
+        const d = DATA.drugs.find(
+          (x) => x.conceptId === state.selectedConcept
+        );
 
-      state.selectedProduct =
-        drug?.products?.[0]?.hospitalDrugId || null;
+        state.selectedProduct =
+          d?.products[0]?.hospitalDrugId || null;
 
-      renderDrugDetail();
-      renderDrugList();
+        renderDrugDetail();
+        renderDrugList();
 
-      if (window.innerWidth < 1050) {
-        $('#content')?.scrollIntoView({
-          behavior: 'smooth',
-          block: 'start'
-        });
-      }
+        if (innerWidth < 1050) {
+          $('#content').scrollIntoView({
+            behavior: 'smooth'
+          });
+        }
+      };
     });
-  });
 }
 
-function section(title, body, open = true) {
+function section(t, b, o = true) {
   return `
-    <section class="section ${open ? '' : 'collapsed'}">
-      <button class="section-title" type="button">
-        <span>${title}</span>
+    <section class="section ${o ? '' : 'collapsed'}">
+      <button class="section-title">
+        <span>${t}</span>
         <span>⌄</span>
       </button>
-      <div class="section-body">${body}</div>
+
+      <div class="section-body">${b}</div>
     </section>
   `;
 }
 
-function refBadges(value) {
-  if (!value) return '';
-
-  const refs = String(value)
-    .split(/[;,；]/)
-    .map((item) => item.trim())
-    .filter(Boolean);
-
-  if (!refs.length) return '';
+function refBadges(text) {
+  if (!text) return '';
 
   return `
     <div class="source-row">
-      ${refs
+      ${String(text)
+        .split(',')
+        .filter(Boolean)
         .map(
-          (ref) =>
-            `<span class="source-badge">${esc(ref)}</span>`
+          (x) =>
+            `<span class="source-badge">${esc(
+              x.trim()
+            )}</span>`
         )
         .join('')}
     </div>
   `;
 }
 
-function routeCards(drug, hospitalDrugId) {
-  const rows = (drug.administration || []).filter(
-    (row) => row.hospital_drug_id === hospitalDrugId
+function routeCards(d, hid) {
+  const rows = d.administration.filter(
+    (x) => x.hospital_drug_id === hid
   );
 
   return `
     <div class="route-grid">
       ${['IV push', 'IM', 'IV infusion']
         .map((route) => {
-          const row =
-            rows.find((item) => item.route === route) || {
+          const a =
+            rows.find((x) => x.route === route) || {
               status: 'no_data'
             };
 
           return `
-            <div class="route-card ${esc(row.status)}">
-              <h3>${esc(route)}</h3>
-              <div class="route-status">${esc(
-                statusLabel(row.status)
-              )}</div>
+            <div class="route-card ${esc(a.status)}">
+              <h3>${route}</h3>
+
+              <div class="route-status">
+                ${esc(statusLabel(a.status))}
+              </div>
+
+              <div class="route-detail">
+                ${esc(a.administration_instruction || '')}
+              </div>
+
               ${
-                row.administration_instruction
-                  ? `<div class="route-detail">${esc(
-                      row.administration_instruction
-                    )}</div>`
+                a.maximum_rate_display
+                  ? `
+                    <div class="route-detail">
+                      最大速率：${esc(
+                        a.maximum_rate_display
+                      )}
+                    </div>
+                  `
                   : ''
               }
-              ${
-                row.maximum_rate_display
-                  ? `<div class="route-detail">最大速率：${esc(
-                      row.maximum_rate_display
-                    )}</div>`
-                  : ''
-              }
-              ${refBadges(row.reference_display)}
+
+              ${refBadges(a.reference_display)}
             </div>
           `;
         })
@@ -402,69 +370,74 @@ function routeCards(drug, hospitalDrugId) {
   `;
 }
 
-function doseSection(drug) {
-  const rows = Array.isArray(drug.adultDoses)
-    ? drug.adultDoses
-    : [];
-
-  const body = rows.length
-    ? rows
-        .map(
-          (row) => `
-            <div class="info-card">
-              <div class="label">
-                ${esc(row.indication)}｜${esc(row.renal_category)}
-              </div>
-              <h4>${esc(row.dose_display || 'N/D')}</h4>
-              ${
-                row.loading_dose_display
-                  ? `<p><strong>Loading：</strong>${esc(
-                      row.loading_dose_display
-                    )}</p>`
-                  : ''
-              }
-              ${
-                row.special_note
-                  ? `<p>${esc(row.special_note)}</p>`
-                  : ''
-              }
-              <p class="label">
-                ${esc(row.review_status)}｜${esc(row.source_id)}
-              </p>
-            </div>
-          `
-        )
-        .join('')
-    : '<div class="backlog-box">目前無一般成人或腎功能劑量資料。</div>';
-
+function doseSection(d) {
   return section(
     '一般成人與腎功能劑量',
-    `<div class="data-grid">${body}</div>`
+    `
+      <div class="data-grid">
+        ${d.adultDoses
+          .map(
+            (x) => `
+              <div class="info-card">
+                <div class="label">
+                  ${esc(x.indication)}｜
+                  ${esc(x.renal_category)}
+                </div>
+
+                <h4>${esc(x.dose_display)}</h4>
+
+                ${
+                  x.loading_dose_display
+                    ? `
+                      <p>
+                        <strong>Loading：</strong>
+                        ${esc(x.loading_dose_display)}
+                      </p>
+                    `
+                    : ''
+                }
+
+                ${
+                  x.special_note
+                    ? `<p>${esc(x.special_note)}</p>`
+                    : ''
+                }
+
+                <p class="label">
+                  ${esc(x.review_status)}｜
+                  ${esc(x.source_id)}
+                </p>
+              </div>
+            `
+          )
+          .join('')}
+      </div>
+    `
   );
 }
 
-function rrtSection(drug) {
-  const modalities = ['HD', 'PD', 'CVVH', 'CVVHDF', 'ECMO'];
+function rrtSection(d) {
+  const tabs = ['HD', 'PD', 'CVVH', 'CVVHDF', 'ECMO'];
 
-  const row =
-    (drug.rrtDoses || []).find(
-      (item) => item.modality === state.modality
+  const x =
+    d.rrtDoses.find(
+      (y) => y.modality === state.modality
     ) || {};
 
   return section(
     '特殊族群劑量（HD／PD／CRRT／ECMO）',
     `
       <div class="pop-tabs">
-        ${modalities
+        ${tabs
           .map(
-            (modality) => `
+            (t) => `
               <button
                 class="pop-tab ${
-                  state.modality === modality ? 'active' : ''
+                  state.modality === t ? 'active' : ''
                 }"
-                data-modality="${modality}"
+                data-mod="${t}"
               >
-                ${modality}
+                ${t}
               </button>
             `
           )
@@ -473,45 +446,54 @@ function rrtSection(drug) {
 
       <div class="info-card">
         <div class="label">
-          ${esc(state.modality)}｜${esc(row.status || 'no_data')}
+          ${esc(state.modality)}｜
+          ${esc(x.status || 'no_data')}
         </div>
-        <h4>${esc(row.dose_display || 'N/D')}</h4>
+
+        <h4>${esc(x.dose_display || 'N/D')}</h4>
+
         ${
-          row.usual_dose_display
-            ? `<p>一般劑量：${esc(row.usual_dose_display)}</p>`
+          x.usual_dose_display
+            ? `
+              <p>
+                一般劑量：
+                ${esc(x.usual_dose_display)}
+              </p>
+            `
             : ''
         }
-        ${row.note ? `<p>${esc(row.note)}</p>` : ''}
-        ${refBadges(row.reference_text)}
+
+        ${x.note ? `<p>${esc(x.note)}</p>` : ''}
+
+        ${refBadges(x.reference_text)}
       </div>
     `
   );
 }
 
-function compatibilityBlock(rows) {
-  if (!rows.length) {
-    return '<div class="backlog-box">此院內品項目前無資料。</div>';
-  }
-
+function compBlock(rows) {
   return `
     <div class="compat-grid">
       ${rows
         .map(
-          (row) => `
-            <div class="compat-item ${esc(row.status)}">
+          (x) => `
+            <div class="compat-item ${esc(x.status)}">
               <strong>
-                ${esc(row.solution_code)}｜${esc(
-                  statusLabel(row.status)
-                )}
+                ${esc(x.solution_code)}｜
+                ${esc(statusLabel(x.status))}
               </strong>
+
               ${
-                row.condition_display
-                  ? `<div class="condition">${esc(
-                      row.condition_display
-                    )}</div>`
+                x.condition_display
+                  ? `
+                    <div class="condition">
+                      ${esc(x.condition_display)}
+                    </div>
+                  `
                   : ''
               }
-              ${refBadges(row.reference_display)}
+
+              ${refBadges(x.reference_display)}
             </div>
           `
         )
@@ -520,199 +502,218 @@ function compatibilityBlock(rows) {
   `;
 }
 
-function preparationSection(drug, hospitalDrugId) {
-  const compatibility = (drug.compatibility || []).filter(
-    (row) => row.hospital_drug_id === hospitalDrugId
+function preparationSection(d, hid) {
+  const comp = d.compatibility.filter(
+    (x) => x.hospital_drug_id === hid
   );
 
-  const stability = (drug.stability || []).filter(
-    (row) => row.hospital_drug_id === hospitalDrugId
+  const stb = d.stability.filter(
+    (x) => x.hospital_drug_id === hid
   );
-
-  const stabilityCards = stability.length
-    ? stability
-        .map(
-          (row) => `
-            <div class="info-card">
-              <div class="label">
-                ${esc(row.storage_condition)}｜${esc(row.status)}
-              </div>
-              <h4>${esc(row.duration_display || 'N/D')}</h4>
-              ${
-                row.special_condition
-                  ? `<div class="stability-note">${esc(
-                      row.special_condition
-                    )}</div>`
-                  : ''
-              }
-              ${refBadges(row.reference_display)}
-            </div>
-          `
-        )
-        .join('')
-    : '<div class="backlog-box">此院內品項目前無保存時效資料。</div>';
 
   return section(
     '調製、稀釋液相容性與保存時效',
     `
       <h4>重組液</h4>
-      ${compatibilityBlock(
-        compatibility.filter(
-          (row) => row.phase === 'Reconstitution'
+
+      ${compBlock(
+        comp.filter(
+          (x) => x.phase === 'Reconstitution'
         )
       )}
 
       <h4 style="margin-top:16px">稀釋液</h4>
-      ${compatibilityBlock(
-        compatibility.filter((row) => row.phase === 'Dilution')
+
+      ${compBlock(
+        comp.filter((x) => x.phase === 'Dilution')
       )}
 
       <h4 style="margin-top:16px">保存時效</h4>
-      <div class="data-grid">${stabilityCards}</div>
+
+      <div class="data-grid">
+        ${stb
+          .map(
+            (x) => `
+              <div class="info-card">
+                <div class="label">
+                  ${esc(x.storage_condition)}｜
+                  ${esc(x.status)}
+                </div>
+
+                <h4>
+                  ${esc(x.duration_display || 'N/D')}
+                </h4>
+
+                ${
+                  x.special_condition
+                    ? `
+                      <div class="stability-note">
+                        ${esc(x.special_condition)}
+                      </div>
+                    `
+                    : ''
+                }
+
+                ${refBadges(x.reference_display)}
+              </div>
+            `
+          )
+          .join('')}
+      </div>
     `
   );
 }
 
-function pkSection(drug) {
-  const rows = Array.isArray(drug.pkpd) ? drug.pkpd : [];
-
-  const body = rows.length
-    ? rows
-        .map(
-          (row) => `
-            <div class="info-card">
-              <div class="label">${esc(row.parameter_name)}</div>
-              <h4>${esc(row.value_display || 'N/D')}</h4>
-              ${
-                row.component_scope
-                  ? `<p>${esc(row.component_scope)}</p>`
-                  : ''
-              }
-            </div>
-          `
-        )
-        .join('')
-    : '<div class="backlog-box">目前無PK／PD資料。</div>';
-
+function pkSection(d) {
   return section(
     'PK／PD與透析特性',
-    `<div class="data-grid">${body}</div>`,
+    `
+      <div class="data-grid">
+        ${d.pkpd
+          .map(
+            (x) => `
+              <div class="info-card">
+                <div class="label">
+                  ${esc(x.parameter_name)}
+                </div>
+
+                <h4>${esc(x.value_display)}</h4>
+
+                <p>${esc(x.component_scope)}</p>
+              </div>
+            `
+          )
+          .join('')}
+      </div>
+    `,
     false
   );
 }
 
-function dxSection(drug) {
-  const rows = Array.isArray(drug.diagnoses)
-    ? drug.diagnoses
-    : [];
-
-  const body = rows.length
-    ? rows
-        .map(
-          (row) => `
-            <div class="dx-card">
-              <h3>
-                ${esc(row.diagnosis)}
-                ${
-                  row.severity
-                    ? `<span class="badge">${esc(
-                        row.severity
-                      )}</span>`
-                    : ''
-                }
-              </h3>
-              <div class="dx-row">
-                <div class="dx-label">首選</div>
-                <div>${esc(row.firstLine)}</div>
-              </div>
-              <div class="dx-row">
-                <div class="dx-label">替代</div>
-                <div>${esc(row.alternative || '—')}</div>
-              </div>
-            </div>
-          `
-        )
-        .join('')
-    : '<div class="backlog-box">目前診斷群指引未連結此成分。</div>';
-
+function dxSection(d) {
   return section(
     '本院診斷群指引中的連結',
-    `<div class="dx-list">${body}</div>`,
+    `
+      <div class="dx-list">
+        ${
+          d.diagnoses.length
+            ? d.diagnoses
+                .map(
+                  (x) => `
+                    <div class="dx-card">
+                      <h3>
+                        ${esc(x.diagnosis)}
+
+                        ${
+                          x.severity
+                            ? `
+                              <span class="badge">
+                                ${esc(x.severity)}
+                              </span>
+                            `
+                            : ''
+                        }
+                      </h3>
+
+                      <div class="dx-row">
+                        <div class="dx-label">首選</div>
+                        <div>${esc(x.firstLine)}</div>
+                      </div>
+
+                      <div class="dx-row">
+                        <div class="dx-label">替代</div>
+                        <div>
+                          ${esc(x.alternative || '—')}
+                        </div>
+                      </div>
+                    </div>
+                  `
+                )
+                .join('')
+            : `
+              <div class="backlog-box">
+                目前診斷群指引未連結此成分。
+              </div>
+            `
+        }
+      </div>
+    `,
     false
   );
 }
 
 function renderDrugDetail() {
-  const content = $('#content');
-  if (!content) return;
-
-  const drug = DATA.drugs.find(
-    (item) => item.conceptId === state.selectedConcept
+  const d = DATA.drugs.find(
+    (x) => x.conceptId === state.selectedConcept
   );
 
-  if (!drug) {
-    content.innerHTML = `
+  if (!d) {
+    $('#content').innerHTML = `
       <div class="empty-state">
         <div>
           <h2>選擇藥品開始查詢</h2>
-          <p>可搜尋學名、商品名、處置代碼、縮寫，或使用分類與A–Z。</p>
+
+          <p>
+            可搜尋學名、商品名、處置代碼、縮寫，
+            或使用分類與A–Z。
+          </p>
         </div>
       </div>
     `;
+
     return;
   }
 
   if (
     !state.selectedProduct ||
-    !drug.products?.some(
-      (product) =>
-        product.hospitalDrugId === state.selectedProduct
+    !d.products.some(
+      (p) => p.hospitalDrugId === state.selectedProduct
     )
   ) {
     state.selectedProduct =
-      drug.products?.[0]?.hospitalDrugId || null;
+      d.products[0]?.hospitalDrugId;
   }
 
-  const product =
-    drug.products?.find(
-      (item) => item.hospitalDrugId === state.selectedProduct
-    ) || drug.products?.[0];
+  const p =
+    d.products.find(
+      (x) => x.hospitalDrugId === state.selectedProduct
+    ) || d.products[0];
 
-  if (!product) {
-    content.innerHTML =
-      '<div class="backlog-box">此成分沒有可顯示的院內品項。</div>';
-    return;
-  }
-
-  content.innerHTML = `
+  $('#content').innerHTML = `
     <div class="drug-header">
       <div class="drug-title">
         <span class="badge">
-          ${esc(groupLabel(drug.group))}｜${esc(drug.className)}
+          ${esc(groupLabel(d.group))}｜
+          ${esc(d.className)}
         </span>
 
-        <h2>${esc(drug.genericName)}</h2>
-        <p>${esc(drug.mechanism || '')}</p>
+        <h2>${esc(d.genericName)}</h2>
+
+        <p>${esc(d.mechanism)}</p>
 
         <div class="product-picker">
           <label>
             院內品項
-            <select id="productSelect" class="product-select">
-              ${(drug.products || [])
+
+            <select
+              id="productSelect"
+              class="product-select"
+            >
+              ${d.products
                 .map(
-                  (item) => `
+                  (x) => `
                     <option
-                      value="${esc(item.hospitalDrugId)}"
+                      value="${esc(x.hospitalDrugId)}"
                       ${
-                        item.hospitalDrugId ===
-                        product.hospitalDrugId
+                        x.hospitalDrugId ===
+                        p.hospitalDrugId
                           ? 'selected'
                           : ''
                       }
                     >
-                      ${esc(item.brandName)}｜
-                      ${esc(item.hospitalDrugId)}｜
-                      ${esc(item.strength || 'N/D')}
+                      ${esc(x.brandName)}｜
+                      ${esc(x.hospitalDrugId)}｜
+                      ${esc(x.strength || 'N/D')}
                     </option>
                   `
                 )
@@ -724,154 +725,198 @@ function renderDrugDetail() {
 
       <div class="review-box">
         <strong>
-          ${esc(product.brandName)}｜
-          ${esc(product.hospitalDrugId)}
+          ${esc(p.brandName)}｜
+          ${esc(p.hospitalDrugId)}
         </strong>
+
         <br>
-        資料版本：${esc(DATA.meta.datasetVersion)}
+
+        資料版本：
+        ${esc(DATA.meta.datasetVersion)}
+
         <br>
-        資料發布：${esc(
-          formatDateTime(DATA.meta.datasetPublishedAt)
+
+        資料發布：
+        ${esc(
+          formatDateTime(
+            DATA.meta.datasetPublishedAt
+          )
         )}
       </div>
     </div>
 
-    ${routeCards(drug, product.hospitalDrugId)}
-    ${doseSection(drug)}
-    ${rrtSection(drug)}
-    ${preparationSection(drug, product.hospitalDrugId)}
-    ${pkSection(drug)}
-    ${dxSection(drug)}
+    ${routeCards(d, p.hospitalDrugId)}
+
+    ${doseSection(d)}
+
+    ${rrtSection(d)}
+
+    ${preparationSection(d, p.hospitalDrugId)}
+
+    ${pkSection(d)}
+
+    ${dxSection(d)}
   `;
 
-  $('#productSelect')?.addEventListener('change', (event) => {
-    state.selectedProduct = event.target.value;
+  $('#productSelect').onchange = (e) => {
+    state.selectedProduct = e.target.value;
     renderDrugDetail();
-  });
+  };
 
-  content.querySelectorAll('.section-title').forEach((button) => {
-    button.addEventListener('click', () => {
-      button.parentElement.classList.toggle('collapsed');
+  $('#content')
+    .querySelectorAll('.section-title')
+    .forEach((b) => {
+      b.onclick = () =>
+        b.parentElement.classList.toggle('collapsed');
     });
-  });
 
-  content.querySelectorAll('[data-modality]').forEach((button) => {
-    button.addEventListener('click', () => {
-      state.modality = button.dataset.modality;
-      renderDrugDetail();
+  $('#content')
+    .querySelectorAll('[data-mod]')
+    .forEach((b) => {
+      b.onclick = () => {
+        state.modality = b.dataset.mod;
+        renderDrugDetail();
+      };
     });
-  });
 }
 
 function renderDrugMode() {
-  const filterPanel = $('#filterPanel');
-  if (filterPanel) filterPanel.style.display = '';
+  $('#filterPanel').style.display = '';
 
   renderGroups();
   renderClasses();
 
-  if ($('#alphaFilter')) $('#alphaFilter').value = state.alpha;
-  if ($('#sortFilter')) $('#sortFilter').value = state.sort;
+  $('#alphaFilter').value = state.alpha;
+  $('#sortFilter').value = state.sort;
 
   renderDrugList();
   renderDrugDetail();
 }
 
 function renderDiagnosis() {
-  const filterPanel = $('#filterPanel');
-  const showMore = $('#showMore');
-  const resultList = $('#resultList');
-  const content = $('#content');
+  const q = norm(state.query);
 
-  if (filterPanel) filterPanel.style.display = 'none';
-  if (showMore) showMore.style.display = 'none';
-  if (!resultList || !content) return;
+  const list = DATA.diagnoses.filter(
+    (d) =>
+      !q ||
+      norm(
+        [
+          d.diagnosis,
+          d.severity,
+          d.first_line_regimen,
+          d.alternative_regimen
+        ].join(' ')
+      ).includes(q)
+  );
 
-  const query = norm(state.query);
+  $('#filterPanel').style.display = 'none';
+  $('#showMore').style.display = 'none';
 
-  const diagnoses = (DATA.diagnoses || []).filter((row) => {
-    if (!query) return true;
+  $('#sidebarTitle').textContent = '診斷群';
 
-    return norm(
-      [
-        row.diagnosis,
-        row.severity,
-        row.first_line_regimen,
-        row.alternative_regimen
-      ].join(' ')
-    ).includes(query);
-  });
+  $('#resultCount').textContent =
+    `符合 ${list.length} 筆`;
 
-  safeSetText('#sidebarTitle', '診斷群');
-  safeSetText('#resultCount', `符合 ${diagnoses.length} 筆`);
-
-  resultList.innerHTML = diagnoses
+  $('#resultList').innerHTML = list
     .map(
-      (row) => `
+      (d) => `
         <button
           class="result-item"
-          data-diagnosis-id="${esc(row.guideline_id)}"
+          data-dx="${esc(d.guideline_id)}"
         >
-          <div class="generic">${esc(row.diagnosis)}</div>
-          <div class="brands">${esc(row.severity || '')}</div>
+          <div class="generic">
+            ${esc(d.diagnosis)}
+          </div>
+
+          <div class="brands">
+            ${esc(d.severity || '')}
+          </div>
         </button>
       `
     )
     .join('');
 
-  content.innerHTML = `
+  $('#content').innerHTML = `
     <div class="drug-header">
       <div class="drug-title">
-        <span class="badge">診斷群查詢</span>
-        <h2>本院經驗性抗生素指引</h2>
-        <p>實際處置仍應依感染部位、培養結果、過敏史、器官功能及院內正式規範判斷。</p>
+        <span class="badge">
+          診斷群查詢
+        </span>
+
+        <h2>
+          本院經驗性抗生素指引
+        </h2>
+
+        <p>
+          實際處置仍應依感染部位、培養結果、
+          過敏史、器官功能及院內正式規範判斷。
+        </p>
       </div>
     </div>
 
-    <div class="dx-list" style="margin-top:17px">
-      ${diagnoses
-        .map((row) => {
-          const links = (row.links || [])
-            .filter((link) => link.link_type === 'Drug concept')
-            .map((link) => {
-              const drug = DATA.drugs.find(
-                (item) => item.conceptId === link.linked_id
+    <div
+      class="dx-list"
+      style="margin-top:17px"
+    >
+      ${list
+        .map((d) => {
+          const links = (d.links || [])
+            .filter(
+              (l) => l.link_type === 'Drug concept'
+            )
+            .map((l) => {
+              const z = DATA.drugs.find(
+                (x) => x.conceptId === l.linked_id
               );
 
-              if (!drug) return '';
-
-              return `
-                <button
-                  class="link-drug"
-                  data-drug-id="${esc(drug.conceptId)}"
-                >
-                  ${esc(drug.genericName)}
-                </button>
-              `;
+              return z
+                ? `
+                  <button
+                    class="link-drug"
+                    data-drug="${esc(z.conceptId)}"
+                  >
+                    ${esc(z.genericName)}
+                  </button>
+                `
+                : '';
             })
             .join('');
 
           return `
-            <div class="dx-card" id="${esc(row.guideline_id)}">
+            <div
+              class="dx-card"
+              id="${esc(d.guideline_id)}"
+            >
               <h3>
-                ${esc(row.diagnosis)}
+                ${esc(d.diagnosis)}
+
                 ${
-                  row.severity
-                    ? `<span class="badge">${esc(
-                        row.severity
-                      )}</span>`
+                  d.severity
+                    ? `
+                      <span class="badge">
+                        ${esc(d.severity)}
+                      </span>
+                    `
                     : ''
                 }
               </h3>
 
               <div class="dx-row">
                 <div class="dx-label">首選</div>
-                <div>${esc(row.first_line_regimen)}</div>
+
+                <div>
+                  ${esc(d.first_line_regimen)}
+                </div>
               </div>
 
               <div class="dx-row">
                 <div class="dx-label">替代</div>
-                <div>${esc(row.alternative_regimen || '—')}</div>
+
+                <div>
+                  ${esc(
+                    d.alternative_regimen || '—'
+                  )}
+                </div>
               </div>
 
               ${links}
@@ -882,76 +927,94 @@ function renderDiagnosis() {
     </div>
   `;
 
-  resultList
-    .querySelectorAll('[data-diagnosis-id]')
-    .forEach((button) => {
-      button.addEventListener('click', () => {
+  $('#resultList')
+    .querySelectorAll('[data-dx]')
+    .forEach((b) => {
+      b.onclick = () =>
         document
-          .getElementById(button.dataset.diagnosisId)
-          ?.scrollIntoView({ behavior: 'smooth' });
-      });
+          .getElementById(b.dataset.dx)
+          ?.scrollIntoView({
+            behavior: 'smooth'
+          });
     });
 
-  content.querySelectorAll('[data-drug-id]').forEach((button) => {
-    button.addEventListener('click', () => {
-      state.mode = 'drug';
-      state.selectedConcept = button.dataset.drugId;
+  $('#content')
+    .querySelectorAll('[data-drug]')
+    .forEach((b) => {
+      b.onclick = () => {
+        state.mode = 'drug';
+        state.selectedConcept = b.dataset.drug;
 
-      const drug = DATA.drugs.find(
-        (item) => item.conceptId === state.selectedConcept
-      );
+        const d = DATA.drugs.find(
+          (x) =>
+            x.conceptId === state.selectedConcept
+        );
 
-      state.selectedProduct =
-        drug?.products?.[0]?.hospitalDrugId || null;
+        state.selectedProduct =
+          d?.products[0]?.hospitalDrugId;
 
-      render();
+        render();
+      };
     });
-  });
 }
 
 function renderSpecial() {
-  const modalities = ['HD', 'PD', 'CVVH', 'CVVHDF', 'ECMO'];
-  const filterPanel = $('#filterPanel');
-  const showMore = $('#showMore');
-  const resultList = $('#resultList');
-  const content = $('#content');
+  const mods = [
+    'HD',
+    'PD',
+    'CVVH',
+    'CVVHDF',
+    'ECMO'
+  ];
 
-  if (filterPanel) filterPanel.style.display = 'none';
-  if (showMore) showMore.style.display = 'none';
-  if (!resultList || !content) return;
+  $('#filterPanel').style.display = 'none';
+  $('#showMore').style.display = 'none';
 
-  safeSetText('#sidebarTitle', '特殊族群');
-  safeSetText('#resultCount', '5 modalities');
+  $('#sidebarTitle').textContent = '特殊族群';
 
-  resultList.innerHTML = modalities
+  $('#resultCount').textContent =
+    '5 modalities';
+
+  $('#resultList').innerHTML = mods
     .map(
-      (modality) => `
+      (m) => `
         <button
           class="result-item ${
-            state.modality === modality ? 'active' : ''
+            state.modality === m ? 'active' : ''
           }"
-          data-special-modality="${modality}"
+          data-mod="${m}"
         >
-          <div class="generic">${modality}</div>
+          <div class="generic">${m}</div>
         </button>
       `
     )
     .join('');
 
-  const cards = (DATA.drugs || [])
-    .map((drug) => {
-      const row = (drug.rrtDoses || []).find(
-        (item) => item.modality === state.modality
+  const rows = DATA.drugs
+    .map((d) => {
+      const x = d.rrtDoses.find(
+        (s) => s.modality === state.modality
       );
 
       return `
         <div class="info-card">
-          <div class="label">${esc(drug.genericName)}</div>
-          <h4>${esc(row?.dose_display || 'N/D')}</h4>
-          ${row?.note ? `<p>${esc(row.note)}</p>` : ''}
+          <div class="label">
+            ${esc(d.genericName)}
+          </div>
+
+          <h4>
+            ${esc(x?.dose_display || 'N/D')}
+          </h4>
+
+          ${
+            x?.note
+              ? `<p>${esc(x.note)}</p>`
+              : ''
+          }
+
           <button
             class="link-drug"
-            data-special-drug="${esc(drug.conceptId)}"
+            data-drug="${esc(d.conceptId)}"
           >
             開啟完整藥品頁
           </button>
@@ -960,53 +1023,69 @@ function renderSpecial() {
     })
     .join('');
 
-  content.innerHTML = `
+  $('#content').innerHTML = `
     <div class="drug-header">
       <div class="drug-title">
-        <span class="badge">特殊族群比較</span>
-        <h2>${esc(state.modality)}劑量總覽</h2>
-        <p>無資料固定顯示N/D，不代表不需調整。</p>
+        <span class="badge">
+          特殊族群比較
+        </span>
+
+        <h2>
+          ${esc(state.modality)}劑量總覽
+        </h2>
+
+        <p>
+          無資料固定顯示N/D，不代表不需調整。
+        </p>
       </div>
     </div>
 
-    <div class="data-grid" style="margin-top:17px">
-      ${cards}
+    <div
+      class="data-grid"
+      style="margin-top:17px"
+    >
+      ${rows}
     </div>
   `;
 
-  resultList
-    .querySelectorAll('[data-special-modality]')
-    .forEach((button) => {
-      button.addEventListener('click', () => {
-        state.modality = button.dataset.specialModality;
+  $('#resultList')
+    .querySelectorAll('[data-mod]')
+    .forEach((b) => {
+      b.onclick = () => {
+        state.modality = b.dataset.mod;
         renderSpecial();
-      });
+      };
     });
 
-  content.querySelectorAll('[data-special-drug]').forEach((button) => {
-    button.addEventListener('click', () => {
-      state.mode = 'drug';
-      state.selectedConcept = button.dataset.specialDrug;
+  $('#content')
+    .querySelectorAll('[data-drug]')
+    .forEach((b) => {
+      b.onclick = () => {
+        state.mode = 'drug';
+        state.selectedConcept = b.dataset.drug;
 
-      const drug = DATA.drugs.find(
-        (item) => item.conceptId === state.selectedConcept
-      );
+        const d = DATA.drugs.find(
+          (x) =>
+            x.conceptId === state.selectedConcept
+        );
 
-      state.selectedProduct =
-        drug?.products?.[0]?.hospitalDrugId || null;
+        state.selectedProduct =
+          d?.products[0]?.hospitalDrugId;
 
-      render();
+        render();
+      };
     });
-  });
 }
 
 function activeMode() {
-  document.querySelectorAll('.mode-tab').forEach((button) => {
-    button.classList.toggle(
-      'active',
-      button.dataset.mode === state.mode
+  document
+    .querySelectorAll('.mode-tab')
+    .forEach((b) =>
+      b.classList.toggle(
+        'active',
+        b.dataset.mode === state.mode
+      )
     );
-  });
 }
 
 function render() {
@@ -1014,154 +1093,87 @@ function render() {
 
   if (state.mode === 'drug') {
     renderDrugMode();
-    return;
-  }
-
-  if (state.mode === 'diagnosis') {
+  } else if (state.mode === 'diagnosis') {
     renderDiagnosis();
-    return;
+  } else {
+    renderSpecial();
   }
-
-  renderSpecial();
 }
 
-function bindStaticEvents() {
-  document.querySelectorAll('.mode-tab').forEach((button) => {
-    button.addEventListener('click', () => {
-      state.mode = button.dataset.mode;
+document
+  .querySelectorAll('.mode-tab')
+  .forEach((b) => {
+    b.onclick = () => {
+      state.mode = b.dataset.mode;
       state.limit = 20;
       render();
-    });
+    };
   });
 
-  $('#search')?.addEventListener('input', (event) => {
-    state.query = event.target.value;
-    state.limit = 20;
+$('#search').addEventListener('input', (e) => {
+  state.query = e.target.value;
 
-    const clearButton = $('#clearSearch');
-    if (clearButton) {
-      clearButton.style.display = state.query ? 'block' : 'none';
-    }
+  $('#clearSearch').style.display =
+    state.query ? 'block' : 'none';
 
-    render();
-  });
+  state.limit = 20;
 
-  $('#clearSearch')?.addEventListener('click', () => {
-    state.query = '';
+  render();
+});
 
-    const search = $('#search');
-    if (search) search.value = '';
+$('#clearSearch').onclick = () => {
+  state.query = '';
 
-    const clearButton = $('#clearSearch');
-    if (clearButton) clearButton.style.display = 'none';
+  $('#search').value = '';
 
-    state.limit = 20;
-    render();
-  });
+  $('#clearSearch').style.display = 'none';
 
-  $('#classFilter')?.addEventListener('change', (event) => {
-    state.className = event.target.value;
-    state.limit = 20;
-    renderDrugMode();
-  });
+  state.limit = 20;
 
-  $('#alphaFilter')?.addEventListener('change', (event) => {
-    state.alpha = event.target.value;
-    state.limit = 20;
-    renderDrugMode();
-  });
+  render();
+};
 
-  $('#sortFilter')?.addEventListener('change', (event) => {
-    state.sort = event.target.value;
-    state.limit = 20;
-    renderDrugMode();
-  });
+$('#classFilter').onchange = (e) => {
+  state.className = e.target.value;
+  state.limit = 20;
+  renderDrugMode();
+};
 
-  $('#showMore')?.addEventListener('click', () => {
-    state.limit += 20;
-    renderDrugList();
-  });
+$('#alphaFilter').onchange = (e) => {
+  state.alpha = e.target.value;
+  state.limit = 20;
+  renderDrugMode();
+};
 
-  $('#mobileFilterToggle')?.addEventListener('click', () => {
-    $('#filterPanel')?.classList.toggle('open');
-  });
-}
+$('#sortFilter').onchange = (e) => {
+  state.sort = e.target.value;
+  state.limit = 20;
+  renderDrugMode();
+};
 
-function initializeMeta() {
-  const actualProductCount = (DATA.drugs || []).reduce(
-    (count, drug) => count + (drug.products?.length || 0),
-    0
-  );
+$('#showMore').onclick = () => {
+  state.limit += 20;
+  renderDrugList();
+};
 
-  const actualConceptCount = new Set(
-    (DATA.drugs || []).map((drug) => drug.conceptId)
-  ).size;
+$('#mobileFilterToggle').onclick = () =>
+  $('#filterPanel').classList.toggle('open');
 
-  safeSetText(
-    '#totalStats',
-    `收錄 ${actualProductCount} 個現行院內品項／${actualConceptCount} 種成分`
-  );
+const products = DATA.drugs.reduce(
+  (n, d) => n + d.products.length,
+  0
+);
 
-  safeSetText(
-    '#publishedMeta',
-    `資料發布：${formatDateTime(DATA.meta.datasetPublishedAt)}`
-  );
+$('#totalStats').textContent =
+  `收錄 ${products} 個現行院內品項／` +
+  `${DATA.drugs.length} 種成分`;
 
-  safeSetText(
-    '#versionMeta',
-    `資料版本：${DATA.meta.datasetVersion}｜平台版本：${DATA.meta.appVersion}`
-  );
+$('#publishedMeta').textContent =
+  `資料發布：` +
+  `${formatDateTime(DATA.meta.datasetPublishedAt)}`;
 
-  if (
-    DATA.meta.productCount !== undefined &&
-    DATA.meta.productCount !== actualProductCount
-  ) {
-    console.warn(
-      'productCount mismatch',
-      DATA.meta.productCount,
-      actualProductCount
-    );
-  }
+$('#versionMeta').textContent =
+  `資料版本：${DATA.meta.datasetVersion}｜` +
+  `平台版本：${DATA.meta.appVersion}`;
 
-  if (
-    DATA.meta.conceptCount !== undefined &&
-    DATA.meta.conceptCount !== actualConceptCount
-  ) {
-    console.warn(
-      'conceptCount mismatch',
-      DATA.meta.conceptCount,
-      actualConceptCount
-    );
-  }
-}
-
-function initialize() {
-  try {
-    if (!DATA || !Array.isArray(DATA.drugs)) {
-      throw new Error('找不到有效的ANTIMICROBIAL_APP_DATA。');
-    }
-
-    initializeMeta();
-    bindStaticEvents();
-    render();
-  } catch (error) {
-    console.error(error);
-
-    const content = $('#content');
-
-    if (content) {
-      content.innerHTML = `
-        <div class="backlog-box">
-          網頁初始化失敗：${esc(error.message || String(error))}
-        </div>
-      `;
-    }
-  }
-}
-
-initialize();
-'''
-
-output = Path("/mnt/data/app.js")
-output.write_text(app_js, encoding="utf-8")
-print(output, output.stat().st_size)
+render();
