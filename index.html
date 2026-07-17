@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="臺中醫院抗感染製劑資訊平台">
+  <title>臺中醫院抗感染製劑資訊平台</title>
+  <link rel="stylesheet" href="assets/styles.css">
+</head>
+<body>
+<header class="app-header">
+  <div class="header-inner">
+    <div class="brand">
+      <h1>臺中醫院抗感染製劑資訊平台</h1>
+      <p>劑量・特殊族群・調製・相容性・PK/PD・診斷群指引</p>
+    </div>
+    <div class="search-wrap">
+      <span class="search-icon">⌕</span>
+      <input id="search" type="search" placeholder="搜尋學名、商品名、處置代碼、縮寫或診斷">
+      <button id="clearSearch" class="clear-btn" aria-label="清除搜尋">×</button>
+    </div>
+    <div class="header-meta">
+      <strong id="totalStats"></strong>
+      <span id="publishedMeta"></span>
+      <span id="versionMeta"></span>
+    </div>
+  </div>
+</header>
+<nav class="mode-tabs"><div class="mode-tabs-inner">
+  <button class="mode-tab active" data-mode="drug">藥品查詢</button>
+  <button class="mode-tab" data-mode="diagnosis">診斷群查詢</button>
+  <button class="mode-tab" data-mode="special">特殊族群比較</button>
+</div></nav>
+<div class="alert-bar"><div class="alert-card"><strong>資料警示：</strong> <span id="alertText"></span></div></div>
+<main class="layout">
+  <aside class="sidebar">
+    <button id="mobileFilterToggle" class="mobile-filter-toggle">篩選與排序</button>
+    <div id="filterPanel" class="filter-panel">
+      <div class="filter-block"><label>抗感染分類</label><div id="groupFilters" class="chip-row"></div></div>
+      <div class="filter-grid">
+        <label>藥理分類<select id="classFilter"></select></label>
+        <label>成分 A–Z<select id="alphaFilter"><option value="all">全部</option><option value="A-F">A–F</option><option value="G-L">G–L</option><option value="M-R">M–R</option><option value="S-Z">S–Z</option></select></label>
+        <label>排序<select id="sortFilter"><option value="generic">標準成分名</option><option value="brand">商品名</option><option value="class">藥理分類</option></select></label>
+      </div>
+    </div>
+    <div class="result-summary"><strong id="sidebarTitle">藥品</strong><span id="resultCount"></span></div>
+    <div id="resultList" class="result-list"></div>
+    <button id="showMore" class="show-more">顯示更多</button>
+  </aside>
+  <section id="content" class="content"></section>
+</main>
+<footer class="footer">本平台為院內資料整合介面；正式臨床使用須依最新院內政策、仿單、培養結果與臨床判斷。</footer>
+<script src="data/data.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>
