@@ -1,10 +1,898 @@
-:root{--b950:#0b3558;--b900:#0f4778;--b700:#1f6fb2;--b100:#eaf3fb;--b50:#f5f9fd;--ink:#17283a;--muted:#61758a;--line:#d7e3ed;--card:#fff;--ok:#167c45;--okbg:#e9f8ef;--warn:#9a6500;--warnbg:#fff5d8;--bad:#b42318;--badbg:#fff0ef;--nd:#5d6b78;--ndbg:#eef2f5;--shadow:0 12px 30px rgba(15,71,120,.10)}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;font-family:Inter,"Noto Sans TC","PingFang TC","Microsoft JhengHei",system-ui,sans-serif;background:#edf4fa;color:var(--ink)}button,input,select{font:inherit}button{cursor:pointer}.app-header{background:#fff;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:50}.header-inner{max-width:1520px;margin:auto;padding:13px 22px;display:flex;align-items:center;gap:18px}.brand{min-width:310px}.brand h1{margin:0;font-size:22px}.brand p{margin:3px 0 0;color:var(--muted);font-size:12px}.search-wrap{flex:1;position:relative}.search-wrap input{width:100%;border:1px solid #b8cee0;border-radius:15px;padding:13px 48px 13px 44px;background:#fff;outline:none}.search-wrap input:focus{border-color:var(--b700);box-shadow:0 0 0 4px rgba(31,111,178,.12)}.search-icon{position:absolute;left:16px;top:13px;color:var(--b700)}.clear-btn{position:absolute;right:9px;top:7px;border:0;background:#e7eef5;width:34px;height:34px;border-radius:50%;display:none}.header-meta{display:grid;gap:2px;text-align:right;min-width:220px;font-size:10px;color:var(--muted)}.header-meta strong{color:var(--b900);font-size:12px}.mode-tabs{background:var(--b900);position:sticky;top:70px;z-index:40}.mode-tabs-inner{max-width:1520px;margin:auto;padding:9px 22px;display:flex;gap:8px}.mode-tab{border:1px solid rgba(255,255,255,.25);background:transparent;color:#fff;padding:8px 14px;border-radius:11px;font-weight:800}.mode-tab.active{background:#fff;color:var(--b900)}.alert-bar{max-width:1520px;margin:13px auto 0;padding:0 22px}.alert-card{background:var(--warnbg);border:1px solid #f1d789;color:#5d4700;border-radius:13px;padding:9px 13px;font-size:12px}.layout{max-width:1520px;margin:13px auto 40px;padding:0 22px;display:grid;grid-template-columns:350px minmax(0,1fr);gap:16px}.sidebar,.content{background:var(--card);border:1px solid var(--line);border-radius:19px;box-shadow:var(--shadow)}.sidebar{align-self:start;position:sticky;top:126px;max-height:calc(100vh - 146px);overflow:hidden;display:flex;flex-direction:column}.filter-panel{padding:14px;border-bottom:1px solid var(--line);background:#f9fbfd}.filter-block{margin-bottom:12px}.filter-block>label,.filter-grid label{display:block;font-size:13px;font-weight:900;color:var(--muted);margin-bottom:8px}.filter-grid label{
-  display:block;
-  font-size:11px;
-  font-weight:900;
-  color:var(--muted);
-  margin-bottom:6px
-}.chip-row{display:flex;gap:5px;flex-wrap:wrap}.filter-chip{border:1px solid var(--line);background:#fff;border-radius:999px;padding:6px 9px;font-size:11px;font-weight:800}.filter-chip.active{background:var(--b900);color:#fff;border-color:var(--b900)}.filter-grid{display:grid;grid-template-columns:1fr 1fr;gap:8px}.filter-grid label:last-child{grid-column:1/-1}.filter-grid select,.product-select{width:100%;margin-top:5px;border:1px solid #c8d8e5;border-radius:9px;background:#fff;padding:8px;color:var(--ink)}.result-summary{display:flex;justify-content:space-between;align-items:center;padding:11px 14px;border-bottom:1px solid var(--line)}.result-summary strong{color:var(--b900)}.result-summary span{font-size:11px;color:var(--muted);text-align:right}.result-list{overflow:auto;padding:6px 8px}.letter-heading{font-size:11px;font-weight:900;color:var(--muted);padding:8px 7px 3px;border-bottom:1px solid #edf2f6}.result-item{width:100%;text-align:left;border:0;background:#fff;padding:10px 9px;border-radius:11px;margin-bottom:3px}.result-item:hover,.result-item.active{background:var(--b100)}.result-item .generic{font-weight:900;color:var(--b900);font-size:14px}.result-item .brands{color:var(--muted);font-size:11px;margin-top:3px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.result-item .meta{font-size:10px;color:var(--muted);margin-top:4px;display:flex;gap:5px;flex-wrap:wrap}.badge{display:inline-flex;align-items:center;border-radius:999px;padding:4px 7px;font-size:10px;font-weight:800;background:var(--b100);color:var(--b900)}.badge.warn{background:var(--warnbg);color:var(--warn)}.badge.nd{background:var(--ndbg);color:var(--nd)}.show-more{margin:7px 12px 12px;border:1px solid var(--line);background:#fff;border-radius:10px;padding:9px;font-weight:800;color:var(--b900);display:none}.mobile-filter-toggle{display:none}.content{min-height:650px;padding:23px}.empty-state{display:grid;place-items:center;min-height:560px;text-align:center;color:var(--muted)}.empty-state h2{color:var(--b900)}.drug-header{display:flex;justify-content:space-between;gap:20px;border-bottom:1px solid var(--line);padding-bottom:17px}.drug-title h2{font-size:31px;margin:7px 0 3px;line-height:1.1;color:#102f4a}.drug-title p{color:var(--muted);margin:0}.product-picker{margin-top:12px;max-width:440px}.product-picker label{font-size:11px;font-weight:900;color:var(--muted)}.review-box{min-width:205px;background:var(--b50);border:1px solid var(--line);border-radius:13px;padding:11px;font-size:11px;color:var(--muted);align-self:flex-start}.route-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:11px;margin:17px 0}.route-card{border:1px solid var(--line);border-left:5px solid var(--nd);border-radius:15px;padding:13px;background:#fff}.route-card.allowed{background:var(--okbg);border-color:#8dd8ad;border-left-color:var(--ok)}.route-card.not_recommended{background:var(--badbg);border-color:#f0ada8;border-left-color:var(--bad)}.route-card.no_data{background:var(--ndbg);border-color:#d8dfe5;border-left-color:var(--nd)}.route-card h3{margin:0;font-size:14px}.route-status{font-weight:900;margin-top:7px}.route-detail{font-size:11px;margin-top:5px;color:#43576a}.section{border:1px solid var(--line);border-radius:17px;margin-top:13px;overflow:hidden}.section-title{width:100%;border:0;background:#f7fafc;padding:14px 16px;display:flex;justify-content:space-between;align-items:center;font-weight:900;color:var(--b900);text-align:left}.section-body{padding:15px}.section.collapsed .section-body{display:none}.data-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:11px}.info-card{border:1px solid var(--line);border-radius:13px;padding:13px;background:#fff}.info-card h4{margin:0 0 7px;color:var(--b900);white-space:pre-line}.info-card p{margin:5px 0;font-size:12px;line-height:1.5;white-space:pre-line}.info-card .label{color:var(--muted);font-size:10px;text-transform:uppercase;letter-spacing:.04em}.pop-tabs{display:flex;gap:6px;flex-wrap:wrap;margin-bottom:11px}.pop-tab{border:1px solid var(--line);background:#fff;border-radius:9px;padding:7px 10px;font-weight:800;font-size:11px}.pop-tab.active{background:var(--b900);color:#fff;border-color:var(--b900)}.compat-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}.compat-item{border:1px solid var(--line);border-radius:11px;padding:10px}.compat-item.compatible,.compat-item.instruction{background:var(--okbg)}.compat-item.conditional,.compat-item.uncertain{background:var(--warnbg)}.compat-item.incompatible,.compat-item.not_recommended{background:var(--badbg)}.compat-item.no_data{background:var(--ndbg)}.compat-item strong{display:block;font-size:11px}.compat-item .condition{font-size:11px;color:#4b5e70;margin-top:4px;line-height:1.4;white-space:pre-line}.source-row{display:flex;gap:4px;flex-wrap:wrap;margin-top:7px}.source-badge{display:inline-flex;background:#fff;border:1px solid rgba(23,40,58,.15);border-radius:999px;padding:3px 6px;font-size:9px;font-weight:800;color:#465a6c}.stability-note{background:#f5f8fb;border-left:4px solid var(--b700);padding:10px;border-radius:9px;font-size:11px;margin-top:6px}.dx-list{display:grid;gap:9px}.dx-card{border:1px solid var(--line);border-radius:13px;padding:13px}.dx-card h3{margin:0 0 7px;color:var(--b900)}.dx-row{display:grid;grid-template-columns:85px 1fr;gap:9px;margin:6px 0;font-size:12px;line-height:1.5}.dx-label{font-weight:900;color:var(--muted)}.link-drug{border:0;background:var(--b100);color:var(--b900);border-radius:8px;padding:5px 8px;font-size:10px;font-weight:900;margin:3px 4px 0 0}.backlog-box{padding:21px;border:1px dashed #aabccc;border-radius:15px;background:#f8fafc;color:var(--muted)}.footer{max-width:1520px;margin:auto;padding:0 22px 30px;color:var(--muted);font-size:11px}
-@media(max-width:1050px){.header-inner{flex-wrap:wrap}.brand{min-width:0;flex:1}.search-wrap{order:3;flex-basis:100%}.mode-tabs{top:118px}.layout{grid-template-columns:1fr}.sidebar{position:static;max-height:none}.result-list{max-height:310px}.route-grid{grid-template-columns:1fr}.data-grid{grid-template-columns:1fr}.compat-grid{grid-template-columns:repeat(2,1fr)}}
-@media(max-width:650px){.header-inner{padding:10px 11px;gap:8px}.brand h1{font-size:18px}.brand p,.header-meta span{display:none}.header-meta{min-width:0}.header-meta strong{font-size:10px}.mode-tabs{top:108px}.mode-tabs-inner{padding:7px 11px;overflow:auto}.mode-tab{padding:8px 11px;white-space:nowrap;font-size:11px}.alert-bar,.layout,.footer{padding-left:9px;padding-right:9px}.sidebar{border-radius:15px}.mobile-filter-toggle{display:block;border:0;background:#f4f8fb;color:var(--b900);padding:11px;font-weight:900;border-bottom:1px solid var(--line)}.filter-panel{display:none}.filter-panel.open{display:block}.content{padding:13px;border-radius:15px}.drug-header{display:block}.drug-title h2{font-size:24px}.review-box{margin-top:11px;min-width:0}.compat-grid{grid-template-columns:1fr}.dx-row{grid-template-columns:1fr;gap:2px}}
+:root {
+  --b950: #0b3558;
+  --b900: #0f4778;
+  --b700: #1f6fb2;
+  --b100: #eaf3fb;
+  --b50: #f5f9fd;
+
+  --ink: #17283a;
+  --muted: #61758a;
+  --line: #d7e3ed;
+  --card: #ffffff;
+
+  --ok: #167c45;
+  --okbg: #e9f8ef;
+
+  --warn: #9a6500;
+  --warnbg: #fff5d8;
+
+  --bad: #b42318;
+  --badbg: #fff0ef;
+
+  --nd: #5d6b78;
+  --ndbg: #eef2f5;
+
+  --shadow: 0 12px 30px rgba(15, 71, 120, 0.1);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  font-family:
+    Inter,
+    "Noto Sans TC",
+    "PingFang TC",
+    "Microsoft JhengHei",
+    system-ui,
+    sans-serif;
+  background: #edf4fa;
+  color: var(--ink);
+}
+
+button,
+input,
+select {
+  font: inherit;
+}
+
+button {
+  cursor: pointer;
+}
+
+/* =========================================================
+   Header
+   ========================================================= */
+
+.app-header {
+  position: sticky;
+  top: 0;
+  z-index: 50;
+  background: #ffffff;
+  border-bottom: 1px solid var(--line);
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  max-width: 1520px;
+  margin: auto;
+  padding: 13px 22px;
+}
+
+.brand {
+  min-width: 310px;
+}
+
+.brand h1 {
+  margin: 0;
+  font-size: 22px;
+}
+
+.brand p {
+  margin: 3px 0 0;
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.search-wrap {
+  position: relative;
+  flex: 1;
+}
+
+.search-wrap input {
+  width: 100%;
+  padding: 13px 48px 13px 44px;
+  background: #ffffff;
+  border: 1px solid #b8cee0;
+  border-radius: 15px;
+  outline: none;
+}
+
+.search-wrap input:focus {
+  border-color: var(--b700);
+  box-shadow: 0 0 0 4px rgba(31, 111, 178, 0.12);
+}
+
+.search-icon {
+  position: absolute;
+  top: 13px;
+  left: 16px;
+  color: var(--b700);
+}
+
+.clear-btn {
+  position: absolute;
+  top: 7px;
+  right: 9px;
+  display: none;
+  width: 34px;
+  height: 34px;
+  background: #e7eef5;
+  border: 0;
+  border-radius: 50%;
+}
+
+.header-meta {
+  display: grid;
+  gap: 2px;
+  min-width: 220px;
+  color: var(--muted);
+  font-size: 10px;
+  text-align: right;
+}
+
+.header-meta strong {
+  color: var(--b900);
+  font-size: 12px;
+}
+
+/* =========================================================
+   Main navigation
+   ========================================================= */
+
+.mode-tabs {
+  position: sticky;
+  top: 70px;
+  z-index: 40;
+  background: var(--b900);
+}
+
+.mode-tabs-inner {
+  display: flex;
+  gap: 8px;
+  max-width: 1520px;
+  margin: auto;
+  padding: 8px 22px;
+}
+
+.mode-tab {
+  padding: 7px 13px;
+  color: #ffffff;
+  font-size: 14px;
+  font-weight: 800;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  border-radius: 10px;
+}
+
+.mode-tab.active {
+  color: var(--b900);
+  background: #ffffff;
+}
+
+/* =========================================================
+   Main layout
+   ========================================================= */
+
+.layout {
+  display: grid;
+  grid-template-columns: 350px minmax(0, 1fr);
+  gap: 16px;
+  max-width: 1520px;
+  margin: 13px auto 40px;
+  padding: 0 22px;
+}
+
+.sidebar,
+.content {
+  background: var(--card);
+  border: 1px solid var(--line);
+  border-radius: 19px;
+  box-shadow: var(--shadow);
+}
+
+.sidebar {
+  position: sticky;
+  top: 122px;
+  align-self: start;
+  display: flex;
+  flex-direction: column;
+  max-height: calc(100vh - 142px);
+  overflow: hidden;
+}
+
+.content {
+  min-height: 650px;
+  padding: 23px;
+}
+
+/* =========================================================
+   Filter panel
+   ========================================================= */
+
+.filter-panel {
+  padding: 14px;
+  background: #f9fbfd;
+  border-bottom: 1px solid var(--line);
+}
+
+.filter-block {
+  margin-bottom: 14px;
+}
+
+/* 「抗感染分類」 */
+.filter-block > label {
+  display: block;
+  margin-bottom: 8px;
+  color: var(--muted);
+  font-size: 15px;
+  font-weight: 900;
+}
+
+/* 「藥理分類／成分 A–Z／排序」 */
+.filter-grid label {
+  display: block;
+  margin-bottom: 6px;
+  color: var(--muted);
+  font-size: 13px;
+  font-weight: 900;
+}
+
+.chip-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.filter-chip {
+  padding: 6px 9px;
+  color: var(--ink);
+  font-size: 11px;
+  font-weight: 800;
+  background: #ffffff;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+}
+
+.filter-chip.active {
+  color: #ffffff;
+  background: var(--b900);
+  border-color: var(--b900);
+}
+
+.filter-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.filter-grid label:last-child {
+  grid-column: 1 / -1;
+}
+
+.filter-grid select,
+.product-select {
+  width: 100%;
+  margin-top: 5px;
+  padding: 8px;
+  color: var(--ink);
+  background: #ffffff;
+  border: 1px solid #c8d8e5;
+  border-radius: 9px;
+}
+
+/* =========================================================
+   Search results
+   ========================================================= */
+
+.result-summary {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 11px 14px;
+  border-bottom: 1px solid var(--line);
+}
+
+.result-summary strong {
+  color: var(--b900);
+}
+
+.result-summary span {
+  color: var(--muted);
+  font-size: 11px;
+  text-align: right;
+}
+
+.result-list {
+  padding: 6px 8px;
+  overflow: auto;
+}
+
+.letter-heading {
+  padding: 8px 7px 3px;
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 900;
+  border-bottom: 1px solid #edf2f6;
+}
+
+.result-item {
+  width: 100%;
+  margin-bottom: 3px;
+  padding: 10px 9px;
+  text-align: left;
+  background: #ffffff;
+  border: 0;
+  border-radius: 11px;
+}
+
+.result-item:hover,
+.result-item.active {
+  background: var(--b100);
+}
+
+.result-item .generic {
+  color: var(--b900);
+  font-size: 14px;
+  font-weight: 900;
+}
+
+.result-item .brands {
+  margin-top: 3px;
+  overflow: hidden;
+  color: var(--muted);
+  font-size: 11px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.result-item .meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 5px;
+  margin-top: 4px;
+  color: var(--muted);
+  font-size: 10px;
+}
+
+.badge {
+  display: inline-flex;
+  padding: 4px 7px;
+  color: var(--b900);
+  font-size: 10px;
+  font-weight: 800;
+  background: var(--b100);
+  border-radius: 999px;
+}
+
+.badge.warn {
+  color: var(--warn);
+  background: var(--warnbg);
+}
+
+.badge.nd {
+  color: var(--nd);
+  background: var(--ndbg);
+}
+
+.show-more {
+  display: none;
+  margin: 7px 12px 12px;
+  padding: 9px;
+  color: var(--b900);
+  font-weight: 800;
+  background: #ffffff;
+  border: 1px solid var(--line);
+  border-radius: 10px;
+}
+
+.mobile-filter-toggle {
+  display: none;
+}
+
+/* =========================================================
+   Empty state
+   ========================================================= */
+
+.empty-state {
+  display: grid;
+  min-height: 560px;
+  color: var(--muted);
+  text-align: center;
+  place-items: center;
+}
+
+.empty-state h2 {
+  color: var(--b900);
+}
+
+/* =========================================================
+   Drug header
+   ========================================================= */
+
+.drug-header {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding-bottom: 17px;
+  border-bottom: 1px solid var(--line);
+}
+
+.drug-title h2 {
+  margin: 7px 0 3px;
+  color: #102f4a;
+  font-size: 31px;
+  line-height: 1.1;
+}
+
+.drug-title p {
+  margin: 0;
+  color: var(--muted);
+}
+
+.product-picker {
+  max-width: 440px;
+  margin-top: 12px;
+}
+
+.product-picker label {
+  color: var(--muted);
+  font-size: 11px;
+  font-weight: 900;
+}
+
+.review-box {
+  align-self: flex-start;
+  min-width: 205px;
+  padding: 11px;
+  color: var(--muted);
+  font-size: 11px;
+  background: var(--b50);
+  border: 1px solid var(--line);
+  border-radius: 13px;
+}
+
+/* =========================================================
+   Route cards
+   ========================================================= */
+
+.route-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 11px;
+  margin: 17px 0;
+}
+
+.route-card {
+  padding: 13px;
+  background: #ffffff;
+  border: 1px solid var(--line);
+  border-left: 5px solid var(--nd);
+  border-radius: 15px;
+}
+
+.route-card.allowed {
+  background: var(--okbg);
+  border-color: #8dd8ad;
+  border-left-color: var(--ok);
+}
+
+.route-card.not_recommended {
+  background: var(--badbg);
+  border-color: #f0ada8;
+  border-left-color: var(--bad);
+}
+
+.route-card.no_data {
+  background: var(--ndbg);
+  border-color: #d8dfe5;
+  border-left-color: var(--nd);
+}
+
+.route-card h3 {
+  margin: 0;
+  font-size: 14px;
+}
+
+.route-status {
+  margin-top: 7px;
+  font-weight: 900;
+}
+
+.route-detail {
+  margin-top: 5px;
+  color: #43576a;
+  font-size: 11px;
+}
+
+/* =========================================================
+   Sections and general cards
+   ========================================================= */
+
+.section {
+  margin-top: 13px;
+  overflow: hidden;
+  border: 1px solid var(--line);
+  border-radius: 17px;
+}
+
+.section-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 14px 16px;
+  color: var(--b900);
+  font-weight: 900;
+  text-align: left;
+  background: #f7fafc;
+  border: 0;
+}
+
+.section-body {
+  padding: 15px;
+}
+
+.section.collapsed .section-body {
+  display: none;
+}
+
+.data-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 11px;
+}
+
+.info-card {
+  padding: 13px;
+  background: #ffffff;
+  border: 1px solid var(--line);
+  border-radius: 13px;
+}
+
+.info-card h4 {
+  margin: 0 0 7px;
+  color: var(--b900);
+  white-space: pre-line;
+}
+
+.info-card p {
+  margin: 5px 0;
+  font-size: 12px;
+  line-height: 1.5;
+  white-space: pre-line;
+}
+
+.info-card .label {
+  color: var(--muted);
+  font-size: 10px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+/* =========================================================
+   Special population tabs
+   ========================================================= */
+
+.pop-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin-bottom: 11px;
+}
+
+.pop-tab {
+  padding: 7px 10px;
+  font-size: 11px;
+  font-weight: 800;
+  background: #ffffff;
+  border: 1px solid var(--line);
+  border-radius: 9px;
+}
+
+.pop-tab.active {
+  color: #ffffff;
+  background: var(--b900);
+  border-color: var(--b900);
+}
+
+/* =========================================================
+   Compatibility
+   ========================================================= */
+
+.compat-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 8px;
+}
+
+.compat-item {
+  padding: 10px;
+  border: 1px solid var(--line);
+  border-radius: 11px;
+}
+
+.compat-item.compatible,
+.compat-item.instruction {
+  background: var(--okbg);
+}
+
+.compat-item.conditional,
+.compat-item.uncertain {
+  background: var(--warnbg);
+}
+
+.compat-item.incompatible,
+.compat-item.not_recommended {
+  background: var(--badbg);
+}
+
+.compat-item.no_data {
+  background: var(--ndbg);
+}
+
+.compat-item strong {
+  display: block;
+  font-size: 11px;
+}
+
+.compat-item .condition {
+  margin-top: 4px;
+  color: #4b5e70;
+  font-size: 11px;
+  line-height: 1.4;
+  white-space: pre-line;
+}
+
+.source-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+  margin-top: 7px;
+}
+
+.source-badge {
+  display: inline-flex;
+  padding: 3px 6px;
+  color: #465a6c;
+  font-size: 9px;
+  font-weight: 800;
+  background: #ffffff;
+  border: 1px solid rgba(23, 40, 58, 0.15);
+  border-radius: 999px;
+}
+
+.stability-note {
+  margin-top: 6px;
+  padding: 10px;
+  font-size: 11px;
+  background: #f5f8fb;
+  border-left: 4px solid var(--b700);
+  border-radius: 9px;
+}
+
+/* =========================================================
+   Diagnosis
+   ========================================================= */
+
+.dx-list {
+  display: grid;
+  gap: 9px;
+}
+
+.dx-card {
+  padding: 13px;
+  border: 1px solid var(--line);
+  border-radius: 13px;
+}
+
+.dx-card h3 {
+  margin: 0 0 7px;
+  color: var(--b900);
+}
+
+.dx-row {
+  display: grid;
+  grid-template-columns: 85px 1fr;
+  gap: 9px;
+  margin: 6px 0;
+  font-size: 12px;
+  line-height: 1.5;
+}
+
+.dx-label {
+  color: var(--muted);
+  font-weight: 900;
+}
+
+.link-drug {
+  margin: 3px 4px 0 0;
+  padding: 5px 8px;
+  color: var(--b900);
+  font-size: 10px;
+  font-weight: 900;
+  background: var(--b100);
+  border: 0;
+  border-radius: 8px;
+}
+
+.backlog-box {
+  padding: 21px;
+  color: var(--muted);
+  background: #f8fafc;
+  border: 1px dashed #aabccc;
+  border-radius: 15px;
+}
+
+/* =========================================================
+   Footer
+   ========================================================= */
+
+.footer {
+  max-width: 1520px;
+  margin: auto;
+  padding: 0 22px 30px;
+  color: var(--muted);
+  font-size: 11px;
+}
+
+/* =========================================================
+   Tablet
+   ========================================================= */
+
+@media (max-width: 1050px) {
+  .header-inner {
+    flex-wrap: wrap;
+  }
+
+  .brand {
+    flex: 1;
+    min-width: 0;
+  }
+
+  .search-wrap {
+    order: 3;
+    flex-basis: 100%;
+  }
+
+  .mode-tabs {
+    top: 118px;
+  }
+
+  .layout {
+    grid-template-columns: 1fr;
+  }
+
+  .sidebar {
+    position: static;
+    max-height: none;
+  }
+
+  .result-list {
+    max-height: 310px;
+  }
+
+  .route-grid,
+  .data-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .compat-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+
+/* =========================================================
+   Phone
+   ========================================================= */
+
+@media (max-width: 650px) {
+  .header-inner {
+    gap: 8px;
+    padding: 10px 11px;
+  }
+
+  .brand h1 {
+    font-size: 18px;
+  }
+
+  .brand p,
+  .header-meta span {
+    display: none;
+  }
+
+  .header-meta {
+    min-width: 0;
+  }
+
+  .header-meta strong {
+    font-size: 10px;
+  }
+
+  .mode-tabs {
+    top: 108px;
+  }
+
+  .mode-tabs-inner {
+    gap: 6px;
+    padding: 6px 11px;
+    overflow-x: auto;
+  }
+
+  .mode-tab {
+    padding: 6px 9px;
+    font-size: 10px;
+    white-space: nowrap;
+  }
+
+  .layout,
+  .footer {
+    padding-right: 9px;
+    padding-left: 9px;
+  }
+
+  .sidebar {
+    border-radius: 15px;
+  }
+
+  .mobile-filter-toggle {
+    display: block;
+    padding: 11px;
+    color: var(--b900);
+    font-weight: 900;
+    background: #f4f8fb;
+    border: 0;
+    border-bottom: 1px solid var(--line);
+  }
+
+  .filter-panel {
+    display: none;
+  }
+
+  .filter-panel.open {
+    display: block;
+  }
+
+  .filter-block > label {
+    font-size: 14px;
+  }
+
+  .filter-grid label {
+    font-size: 12px;
+  }
+
+  .content {
+    padding: 13px;
+    border-radius: 15px;
+  }
+
+  .drug-header {
+    display: block;
+  }
+
+  .drug-title h2 {
+    font-size: 24px;
+  }
+
+  .review-box {
+    min-width: 0;
+    margin-top: 11px;
+  }
+
+  .compat-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .dx-row {
+    grid-template-columns: 1fr;
+    gap: 2px;
+  }
+}
