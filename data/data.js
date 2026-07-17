@@ -2,12 +2,12 @@ window.ANTIMICROBIAL_APP_DATA = {
   "meta": {
     "title": "臺中醫院抗感染製劑資訊平台",
     "appVersion": "1.0.0-beta",
-    "datasetVersion": "D20260717.0-PREVIEW",
-    "datasetPublishedAt": "2026-07-17T12:22:11+08:00",
-    "publicationMode": "Preview generated from supplied source files",
+    "datasetVersion": "D20260717.1",
+    "datasetPublishedAt": "2026-07-17T08:01:44.957Z",
+    "publicationMode": "Google Sheet publication_status=Publish",
     "productCount": 50,
     "conceptCount": 48,
-    "disclaimer": "本資料集為來源轉錄與整合版本；正式臨床使用前須完成版本確認與院內審查。"
+    "disclaimer": "本資料集為院內資料整合；正式臨床使用仍須依最新院內政策、仿單與臨床判斷。"
   },
   "drugs": [
     {
@@ -64,7 +64,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "Plasma aciclovir concentration is reduced by 60% during haemodialysis.",
           "reference_text": "1. 熱病 2.仿單 3. Lexicomp",
           "source_id": "SRC-RRT-HD",
-          "source_row": 34,
+          "source_row": "34",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -78,7 +78,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "Micromedex",
           "source_id": "SRC-RRT-CVVH",
-          "source_row": 34,
+          "source_row": "34",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -92,7 +92,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "Aciclovir clearance in CAVHD is approximately equivalent to urea clearance, i.e. lower clearance than in intermittent haemodialysis.",
           "reference_text": "Micromedex",
           "source_id": "SRC-RRT-CVVHDF",
-          "source_row": 34,
+          "source_row": "34",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -106,7 +106,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "",
           "source_id": "SRC-RRT-PD",
-          "source_row": 34,
+          "source_row": "34",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -138,7 +138,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 51,
+          "source_row": "51",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -154,7 +154,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 51,
+          "source_row": "51",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -170,7 +170,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 51,
+          "source_row": "51",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -189,7 +189,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 51,
+          "source_row": "51",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -206,7 +206,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 51,
+          "source_row": "51",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -223,7 +223,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 51,
+          "source_row": "51",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -240,7 +240,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 51,
+          "source_row": "51",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -257,7 +257,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 51,
+          "source_row": "51",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -274,7 +274,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 51,
+          "source_row": "51",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -291,7 +291,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 51,
+          "source_row": "51",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -308,7 +308,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 51,
+          "source_row": "51",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -325,7 +325,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 51,
+          "source_row": "51",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -342,7 +342,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 51,
+          "source_row": "51",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -359,7 +359,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 51,
+          "source_row": "51",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -376,7 +376,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 51,
+          "source_row": "51",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -393,7 +393,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 51,
+          "source_row": "51",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -413,7 +413,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 51,
+          "source_row": "51",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -431,7 +431,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 51,
+          "source_row": "51",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -446,7 +446,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Acyclovir",
           "source_id": "SRC-PKPD",
-          "source_row": 44,
+          "source_row": "44",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -460,7 +460,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Acyclovir",
           "source_id": "SRC-PKPD",
-          "source_row": 44,
+          "source_row": "44",
           "status": "no_data",
           "review_status": "No source value",
           "publication_status": "Publish"
@@ -474,7 +474,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Acyclovir",
           "source_id": "SRC-PKPD",
-          "source_row": 44,
+          "source_row": "44",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -488,7 +488,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Acyclovir",
           "source_id": "SRC-PKPD",
-          "source_row": 44,
+          "source_row": "44",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -502,7 +502,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Acyclovir",
           "source_id": "SRC-PKPD",
-          "source_row": 44,
+          "source_row": "44",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -516,7 +516,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Acyclovir",
           "source_id": "SRC-PKPD",
-          "source_row": 44,
+          "source_row": "44",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -545,6 +545,7 @@ window.ANTIMICROBIAL_APP_DATA = {
       "aliases": [
         "AMKI14",
         "Amikacin",
+        "Amikacin",
         "AMK",
         "AN"
       ],
@@ -555,14 +556,14 @@ window.ANTIMICROBIAL_APP_DATA = {
           "hospital_drug_id": "AMKI14",
           "indication": "General adult",
           "renal_category": "GFR >50",
-          "crcl_min_ml_min": 50,
+          "crcl_min_ml_min": "50",
           "crcl_max_ml_min": "",
           "modality": "",
           "dose_display": "7.5mg/kg q12h或15mg/kg qd",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 5,
+          "source_row": "5",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -572,14 +573,14 @@ window.ANTIMICROBIAL_APP_DATA = {
           "hospital_drug_id": "AMKI14",
           "indication": "General adult",
           "renal_category": "GFR 10–50",
-          "crcl_min_ml_min": 10,
-          "crcl_max_ml_min": 50,
+          "crcl_min_ml_min": "10",
+          "crcl_max_ml_min": "50",
           "modality": "",
           "dose_display": "7.5mg/kg q24h",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 5,
+          "source_row": "5",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -590,13 +591,13 @@ window.ANTIMICROBIAL_APP_DATA = {
           "indication": "General adult",
           "renal_category": "GFR <10 / HD",
           "crcl_min_ml_min": "",
-          "crcl_max_ml_min": 10,
+          "crcl_max_ml_min": "10",
           "modality": "HD",
           "dose_display": "7.5mg/kg q48h (H/D); 7.5mg/kg q24h (CVVH)",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 5,
+          "source_row": "5",
           "review_status": "Imported",
           "publication_status": "Publish"
         }
@@ -612,7 +613,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "Lexicomp",
           "source_id": "SRC-RRT-HD",
-          "source_row": 2,
+          "source_row": "2",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -626,7 +627,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "1. Lexicomp 2. Micromedex",
           "source_id": "SRC-RRT-CVVH",
-          "source_row": 2,
+          "source_row": "2",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -640,7 +641,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "1. Lexicomp 2. Micromedex",
           "source_id": "SRC-RRT-CVVHDF",
-          "source_row": 2,
+          "source_row": "2",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -654,7 +655,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "",
           "source_id": "SRC-RRT-PD",
-          "source_row": 2,
+          "source_row": "2",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -686,7 +687,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 4,
+          "source_row": "4",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -702,7 +703,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 4,
+          "source_row": "4",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -718,7 +719,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 4,
+          "source_row": "4",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -734,7 +735,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 4,
+          "source_row": "4",
           "review_status": "Imported continuation note",
           "publication_status": "Publish"
         }
@@ -753,7 +754,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 4,
+          "source_row": "4",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -770,7 +771,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 4,
+          "source_row": "4",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -787,7 +788,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 4,
+          "source_row": "4",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -804,7 +805,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 4,
+          "source_row": "4",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -821,7 +822,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 4,
+          "source_row": "4",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -838,7 +839,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 4,
+          "source_row": "4",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -855,7 +856,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 4,
+          "source_row": "4",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -872,7 +873,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 4,
+          "source_row": "4",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -889,7 +890,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 4,
+          "source_row": "4",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -906,7 +907,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 4,
+          "source_row": "4",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -923,7 +924,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 4,
+          "source_row": "4",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -940,7 +941,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 4,
+          "source_row": "4",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -957,7 +958,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 4,
+          "source_row": "4",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -977,7 +978,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 4,
+          "source_row": "4",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -995,7 +996,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 4,
+          "source_row": "4",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -1010,7 +1011,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Amikacin",
           "source_id": "SRC-PKPD",
-          "source_row": 6,
+          "source_row": "6",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -1024,7 +1025,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Amikacin",
           "source_id": "SRC-PKPD",
-          "source_row": 6,
+          "source_row": "6",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -1038,7 +1039,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Amikacin",
           "source_id": "SRC-PKPD",
-          "source_row": 6,
+          "source_row": "6",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -1052,7 +1053,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Amikacin",
           "source_id": "SRC-PKPD",
-          "source_row": 6,
+          "source_row": "6",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -1066,7 +1067,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Amikacin",
           "source_id": "SRC-PKPD",
-          "source_row": 6,
+          "source_row": "6",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -1080,7 +1081,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Amikacin",
           "source_id": "SRC-PKPD",
-          "source_row": 6,
+          "source_row": "6",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -1145,14 +1146,14 @@ window.ANTIMICROBIAL_APP_DATA = {
           "hospital_drug_id": "AMOI08",
           "indication": "General adult",
           "renal_category": "GFR >50",
-          "crcl_min_ml_min": 50,
+          "crcl_min_ml_min": "50",
           "crcl_max_ml_min": "",
           "modality": "",
           "dose_display": "1.2g Q8h",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 9,
+          "source_row": "9",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -1162,14 +1163,14 @@ window.ANTIMICROBIAL_APP_DATA = {
           "hospital_drug_id": "AMOI08",
           "indication": "General adult",
           "renal_category": "GFR 10–50",
-          "crcl_min_ml_min": 10,
-          "crcl_max_ml_min": 50,
+          "crcl_min_ml_min": "10",
+          "crcl_max_ml_min": "50",
           "modality": "",
           "dose_display": "1.2g Q12h",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 9,
+          "source_row": "9",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -1180,13 +1181,13 @@ window.ANTIMICROBIAL_APP_DATA = {
           "indication": "General adult",
           "renal_category": "GFR <10 / HD",
           "crcl_min_ml_min": "",
-          "crcl_max_ml_min": 10,
+          "crcl_max_ml_min": "10",
           "modality": "HD",
           "dose_display": "0.6g QD",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 9,
+          "source_row": "9",
           "review_status": "Imported",
           "publication_status": "Publish"
         }
@@ -1276,7 +1277,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 6,
+          "source_row": "6",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -1292,7 +1293,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 6,
+          "source_row": "6",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -1308,7 +1309,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 6,
+          "source_row": "6",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -1327,7 +1328,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 6,
+          "source_row": "6",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -1344,7 +1345,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 6,
+          "source_row": "6",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -1361,7 +1362,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 6,
+          "source_row": "6",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -1378,7 +1379,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 6,
+          "source_row": "6",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -1395,7 +1396,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 6,
+          "source_row": "6",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -1412,7 +1413,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 6,
+          "source_row": "6",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -1429,7 +1430,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 6,
+          "source_row": "6",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -1446,7 +1447,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 6,
+          "source_row": "6",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -1463,7 +1464,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 6,
+          "source_row": "6",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -1480,7 +1481,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 6,
+          "source_row": "6",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -1497,7 +1498,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 6,
+          "source_row": "6",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -1514,7 +1515,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 6,
+          "source_row": "6",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -1531,7 +1532,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 6,
+          "source_row": "6",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -1551,7 +1552,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 6,
+          "source_row": "6",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -1569,7 +1570,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 6,
+          "source_row": "6",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -1584,7 +1585,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Amoxicillin component only",
           "source_drug_name": "Amoxicillin",
           "source_id": "SRC-PKPD",
-          "source_row": 7,
+          "source_row": "7",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -1598,7 +1599,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Amoxicillin component only",
           "source_drug_name": "Amoxicillin",
           "source_id": "SRC-PKPD",
-          "source_row": 7,
+          "source_row": "7",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -1612,7 +1613,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Amoxicillin component only",
           "source_drug_name": "Amoxicillin",
           "source_id": "SRC-PKPD",
-          "source_row": 7,
+          "source_row": "7",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -1626,7 +1627,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Amoxicillin component only",
           "source_drug_name": "Amoxicillin",
           "source_id": "SRC-PKPD",
-          "source_row": 7,
+          "source_row": "7",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -1640,7 +1641,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Amoxicillin component only",
           "source_drug_name": "Amoxicillin",
           "source_id": "SRC-PKPD",
-          "source_row": 7,
+          "source_row": "7",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -1654,7 +1655,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Amoxicillin component only",
           "source_drug_name": "Amoxicillin",
           "source_id": "SRC-PKPD",
-          "source_row": 7,
+          "source_row": "7",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -1830,7 +1831,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 30,
+          "source_row": "30",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -1846,7 +1847,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 30,
+          "source_row": "30",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -1862,7 +1863,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 30,
+          "source_row": "30",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -1881,7 +1882,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 30,
+          "source_row": "30",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -1898,7 +1899,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 30,
+          "source_row": "30",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -1915,7 +1916,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 30,
+          "source_row": "30",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -1932,7 +1933,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 30,
+          "source_row": "30",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -1949,7 +1950,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 30,
+          "source_row": "30",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -1966,7 +1967,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 30,
+          "source_row": "30",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -1983,7 +1984,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 30,
+          "source_row": "30",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -2000,7 +2001,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 30,
+          "source_row": "30",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -2017,7 +2018,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 30,
+          "source_row": "30",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -2034,7 +2035,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 30,
+          "source_row": "30",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -2051,7 +2052,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 30,
+          "source_row": "30",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -2068,7 +2069,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 30,
+          "source_row": "30",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -2085,7 +2086,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 30,
+          "source_row": "30",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -2105,7 +2106,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 30,
+          "source_row": "30",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -2123,7 +2124,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 30,
+          "source_row": "30",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -2138,7 +2139,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Deoxycholate formulation",
           "source_drug_name": "Amphotericin B deoxycholate",
           "source_id": "SRC-PKPD",
-          "source_row": 34,
+          "source_row": "34",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -2152,7 +2153,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Deoxycholate formulation",
           "source_drug_name": "Amphotericin B deoxycholate",
           "source_id": "SRC-PKPD",
-          "source_row": 34,
+          "source_row": "34",
           "status": "no_data",
           "review_status": "No source value",
           "publication_status": "Publish"
@@ -2166,7 +2167,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Deoxycholate formulation",
           "source_drug_name": "Amphotericin B deoxycholate",
           "source_id": "SRC-PKPD",
-          "source_row": 34,
+          "source_row": "34",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -2180,7 +2181,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Deoxycholate formulation",
           "source_drug_name": "Amphotericin B deoxycholate",
           "source_id": "SRC-PKPD",
-          "source_row": 34,
+          "source_row": "34",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -2194,7 +2195,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Deoxycholate formulation",
           "source_drug_name": "Amphotericin B deoxycholate",
           "source_id": "SRC-PKPD",
-          "source_row": 34,
+          "source_row": "34",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -2208,7 +2209,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Deoxycholate formulation",
           "source_drug_name": "Amphotericin B deoxycholate",
           "source_id": "SRC-PKPD",
-          "source_row": 34,
+          "source_row": "34",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -2270,7 +2271,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "Corticosteroids: increased risk of hypokalaemia (avoid concomitant use unless corticosteroids are required to control reactions).",
           "reference_text": "",
           "source_id": "SRC-RRT-HD",
-          "source_row": 33,
+          "source_row": "33",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -2284,7 +2285,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "For patients on CAV/VVHD, amphotericin should be given into the venous return of the dialysis circuit.",
           "reference_text": "",
           "source_id": "SRC-RRT-CVVH",
-          "source_row": 33,
+          "source_row": "33",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -2298,7 +2299,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "",
           "source_id": "SRC-RRT-CVVHDF",
-          "source_row": 33,
+          "source_row": "33",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -2312,7 +2313,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "",
           "source_id": "SRC-RRT-PD",
-          "source_row": 33,
+          "source_row": "33",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -2785,7 +2786,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "Lexicomp",
           "source_id": "SRC-RRT-HD",
-          "source_row": 8,
+          "source_row": "8",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -2799,7 +2800,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "Lexicomp",
           "source_id": "SRC-RRT-CVVH",
-          "source_row": 8,
+          "source_row": "8",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -2813,7 +2814,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "Lexicomp",
           "source_id": "SRC-RRT-CVVHDF",
-          "source_row": 8,
+          "source_row": "8",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -2827,7 +2828,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "",
           "source_id": "SRC-RRT-PD",
-          "source_row": 8,
+          "source_row": "8",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -2859,7 +2860,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 7,
+          "source_row": "7",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -2875,7 +2876,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 7,
+          "source_row": "7",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -2891,7 +2892,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 7,
+          "source_row": "7",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -2910,7 +2911,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 7,
+          "source_row": "7",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -2927,7 +2928,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 7,
+          "source_row": "7",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -2944,7 +2945,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 7,
+          "source_row": "7",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -2961,7 +2962,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 7,
+          "source_row": "7",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -2978,7 +2979,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 7,
+          "source_row": "7",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -2995,7 +2996,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 7,
+          "source_row": "7",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -3012,7 +3013,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 7,
+          "source_row": "7",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -3029,7 +3030,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 7,
+          "source_row": "7",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -3046,7 +3047,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 7,
+          "source_row": "7",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -3063,7 +3064,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 7,
+          "source_row": "7",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -3080,7 +3081,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 7,
+          "source_row": "7",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -3097,7 +3098,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 7,
+          "source_row": "7",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -3114,7 +3115,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 7,
+          "source_row": "7",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -3134,7 +3135,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 7,
+          "source_row": "7",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -3152,7 +3153,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 7,
+          "source_row": "7",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -3167,7 +3168,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Ampicillin",
           "source_id": "SRC-PKPD",
-          "source_row": 8,
+          "source_row": "8",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -3181,7 +3182,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Ampicillin",
           "source_id": "SRC-PKPD",
-          "source_row": 8,
+          "source_row": "8",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -3195,7 +3196,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Ampicillin",
           "source_id": "SRC-PKPD",
-          "source_row": 8,
+          "source_row": "8",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -3209,7 +3210,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Ampicillin",
           "source_id": "SRC-PKPD",
-          "source_row": 8,
+          "source_row": "8",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -3223,7 +3224,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Ampicillin",
           "source_id": "SRC-PKPD",
-          "source_row": 8,
+          "source_row": "8",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -3237,7 +3238,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Ampicillin",
           "source_id": "SRC-PKPD",
-          "source_row": 8,
+          "source_row": "8",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -3276,14 +3277,14 @@ window.ANTIMICROBIAL_APP_DATA = {
           "hospital_drug_id": "AMPI19",
           "indication": "General adult",
           "renal_category": "GFR >50",
-          "crcl_min_ml_min": 50,
+          "crcl_min_ml_min": "50",
           "crcl_max_ml_min": "",
           "modality": "",
           "dose_display": "1.5g (max:3g) Q6h",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 8,
+          "source_row": "8",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -3293,14 +3294,14 @@ window.ANTIMICROBIAL_APP_DATA = {
           "hospital_drug_id": "AMPI19",
           "indication": "General adult",
           "renal_category": "GFR 10–50",
-          "crcl_min_ml_min": 10,
-          "crcl_max_ml_min": 50,
+          "crcl_min_ml_min": "10",
+          "crcl_max_ml_min": "50",
           "modality": "",
           "dose_display": "1.5g Q8-12h",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 8,
+          "source_row": "8",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -3311,13 +3312,13 @@ window.ANTIMICROBIAL_APP_DATA = {
           "indication": "General adult",
           "renal_category": "GFR <10 / HD",
           "crcl_min_ml_min": "",
-          "crcl_max_ml_min": 10,
+          "crcl_max_ml_min": "10",
           "modality": "HD",
           "dose_display": "1.5g QD",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 8,
+          "source_row": "8",
           "review_status": "Imported",
           "publication_status": "Publish"
         }
@@ -3333,7 +3334,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "Lexicomp",
           "source_id": "SRC-RRT-HD",
-          "source_row": 9,
+          "source_row": "9",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -3347,7 +3348,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "Lexicomp",
           "source_id": "SRC-RRT-CVVH",
-          "source_row": 9,
+          "source_row": "9",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -3361,7 +3362,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "Lexicomp",
           "source_id": "SRC-RRT-CVVHDF",
-          "source_row": 9,
+          "source_row": "9",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -3375,7 +3376,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "",
           "source_id": "SRC-RRT-PD",
-          "source_row": 9,
+          "source_row": "9",
           "review_status": "No source recommendation",
           "publication_status": "Publish"
         },
@@ -3407,7 +3408,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 8,
+          "source_row": "8",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -3423,7 +3424,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 8,
+          "source_row": "8",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -3439,7 +3440,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 8,
+          "source_row": "8",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -3458,7 +3459,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 8,
+          "source_row": "8",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -3475,7 +3476,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 8,
+          "source_row": "8",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -3492,7 +3493,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 8,
+          "source_row": "8",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -3509,7 +3510,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 8,
+          "source_row": "8",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -3526,7 +3527,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 8,
+          "source_row": "8",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -3543,7 +3544,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 8,
+          "source_row": "8",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -3560,7 +3561,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 8,
+          "source_row": "8",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -3577,7 +3578,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-MMDX",
           "reference_display": "Micromedex",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 8,
+          "source_row": "8",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -3594,7 +3595,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 8,
+          "source_row": "8",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -3611,7 +3612,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 8,
+          "source_row": "8",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -3628,7 +3629,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 8,
+          "source_row": "8",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -3645,7 +3646,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 8,
+          "source_row": "8",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -3662,7 +3663,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 8,
+          "source_row": "8",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -3682,7 +3683,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 8,
+          "source_row": "8",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -3700,7 +3701,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 8,
+          "source_row": "8",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -3715,7 +3716,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Ampicillin component only",
           "source_drug_name": "Ampicillin",
           "source_id": "SRC-PKPD",
-          "source_row": 8,
+          "source_row": "8",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -3729,7 +3730,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Ampicillin component only",
           "source_drug_name": "Ampicillin",
           "source_id": "SRC-PKPD",
-          "source_row": 8,
+          "source_row": "8",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -3743,7 +3744,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Ampicillin component only",
           "source_drug_name": "Ampicillin",
           "source_id": "SRC-PKPD",
-          "source_row": 8,
+          "source_row": "8",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -3757,7 +3758,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Ampicillin component only",
           "source_drug_name": "Ampicillin",
           "source_id": "SRC-PKPD",
-          "source_row": 8,
+          "source_row": "8",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -3771,7 +3772,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Ampicillin component only",
           "source_drug_name": "Ampicillin",
           "source_id": "SRC-PKPD",
-          "source_row": 8,
+          "source_row": "8",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -3785,7 +3786,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Ampicillin component only",
           "source_drug_name": "Ampicillin",
           "source_id": "SRC-PKPD",
-          "source_row": 8,
+          "source_row": "8",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -3879,7 +3880,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 51,
+          "source_row": "51",
           "review_status": "Imported",
           "publication_status": "Publish"
         }
@@ -3895,7 +3896,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "",
           "source_id": "SRC-RRT-HD",
-          "source_row": 30,
+          "source_row": "30",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -3909,7 +3910,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "",
           "source_id": "SRC-RRT-CVVH",
-          "source_row": 30,
+          "source_row": "30",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -3923,7 +3924,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "",
           "source_id": "SRC-RRT-CVVHDF",
-          "source_row": 30,
+          "source_row": "30",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -3937,7 +3938,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "",
           "source_id": "SRC-RRT-PD",
-          "source_row": 30,
+          "source_row": "30",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -3969,7 +3970,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 27,
+          "source_row": "27",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -3985,7 +3986,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 27,
+          "source_row": "27",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -4001,7 +4002,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 27,
+          "source_row": "27",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -4020,7 +4021,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 27,
+          "source_row": "27",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -4037,7 +4038,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 27,
+          "source_row": "27",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -4054,7 +4055,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 27,
+          "source_row": "27",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -4071,7 +4072,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 27,
+          "source_row": "27",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -4088,7 +4089,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 27,
+          "source_row": "27",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -4105,7 +4106,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 27,
+          "source_row": "27",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -4122,7 +4123,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 27,
+          "source_row": "27",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -4139,7 +4140,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 27,
+          "source_row": "27",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -4156,7 +4157,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 27,
+          "source_row": "27",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -4173,7 +4174,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 27,
+          "source_row": "27",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -4190,7 +4191,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 27,
+          "source_row": "27",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -4207,7 +4208,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 27,
+          "source_row": "27",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -4224,7 +4225,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 27,
+          "source_row": "27",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -4244,7 +4245,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 27,
+          "source_row": "27",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -4262,7 +4263,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 27,
+          "source_row": "27",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -4277,7 +4278,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Anidulafungin",
           "source_id": "SRC-PKPD",
-          "source_row": 35,
+          "source_row": "35",
           "status": "no_data",
           "review_status": "No source value",
           "publication_status": "Publish"
@@ -4291,7 +4292,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Anidulafungin",
           "source_id": "SRC-PKPD",
-          "source_row": 35,
+          "source_row": "35",
           "status": "no_data",
           "review_status": "No source value",
           "publication_status": "Publish"
@@ -4305,7 +4306,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Anidulafungin",
           "source_id": "SRC-PKPD",
-          "source_row": 35,
+          "source_row": "35",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -4319,7 +4320,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Anidulafungin",
           "source_id": "SRC-PKPD",
-          "source_row": 35,
+          "source_row": "35",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -4333,7 +4334,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Anidulafungin",
           "source_id": "SRC-PKPD",
-          "source_row": 35,
+          "source_row": "35",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -4347,7 +4348,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Anidulafungin",
           "source_id": "SRC-PKPD",
-          "source_row": 35,
+          "source_row": "35",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -4375,6 +4376,7 @@ window.ANTIMICROBIAL_APP_DATA = {
       ],
       "aliases": [
         "CAPIB1",
+        "Capreomycin",
         "Capreomycin"
       ],
       "adultDoses": [
@@ -4898,14 +4900,14 @@ window.ANTIMICROBIAL_APP_DATA = {
           "hospital_drug_id": "CEZI03",
           "indication": "General adult",
           "renal_category": "GFR >50",
-          "crcl_min_ml_min": 50,
+          "crcl_min_ml_min": "50",
           "crcl_max_ml_min": "",
           "modality": "",
           "dose_display": "1g (max:2g) Q8h",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 12,
+          "source_row": "12",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -4915,14 +4917,14 @@ window.ANTIMICROBIAL_APP_DATA = {
           "hospital_drug_id": "CEZI03",
           "indication": "General adult",
           "renal_category": "GFR 10–50",
-          "crcl_min_ml_min": 10,
-          "crcl_max_ml_min": 50,
+          "crcl_min_ml_min": "10",
+          "crcl_max_ml_min": "50",
           "modality": "",
           "dose_display": "1g Q12h",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 12,
+          "source_row": "12",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -4933,13 +4935,13 @@ window.ANTIMICROBIAL_APP_DATA = {
           "indication": "General adult",
           "renal_category": "GFR <10 / HD",
           "crcl_min_ml_min": "",
-          "crcl_max_ml_min": 10,
+          "crcl_max_ml_min": "10",
           "modality": "HD",
           "dose_display": "1g QD",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 12,
+          "source_row": "12",
           "review_status": "Imported",
           "publication_status": "Publish"
         }
@@ -4955,7 +4957,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "熱病",
           "source_id": "SRC-RRT-HD",
-          "source_row": 3,
+          "source_row": "3",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -4969,7 +4971,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "Lexicomp",
           "source_id": "SRC-RRT-CVVH",
-          "source_row": 3,
+          "source_row": "3",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -4983,7 +4985,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "Lexicomp",
           "source_id": "SRC-RRT-CVVHDF",
-          "source_row": 3,
+          "source_row": "3",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -4997,7 +4999,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "",
           "source_id": "SRC-RRT-PD",
-          "source_row": 3,
+          "source_row": "3",
           "review_status": "No source recommendation",
           "publication_status": "Publish"
         },
@@ -5011,7 +5013,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "",
           "source_id": "SRC-RRT-ECMO",
-          "source_row": 2,
+          "source_row": "2",
           "review_status": "Imported",
           "publication_status": "Publish"
         }
@@ -5029,7 +5031,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 13,
+          "source_row": "13",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -5045,7 +5047,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-UTD",
           "reference_display": "UpToDate",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 13,
+          "source_row": "13",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -5061,7 +5063,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 13,
+          "source_row": "13",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -5080,7 +5082,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 13,
+          "source_row": "13",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -5097,7 +5099,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 13,
+          "source_row": "13",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -5114,7 +5116,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 13,
+          "source_row": "13",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -5131,7 +5133,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 13,
+          "source_row": "13",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -5148,7 +5150,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 13,
+          "source_row": "13",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -5165,7 +5167,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 13,
+          "source_row": "13",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -5182,7 +5184,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 13,
+          "source_row": "13",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -5199,7 +5201,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 13,
+          "source_row": "13",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -5216,7 +5218,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-MMDX",
           "reference_display": "Micromedex",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 13,
+          "source_row": "13",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -5233,7 +5235,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 13,
+          "source_row": "13",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -5250,7 +5252,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-MMDX",
           "reference_display": "Micromedex",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 13,
+          "source_row": "13",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -5267,7 +5269,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-MMDX",
           "reference_display": "Micromedex",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 13,
+          "source_row": "13",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -5284,7 +5286,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 13,
+          "source_row": "13",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -5304,7 +5306,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 13,
+          "source_row": "13",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -5322,7 +5324,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 13,
+          "source_row": "13",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -5337,7 +5339,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Cefazolin",
           "source_id": "SRC-PKPD",
-          "source_row": 10,
+          "source_row": "10",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -5351,7 +5353,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Cefazolin",
           "source_id": "SRC-PKPD",
-          "source_row": 10,
+          "source_row": "10",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -5365,7 +5367,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Cefazolin",
           "source_id": "SRC-PKPD",
-          "source_row": 10,
+          "source_row": "10",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -5379,7 +5381,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Cefazolin",
           "source_id": "SRC-PKPD",
-          "source_row": 10,
+          "source_row": "10",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -5393,7 +5395,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Cefazolin",
           "source_id": "SRC-PKPD",
-          "source_row": 10,
+          "source_row": "10",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -5407,7 +5409,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Cefazolin",
           "source_id": "SRC-PKPD",
-          "source_row": 10,
+          "source_row": "10",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -5469,6 +5471,7 @@ window.ANTIMICROBIAL_APP_DATA = {
       "aliases": [
         "CEFI45",
         "Cefepime",
+        "Cefepime",
         "FEP"
       ],
       "adultDoses": [
@@ -5478,14 +5481,14 @@ window.ANTIMICROBIAL_APP_DATA = {
           "hospital_drug_id": "CEFI45",
           "indication": "General adult",
           "renal_category": "GFR >50",
-          "crcl_min_ml_min": 50,
+          "crcl_min_ml_min": "50",
           "crcl_max_ml_min": "",
           "modality": "",
           "dose_display": "2g Q12h",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 23,
+          "source_row": "23",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -5495,14 +5498,14 @@ window.ANTIMICROBIAL_APP_DATA = {
           "hospital_drug_id": "CEFI45",
           "indication": "General adult",
           "renal_category": "GFR 10–50",
-          "crcl_min_ml_min": 10,
-          "crcl_max_ml_min": 50,
+          "crcl_min_ml_min": "10",
+          "crcl_max_ml_min": "50",
           "modality": "",
           "dose_display": "2g QD",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 23,
+          "source_row": "23",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -5513,13 +5516,13 @@ window.ANTIMICROBIAL_APP_DATA = {
           "indication": "General adult",
           "renal_category": "GFR <10 / HD",
           "crcl_min_ml_min": "",
-          "crcl_max_ml_min": 10,
+          "crcl_max_ml_min": "10",
           "modality": "HD",
           "dose_display": "1g QD",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 23,
+          "source_row": "23",
           "review_status": "Imported",
           "publication_status": "Publish"
         }
@@ -5535,7 +5538,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "1.熱病 2.仿單 3.Lexicomp 4. Micromedex",
           "source_id": "SRC-RRT-HD",
-          "source_row": 7,
+          "source_row": "7",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -5549,7 +5552,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "Micromedex",
           "source_id": "SRC-RRT-CVVH",
-          "source_row": 7,
+          "source_row": "7",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -5563,7 +5566,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "Micromedex",
           "source_id": "SRC-RRT-CVVHDF",
-          "source_row": 7,
+          "source_row": "7",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -5577,7 +5580,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "",
           "source_id": "SRC-RRT-PD",
-          "source_row": 7,
+          "source_row": "7",
           "review_status": "No source recommendation",
           "publication_status": "Publish"
         },
@@ -5591,7 +5594,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "",
           "source_id": "SRC-RRT-ECMO",
-          "source_row": 4,
+          "source_row": "4",
           "review_status": "Imported",
           "publication_status": "Publish"
         }
@@ -5609,7 +5612,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 14,
+          "source_row": "14",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -5625,7 +5628,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 14,
+          "source_row": "14",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -5641,7 +5644,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 14,
+          "source_row": "14",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -5660,7 +5663,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 14,
+          "source_row": "14",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -5677,7 +5680,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 14,
+          "source_row": "14",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -5694,7 +5697,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 14,
+          "source_row": "14",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -5711,7 +5714,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 14,
+          "source_row": "14",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -5728,7 +5731,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 14,
+          "source_row": "14",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -5745,7 +5748,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 14,
+          "source_row": "14",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -5762,7 +5765,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 14,
+          "source_row": "14",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -5779,7 +5782,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 14,
+          "source_row": "14",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -5796,7 +5799,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-MMDX",
           "reference_display": "Micromedex",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 14,
+          "source_row": "14",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -5813,7 +5816,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 14,
+          "source_row": "14",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -5830,7 +5833,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-MMDX",
           "reference_display": "Micromedex",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 14,
+          "source_row": "14",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -5847,7 +5850,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-MMDX",
           "reference_display": "Micromedex",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 14,
+          "source_row": "14",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -5864,7 +5867,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-MMDX",
           "reference_display": "Micromedex",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 14,
+          "source_row": "14",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -5884,7 +5887,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 14,
+          "source_row": "14",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -5902,7 +5905,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 14,
+          "source_row": "14",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -5917,7 +5920,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Cefepime",
           "source_id": "SRC-PKPD",
-          "source_row": 11,
+          "source_row": "11",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -5931,7 +5934,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Cefepime",
           "source_id": "SRC-PKPD",
-          "source_row": 11,
+          "source_row": "11",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -5945,7 +5948,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Cefepime",
           "source_id": "SRC-PKPD",
-          "source_row": 11,
+          "source_row": "11",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -5959,7 +5962,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Cefepime",
           "source_id": "SRC-PKPD",
-          "source_row": 11,
+          "source_row": "11",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -5973,7 +5976,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Cefepime",
           "source_id": "SRC-PKPD",
-          "source_row": 11,
+          "source_row": "11",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -5987,7 +5990,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Cefepime",
           "source_id": "SRC-PKPD",
-          "source_row": 11,
+          "source_row": "11",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -6041,7 +6044,8 @@ window.ANTIMICROBIAL_APP_DATA = {
       "aliases": [
         "BROI01",
         "Brosym",
-        "Cefoperazone/Sulbactam"
+        "Cefoperazone/Sulbactam",
+        "Brosym"
       ],
       "adultDoses": [
         {
@@ -6050,14 +6054,14 @@ window.ANTIMICROBIAL_APP_DATA = {
           "hospital_drug_id": "BROI01",
           "indication": "General adult",
           "renal_category": "GFR >30",
-          "crcl_min_ml_min": 30,
+          "crcl_min_ml_min": "30",
           "crcl_max_ml_min": "",
           "modality": "",
           "dose_display": "2 vials q12h",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 20,
+          "source_row": "20",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -6067,14 +6071,14 @@ window.ANTIMICROBIAL_APP_DATA = {
           "hospital_drug_id": "BROI01",
           "indication": "General adult",
           "renal_category": "GFR 15–30",
-          "crcl_min_ml_min": 15,
-          "crcl_max_ml_min": 30,
+          "crcl_min_ml_min": "15",
+          "crcl_max_ml_min": "30",
           "modality": "",
           "dose_display": "1 vial q12h",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 20,
+          "source_row": "20",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -6085,13 +6089,13 @@ window.ANTIMICROBIAL_APP_DATA = {
           "indication": "General adult",
           "renal_category": "GFR <15",
           "crcl_min_ml_min": "",
-          "crcl_max_ml_min": 15,
+          "crcl_max_ml_min": "15",
           "modality": "",
           "dose_display": "0.5 vial q12h",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 20,
+          "source_row": "20",
           "review_status": "Imported",
           "publication_status": "Publish"
         }
@@ -6181,7 +6185,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 12,
+          "source_row": "12",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -6197,7 +6201,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 12,
+          "source_row": "12",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -6213,7 +6217,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 12,
+          "source_row": "12",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -6232,7 +6236,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 12,
+          "source_row": "12",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -6249,7 +6253,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 12,
+          "source_row": "12",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -6266,7 +6270,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 12,
+          "source_row": "12",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -6283,7 +6287,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 12,
+          "source_row": "12",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -6300,7 +6304,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 12,
+          "source_row": "12",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -6317,7 +6321,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 12,
+          "source_row": "12",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -6334,7 +6338,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 12,
+          "source_row": "12",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -6351,7 +6355,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 12,
+          "source_row": "12",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -6368,7 +6372,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 12,
+          "source_row": "12",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -6385,7 +6389,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 12,
+          "source_row": "12",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -6402,7 +6406,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 12,
+          "source_row": "12",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -6419,7 +6423,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 12,
+          "source_row": "12",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -6436,7 +6440,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 12,
+          "source_row": "12",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -6456,7 +6460,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 12,
+          "source_row": "12",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -6474,7 +6478,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 12,
+          "source_row": "12",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -6631,14 +6635,14 @@ window.ANTIMICROBIAL_APP_DATA = {
           "hospital_drug_id": "CTXI11",
           "indication": "General adult",
           "renal_category": "GFR >50",
-          "crcl_min_ml_min": 50,
+          "crcl_min_ml_min": "50",
           "crcl_max_ml_min": "",
           "modality": "",
           "dose_display": "1g (max:2g) Q8h",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 15,
+          "source_row": "15",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -6648,14 +6652,14 @@ window.ANTIMICROBIAL_APP_DATA = {
           "hospital_drug_id": "CTXI11",
           "indication": "General adult",
           "renal_category": "GFR 10–50",
-          "crcl_min_ml_min": 10,
-          "crcl_max_ml_min": 50,
+          "crcl_min_ml_min": "10",
+          "crcl_max_ml_min": "50",
           "modality": "",
           "dose_display": "1g Q12h",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 15,
+          "source_row": "15",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -6666,13 +6670,13 @@ window.ANTIMICROBIAL_APP_DATA = {
           "indication": "General adult",
           "renal_category": "GFR <10 / HD",
           "crcl_min_ml_min": "",
-          "crcl_max_ml_min": 10,
+          "crcl_max_ml_min": "10",
           "modality": "HD",
           "dose_display": "1g QD",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 15,
+          "source_row": "15",
           "review_status": "Imported",
           "publication_status": "Publish"
         }
@@ -6762,7 +6766,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 19,
+          "source_row": "19",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -6778,7 +6782,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 19,
+          "source_row": "19",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -6794,7 +6798,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 19,
+          "source_row": "19",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -6813,7 +6817,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 19,
+          "source_row": "19",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -6830,7 +6834,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 19,
+          "source_row": "19",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -6847,7 +6851,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 19,
+          "source_row": "19",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -6864,7 +6868,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 19,
+          "source_row": "19",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -6881,7 +6885,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 19,
+          "source_row": "19",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -6898,7 +6902,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 19,
+          "source_row": "19",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -6915,7 +6919,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 19,
+          "source_row": "19",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -6932,7 +6936,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 19,
+          "source_row": "19",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -6949,7 +6953,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-UTD",
           "reference_display": "UpToDate",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 19,
+          "source_row": "19",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -6966,7 +6970,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 19,
+          "source_row": "19",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -6983,7 +6987,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 19,
+          "source_row": "19",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -7000,7 +7004,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 19,
+          "source_row": "19",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -7017,7 +7021,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 19,
+          "source_row": "19",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -7037,7 +7041,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 19,
+          "source_row": "19",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -7055,7 +7059,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 19,
+          "source_row": "19",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -7169,6 +7173,7 @@ window.ANTIMICROBIAL_APP_DATA = {
       "aliases": [
         "CFXI12",
         "Cefoxitin",
+        "Cefoxitin",
         "FOX"
       ],
       "adultDoses": [
@@ -7178,14 +7183,14 @@ window.ANTIMICROBIAL_APP_DATA = {
           "hospital_drug_id": "CFXI12",
           "indication": "General adult",
           "renal_category": "GFR >50",
-          "crcl_min_ml_min": 50,
+          "crcl_min_ml_min": "50",
           "crcl_max_ml_min": "",
           "modality": "",
           "dose_display": "1g (max:2g) Q8h",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 13,
+          "source_row": "13",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -7195,14 +7200,14 @@ window.ANTIMICROBIAL_APP_DATA = {
           "hospital_drug_id": "CFXI12",
           "indication": "General adult",
           "renal_category": "GFR 10–50",
-          "crcl_min_ml_min": 10,
-          "crcl_max_ml_min": 50,
+          "crcl_min_ml_min": "10",
+          "crcl_max_ml_min": "50",
           "modality": "",
           "dose_display": "1g Q12h",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 13,
+          "source_row": "13",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -7213,13 +7218,13 @@ window.ANTIMICROBIAL_APP_DATA = {
           "indication": "General adult",
           "renal_category": "GFR <10 / HD",
           "crcl_min_ml_min": "",
-          "crcl_max_ml_min": 10,
+          "crcl_max_ml_min": "10",
           "modality": "HD",
           "dose_display": "1g QD",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 13,
+          "source_row": "13",
           "review_status": "Imported",
           "publication_status": "Publish"
         }
@@ -7309,7 +7314,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 17,
+          "source_row": "17",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -7325,7 +7330,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 17,
+          "source_row": "17",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -7341,7 +7346,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 17,
+          "source_row": "17",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -7360,7 +7365,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 17,
+          "source_row": "17",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -7377,7 +7382,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 17,
+          "source_row": "17",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -7394,7 +7399,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 17,
+          "source_row": "17",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -7411,7 +7416,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 17,
+          "source_row": "17",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -7428,7 +7433,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 17,
+          "source_row": "17",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -7445,7 +7450,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 17,
+          "source_row": "17",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -7462,7 +7467,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 17,
+          "source_row": "17",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -7479,7 +7484,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 17,
+          "source_row": "17",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -7496,7 +7501,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-MMDX",
           "reference_display": "Micromedex",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 17,
+          "source_row": "17",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -7513,7 +7518,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 17,
+          "source_row": "17",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -7530,7 +7535,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-MMDX",
           "reference_display": "Micromedex",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 17,
+          "source_row": "17",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -7547,7 +7552,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-MMDX",
           "reference_display": "Micromedex",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 17,
+          "source_row": "17",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -7564,7 +7569,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-MMDX",
           "reference_display": "Micromedex",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 17,
+          "source_row": "17",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -7584,7 +7589,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 17,
+          "source_row": "17",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -7602,7 +7607,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 17,
+          "source_row": "17",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -7617,7 +7622,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Cefoxitin",
           "source_id": "SRC-PKPD",
-          "source_row": 12,
+          "source_row": "12",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -7631,7 +7636,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Cefoxitin",
           "source_id": "SRC-PKPD",
-          "source_row": 12,
+          "source_row": "12",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -7645,7 +7650,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Cefoxitin",
           "source_id": "SRC-PKPD",
-          "source_row": 12,
+          "source_row": "12",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -7659,7 +7664,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Cefoxitin",
           "source_id": "SRC-PKPD",
-          "source_row": 12,
+          "source_row": "12",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -7673,7 +7678,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Cefoxitin",
           "source_id": "SRC-PKPD",
-          "source_row": 12,
+          "source_row": "12",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -7687,7 +7692,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Cefoxitin",
           "source_id": "SRC-PKPD",
-          "source_row": 12,
+          "source_row": "12",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -7782,14 +7787,14 @@ window.ANTIMICROBIAL_APP_DATA = {
           "hospital_drug_id": "CEFI83",
           "indication": "General adult",
           "renal_category": "CrCl >50",
-          "crcl_min_ml_min": 50,
+          "crcl_min_ml_min": "50",
           "crcl_max_ml_min": "",
           "modality": "",
           "dose_display": "600 mg q12h",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 22,
+          "source_row": "22",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -7799,14 +7804,14 @@ window.ANTIMICROBIAL_APP_DATA = {
           "hospital_drug_id": "CEFI83",
           "indication": "General adult",
           "renal_category": "CrCl 31–50",
-          "crcl_min_ml_min": 31,
-          "crcl_max_ml_min": 50,
+          "crcl_min_ml_min": "31",
+          "crcl_max_ml_min": "50",
           "modality": "",
           "dose_display": "400 mg q12h",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 22,
+          "source_row": "22",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -7816,14 +7821,14 @@ window.ANTIMICROBIAL_APP_DATA = {
           "hospital_drug_id": "CEFI83",
           "indication": "General adult",
           "renal_category": "CrCl 15–30",
-          "crcl_min_ml_min": 15,
-          "crcl_max_ml_min": 30,
+          "crcl_min_ml_min": "15",
+          "crcl_max_ml_min": "30",
           "modality": "",
           "dose_display": "300 mg q12h",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 22,
+          "source_row": "22",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -7834,13 +7839,13 @@ window.ANTIMICROBIAL_APP_DATA = {
           "indication": "General adult",
           "renal_category": "CrCl <15 / HD",
           "crcl_min_ml_min": "",
-          "crcl_max_ml_min": 15,
+          "crcl_max_ml_min": "15",
           "modality": "HD",
           "dose_display": "200 mg q12h",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 22,
+          "source_row": "22",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -7857,7 +7862,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 22,
+          "source_row": "22",
           "review_status": "Imported",
           "publication_status": "Publish"
         }
@@ -8255,7 +8260,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Active moiety / source term",
           "source_drug_name": "Ceftaroline",
           "source_id": "SRC-PKPD",
-          "source_row": 13,
+          "source_row": "13",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -8269,7 +8274,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Active moiety / source term",
           "source_drug_name": "Ceftaroline",
           "source_id": "SRC-PKPD",
-          "source_row": 13,
+          "source_row": "13",
           "status": "no_data",
           "review_status": "No source value",
           "publication_status": "Publish"
@@ -8283,7 +8288,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Active moiety / source term",
           "source_drug_name": "Ceftaroline",
           "source_id": "SRC-PKPD",
-          "source_row": 13,
+          "source_row": "13",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -8297,7 +8302,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Active moiety / source term",
           "source_drug_name": "Ceftaroline",
           "source_id": "SRC-PKPD",
-          "source_row": 13,
+          "source_row": "13",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -8311,7 +8316,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Active moiety / source term",
           "source_drug_name": "Ceftaroline",
           "source_id": "SRC-PKPD",
-          "source_row": 13,
+          "source_row": "13",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -8325,7 +8330,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Active moiety / source term",
           "source_drug_name": "Ceftaroline",
           "source_id": "SRC-PKPD",
-          "source_row": 13,
+          "source_row": "13",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -8364,14 +8369,14 @@ window.ANTIMICROBIAL_APP_DATA = {
           "hospital_drug_id": "FORI06",
           "indication": "General adult",
           "renal_category": "GFR >50",
-          "crcl_min_ml_min": 50,
+          "crcl_min_ml_min": "50",
           "crcl_max_ml_min": "",
           "modality": "",
           "dose_display": "1g (max:2g) Q8h",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 19,
+          "source_row": "19",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -8381,14 +8386,14 @@ window.ANTIMICROBIAL_APP_DATA = {
           "hospital_drug_id": "FORI06",
           "indication": "General adult",
           "renal_category": "GFR 10–50",
-          "crcl_min_ml_min": 10,
-          "crcl_max_ml_min": 50,
+          "crcl_min_ml_min": "10",
+          "crcl_max_ml_min": "50",
           "modality": "",
           "dose_display": "1g Q12h",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 19,
+          "source_row": "19",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -8399,13 +8404,13 @@ window.ANTIMICROBIAL_APP_DATA = {
           "indication": "General adult",
           "renal_category": "GFR <10 / HD",
           "crcl_min_ml_min": "",
-          "crcl_max_ml_min": 10,
+          "crcl_max_ml_min": "10",
           "modality": "HD",
           "dose_display": "1g QD",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 19,
+          "source_row": "19",
           "review_status": "Imported",
           "publication_status": "Publish"
         }
@@ -8421,7 +8426,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "1. 熱病 2. Lexicomp",
           "source_id": "SRC-RRT-HD",
-          "source_row": 4,
+          "source_row": "4",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -8435,7 +8440,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "1. 熱病 2. Lexicomp",
           "source_id": "SRC-RRT-CVVH",
-          "source_row": 4,
+          "source_row": "4",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -8449,7 +8454,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "Lexicomp",
           "source_id": "SRC-RRT-CVVHDF",
-          "source_row": 4,
+          "source_row": "4",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -8463,7 +8468,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "",
           "source_id": "SRC-RRT-PD",
-          "source_row": 4,
+          "source_row": "4",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -8803,7 +8808,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Ceftazidime",
           "source_id": "SRC-PKPD",
-          "source_row": 14,
+          "source_row": "14",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -8817,7 +8822,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Ceftazidime",
           "source_id": "SRC-PKPD",
-          "source_row": 14,
+          "source_row": "14",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -8831,7 +8836,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Ceftazidime",
           "source_id": "SRC-PKPD",
-          "source_row": 14,
+          "source_row": "14",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -8845,7 +8850,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Ceftazidime",
           "source_id": "SRC-PKPD",
-          "source_row": 14,
+          "source_row": "14",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -8859,7 +8864,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Ceftazidime",
           "source_id": "SRC-PKPD",
-          "source_row": 14,
+          "source_row": "14",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -8873,7 +8878,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Ceftazidime",
           "source_id": "SRC-PKPD",
-          "source_row": 14,
+          "source_row": "14",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -8930,14 +8935,14 @@ window.ANTIMICROBIAL_APP_DATA = {
           "hospital_drug_id": "ZAVIB0",
           "indication": "General adult",
           "renal_category": "CrCl >50",
-          "crcl_min_ml_min": 50,
+          "crcl_min_ml_min": "50",
           "crcl_max_ml_min": "",
           "modality": "",
           "dose_display": "2.5 g q8h",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 21,
+          "source_row": "21",
           "review_status": "Imported; source typo Q12g normalized to q12h",
           "publication_status": "Publish"
         },
@@ -8947,14 +8952,14 @@ window.ANTIMICROBIAL_APP_DATA = {
           "hospital_drug_id": "ZAVIB0",
           "indication": "General adult",
           "renal_category": "CrCl 31–50",
-          "crcl_min_ml_min": 31,
-          "crcl_max_ml_min": 50,
+          "crcl_min_ml_min": "31",
+          "crcl_max_ml_min": "50",
           "modality": "",
           "dose_display": "1.25 g q8h",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 21,
+          "source_row": "21",
           "review_status": "Imported; source typo Q12g normalized to q12h",
           "publication_status": "Publish"
         },
@@ -8964,14 +8969,14 @@ window.ANTIMICROBIAL_APP_DATA = {
           "hospital_drug_id": "ZAVIB0",
           "indication": "General adult",
           "renal_category": "CrCl 16–30",
-          "crcl_min_ml_min": 16,
-          "crcl_max_ml_min": 30,
+          "crcl_min_ml_min": "16",
+          "crcl_max_ml_min": "30",
           "modality": "",
           "dose_display": "0.94 g q12h",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 21,
+          "source_row": "21",
           "review_status": "Imported; source typo Q12g normalized to q12h",
           "publication_status": "Publish"
         },
@@ -8981,14 +8986,14 @@ window.ANTIMICROBIAL_APP_DATA = {
           "hospital_drug_id": "ZAVIB0",
           "indication": "General adult",
           "renal_category": "CrCl 6–15 ±HD",
-          "crcl_min_ml_min": 6,
-          "crcl_max_ml_min": 15,
+          "crcl_min_ml_min": "6",
+          "crcl_max_ml_min": "15",
           "modality": "HD",
           "dose_display": "0.94 g q24h; HD後給",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 21,
+          "source_row": "21",
           "review_status": "Imported; source typo Q12g normalized to q12h",
           "publication_status": "Publish"
         },
@@ -8999,13 +9004,13 @@ window.ANTIMICROBIAL_APP_DATA = {
           "indication": "General adult",
           "renal_category": "CrCl ≤5 ±HD",
           "crcl_min_ml_min": "",
-          "crcl_max_ml_min": 5,
+          "crcl_max_ml_min": "5",
           "modality": "HD",
           "dose_display": "0.94 g q48h; HD後給",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 21,
+          "source_row": "21",
           "review_status": "Imported; source typo Q12g normalized to q12h",
           "publication_status": "Publish"
         }
@@ -9021,7 +9026,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "Micromedex",
           "source_id": "SRC-RRT-HD",
-          "source_row": 5,
+          "source_row": "5",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -9035,7 +9040,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "1. 熱病 2. Lexicomp",
           "source_id": "SRC-RRT-CVVH",
-          "source_row": 5,
+          "source_row": "5",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -9049,7 +9054,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "Micromedex",
           "source_id": "SRC-RRT-CVVHDF",
-          "source_row": 5,
+          "source_row": "5",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -9063,7 +9068,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "",
           "source_id": "SRC-RRT-PD",
-          "source_row": 5,
+          "source_row": "5",
           "review_status": "No source recommendation",
           "publication_status": "Publish"
         },
@@ -9095,7 +9100,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 50,
+          "source_row": "50",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -9111,7 +9116,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 50,
+          "source_row": "50",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -9127,7 +9132,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 50,
+          "source_row": "50",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -9146,7 +9151,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 50,
+          "source_row": "50",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -9163,7 +9168,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 50,
+          "source_row": "50",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -9180,7 +9185,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 50,
+          "source_row": "50",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -9197,7 +9202,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 50,
+          "source_row": "50",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -9214,7 +9219,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 50,
+          "source_row": "50",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -9231,7 +9236,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 50,
+          "source_row": "50",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -9248,7 +9253,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 50,
+          "source_row": "50",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -9265,7 +9270,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 50,
+          "source_row": "50",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -9282,7 +9287,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 50,
+          "source_row": "50",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -9299,7 +9304,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 50,
+          "source_row": "50",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -9316,7 +9321,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 50,
+          "source_row": "50",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -9333,7 +9338,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 50,
+          "source_row": "50",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -9350,7 +9355,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 50,
+          "source_row": "50",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -9370,7 +9375,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 50,
+          "source_row": "50",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -9388,7 +9393,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 50,
+          "source_row": "50",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -9403,7 +9408,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Ceftazidime component only",
           "source_drug_name": "Ceftazidime",
           "source_id": "SRC-PKPD",
-          "source_row": 14,
+          "source_row": "14",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -9417,7 +9422,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Ceftazidime component only",
           "source_drug_name": "Ceftazidime",
           "source_id": "SRC-PKPD",
-          "source_row": 14,
+          "source_row": "14",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -9431,7 +9436,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Ceftazidime component only",
           "source_drug_name": "Ceftazidime",
           "source_id": "SRC-PKPD",
-          "source_row": 14,
+          "source_row": "14",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -9445,7 +9450,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Ceftazidime component only",
           "source_drug_name": "Ceftazidime",
           "source_id": "SRC-PKPD",
-          "source_row": 14,
+          "source_row": "14",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -9459,7 +9464,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Ceftazidime component only",
           "source_drug_name": "Ceftazidime",
           "source_id": "SRC-PKPD",
-          "source_row": 14,
+          "source_row": "14",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -9473,7 +9478,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Ceftazidime component only",
           "source_drug_name": "Ceftazidime",
           "source_id": "SRC-PKPD",
-          "source_row": 14,
+          "source_row": "14",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -9512,14 +9517,14 @@ window.ANTIMICROBIAL_APP_DATA = {
           "hospital_drug_id": "CEFI72",
           "indication": "General adult",
           "renal_category": "GFR >50",
-          "crcl_min_ml_min": 50,
+          "crcl_min_ml_min": "50",
           "crcl_max_ml_min": "",
           "modality": "",
           "dose_display": "1g (max:2g) Q8h",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 16,
+          "source_row": "16",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -9529,14 +9534,14 @@ window.ANTIMICROBIAL_APP_DATA = {
           "hospital_drug_id": "CEFI72",
           "indication": "General adult",
           "renal_category": "GFR 10–50",
-          "crcl_min_ml_min": 10,
-          "crcl_max_ml_min": 50,
+          "crcl_min_ml_min": "10",
+          "crcl_max_ml_min": "50",
           "modality": "",
           "dose_display": "1g Q12h",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 16,
+          "source_row": "16",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -9547,13 +9552,13 @@ window.ANTIMICROBIAL_APP_DATA = {
           "indication": "General adult",
           "renal_category": "GFR <10 / HD",
           "crcl_min_ml_min": "",
-          "crcl_max_ml_min": 10,
+          "crcl_max_ml_min": "10",
           "modality": "HD",
           "dose_display": "1g QD",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 16,
+          "source_row": "16",
           "review_status": "Imported",
           "publication_status": "Publish"
         }
@@ -9643,7 +9648,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 16,
+          "source_row": "16",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -9659,7 +9664,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 16,
+          "source_row": "16",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -9675,7 +9680,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 16,
+          "source_row": "16",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -9694,7 +9699,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 16,
+          "source_row": "16",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -9711,7 +9716,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 16,
+          "source_row": "16",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -9728,7 +9733,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 16,
+          "source_row": "16",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -9745,7 +9750,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 16,
+          "source_row": "16",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -9762,7 +9767,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 16,
+          "source_row": "16",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -9779,7 +9784,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 16,
+          "source_row": "16",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -9796,7 +9801,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 16,
+          "source_row": "16",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -9813,7 +9818,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 16,
+          "source_row": "16",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -9830,7 +9835,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-MMDX",
           "reference_display": "Micromedex",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 16,
+          "source_row": "16",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -9847,7 +9852,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 16,
+          "source_row": "16",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -9864,7 +9869,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-MMDX",
           "reference_display": "Micromedex",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 16,
+          "source_row": "16",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -9881,7 +9886,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 16,
+          "source_row": "16",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -9898,7 +9903,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 16,
+          "source_row": "16",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -9918,7 +9923,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 16,
+          "source_row": "16",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -9936,7 +9941,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 16,
+          "source_row": "16",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -10067,7 +10072,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 14,
+          "source_row": "14",
           "review_status": "Imported",
           "publication_status": "Publish"
         }
@@ -10083,7 +10088,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "",
           "source_id": "SRC-RRT-HD",
-          "source_row": 6,
+          "source_row": "6",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -10097,7 +10102,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "",
           "source_id": "SRC-RRT-CVVH",
-          "source_row": 6,
+          "source_row": "6",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -10111,7 +10116,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "",
           "source_id": "SRC-RRT-CVVHDF",
-          "source_row": 6,
+          "source_row": "6",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -10125,7 +10130,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "",
           "source_id": "SRC-RRT-PD",
-          "source_row": 6,
+          "source_row": "6",
           "review_status": "No source recommendation",
           "publication_status": "Publish"
         },
@@ -10139,7 +10144,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "",
           "source_id": "SRC-RRT-ECMO",
-          "source_row": 3,
+          "source_row": "3",
           "review_status": "Imported",
           "publication_status": "Publish"
         }
@@ -10157,7 +10162,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 15,
+          "source_row": "15",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -10173,7 +10178,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 15,
+          "source_row": "15",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -10189,7 +10194,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 15,
+          "source_row": "15",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -10208,7 +10213,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 15,
+          "source_row": "15",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -10225,7 +10230,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 15,
+          "source_row": "15",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -10242,7 +10247,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 15,
+          "source_row": "15",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -10259,7 +10264,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 15,
+          "source_row": "15",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -10276,7 +10281,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 15,
+          "source_row": "15",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -10293,7 +10298,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 15,
+          "source_row": "15",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -10310,7 +10315,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 15,
+          "source_row": "15",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -10327,7 +10332,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 15,
+          "source_row": "15",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -10344,7 +10349,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-MMDX",
           "reference_display": "Micromedex",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 15,
+          "source_row": "15",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -10361,7 +10366,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 15,
+          "source_row": "15",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -10378,7 +10383,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-MMDX",
           "reference_display": "Micromedex",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 15,
+          "source_row": "15",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -10395,7 +10400,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 15,
+          "source_row": "15",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -10412,7 +10417,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 15,
+          "source_row": "15",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -10432,7 +10437,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 15,
+          "source_row": "15",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -10450,7 +10455,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 15,
+          "source_row": "15",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -10465,7 +10470,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Ceftriaxone",
           "source_id": "SRC-PKPD",
-          "source_row": 15,
+          "source_row": "15",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -10479,7 +10484,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Ceftriaxone",
           "source_id": "SRC-PKPD",
-          "source_row": 15,
+          "source_row": "15",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -10493,7 +10498,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Ceftriaxone",
           "source_id": "SRC-PKPD",
-          "source_row": 15,
+          "source_row": "15",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -10507,7 +10512,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Ceftriaxone",
           "source_id": "SRC-PKPD",
-          "source_row": 15,
+          "source_row": "15",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -10521,7 +10526,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Ceftriaxone",
           "source_id": "SRC-PKPD",
-          "source_row": 15,
+          "source_row": "15",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -10535,7 +10540,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Ceftriaxone",
           "source_id": "SRC-PKPD",
-          "source_row": 15,
+          "source_row": "15",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -10607,14 +10612,14 @@ window.ANTIMICROBIAL_APP_DATA = {
           "hospital_drug_id": "CIPI01",
           "indication": "IV formulation",
           "renal_category": "GFR >50",
-          "crcl_min_ml_min": 50,
+          "crcl_min_ml_min": "50",
           "crcl_max_ml_min": "",
           "modality": "",
           "dose_display": "400mg Q12h",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 24,
+          "source_row": "24",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -10624,14 +10629,14 @@ window.ANTIMICROBIAL_APP_DATA = {
           "hospital_drug_id": "CIPI01",
           "indication": "IV formulation",
           "renal_category": "GFR 10–50",
-          "crcl_min_ml_min": 10,
-          "crcl_max_ml_min": 50,
+          "crcl_min_ml_min": "10",
+          "crcl_max_ml_min": "50",
           "modality": "",
           "dose_display": "200mg Q12h or 400mg QD",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 24,
+          "source_row": "24",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -10642,13 +10647,13 @@ window.ANTIMICROBIAL_APP_DATA = {
           "indication": "IV formulation",
           "renal_category": "GFR <10 / HD",
           "crcl_min_ml_min": "",
-          "crcl_max_ml_min": 10,
+          "crcl_max_ml_min": "10",
           "modality": "HD",
           "dose_display": "N/D",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 24,
+          "source_row": "24",
           "review_status": "Imported",
           "publication_status": "Publish"
         }
@@ -10664,7 +10669,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "1. 熱病 2. Lexicomp 3. Micromedex",
           "source_id": "SRC-RRT-HD",
-          "source_row": 15,
+          "source_row": "15",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -10678,7 +10683,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "1. 熱病 2. Lexicmop 3. Roger et al., J Antimicrob Chemother 2016 4. 2017 台灣重症病人之 CRRT 處置操作手冊",
           "source_id": "SRC-RRT-CVVH",
-          "source_row": 15,
+          "source_row": "15",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -10692,7 +10697,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "1. 熱病 2. Lexicmop 3. Roger et al., J Antimicrob Chemother 2016 4. 2017 台灣重症病人之 CRRT 處置操作手冊",
           "source_id": "SRC-RRT-CVVHDF",
-          "source_row": 15,
+          "source_row": "15",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -10706,7 +10711,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "",
           "source_id": "SRC-RRT-PD",
-          "source_row": 15,
+          "source_row": "15",
           "review_status": "No source recommendation",
           "publication_status": "Publish"
         },
@@ -10738,7 +10743,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 18,
+          "source_row": "18",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -10754,7 +10759,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 18,
+          "source_row": "18",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -10770,7 +10775,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 18,
+          "source_row": "18",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -10789,7 +10794,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 18,
+          "source_row": "18",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -10806,7 +10811,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 18,
+          "source_row": "18",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -10823,7 +10828,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 18,
+          "source_row": "18",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -10840,7 +10845,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 18,
+          "source_row": "18",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -10857,7 +10862,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 18,
+          "source_row": "18",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -10874,7 +10879,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 18,
+          "source_row": "18",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -10891,7 +10896,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 18,
+          "source_row": "18",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -10908,7 +10913,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 18,
+          "source_row": "18",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -10925,7 +10930,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 18,
+          "source_row": "18",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -10942,7 +10947,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 18,
+          "source_row": "18",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -10959,7 +10964,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 18,
+          "source_row": "18",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -10976,7 +10981,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 18,
+          "source_row": "18",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -10993,7 +10998,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 18,
+          "source_row": "18",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -11013,7 +11018,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 18,
+          "source_row": "18",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -11031,7 +11036,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 18,
+          "source_row": "18",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -11046,7 +11051,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Ciprofloxacin",
           "source_id": "SRC-PKPD",
-          "source_row": 16,
+          "source_row": "16",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -11060,7 +11065,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Ciprofloxacin",
           "source_id": "SRC-PKPD",
-          "source_row": 16,
+          "source_row": "16",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -11074,7 +11079,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Ciprofloxacin",
           "source_id": "SRC-PKPD",
-          "source_row": 16,
+          "source_row": "16",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -11088,7 +11093,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Ciprofloxacin",
           "source_id": "SRC-PKPD",
-          "source_row": 16,
+          "source_row": "16",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -11102,7 +11107,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Ciprofloxacin",
           "source_id": "SRC-PKPD",
-          "source_row": 16,
+          "source_row": "16",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -11116,7 +11121,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Ciprofloxacin",
           "source_id": "SRC-PKPD",
-          "source_row": 16,
+          "source_row": "16",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -11179,7 +11184,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 4,
+          "source_row": "4",
           "review_status": "Imported",
           "publication_status": "Publish"
         }
@@ -11269,7 +11274,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 10,
+          "source_row": "10",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -11285,7 +11290,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-MMDX",
           "reference_display": "Micromedex",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 10,
+          "source_row": "10",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -11301,7 +11306,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 10,
+          "source_row": "10",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -11320,7 +11325,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 10,
+          "source_row": "10",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -11337,7 +11342,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 10,
+          "source_row": "10",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -11354,7 +11359,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 10,
+          "source_row": "10",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -11371,7 +11376,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 10,
+          "source_row": "10",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -11388,7 +11393,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 10,
+          "source_row": "10",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -11405,7 +11410,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 10,
+          "source_row": "10",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -11422,7 +11427,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 10,
+          "source_row": "10",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -11439,7 +11444,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 10,
+          "source_row": "10",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -11456,7 +11461,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-HID",
           "reference_display": "Handbook on Injectable Drugs",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 10,
+          "source_row": "10",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -11473,7 +11478,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 10,
+          "source_row": "10",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -11490,7 +11495,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-MMDX",
           "reference_display": "Micromedex",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 10,
+          "source_row": "10",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -11507,7 +11512,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 10,
+          "source_row": "10",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -11524,7 +11529,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 10,
+          "source_row": "10",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -11544,7 +11549,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 10,
+          "source_row": "10",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -11562,7 +11567,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 10,
+          "source_row": "10",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -11577,7 +11582,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Clindamycin",
           "source_id": "SRC-PKPD",
-          "source_row": 18,
+          "source_row": "18",
           "status": "no_data",
           "review_status": "No source value",
           "publication_status": "Publish"
@@ -11591,7 +11596,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Clindamycin",
           "source_id": "SRC-PKPD",
-          "source_row": 18,
+          "source_row": "18",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -11605,7 +11610,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Clindamycin",
           "source_id": "SRC-PKPD",
-          "source_row": 18,
+          "source_row": "18",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -11619,7 +11624,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Clindamycin",
           "source_id": "SRC-PKPD",
-          "source_row": 18,
+          "source_row": "18",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -11633,7 +11638,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Clindamycin",
           "source_id": "SRC-PKPD",
-          "source_row": 18,
+          "source_row": "18",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -11647,7 +11652,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Clindamycin",
           "source_id": "SRC-PKPD",
-          "source_row": 18,
+          "source_row": "18",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -11712,7 +11717,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "loading_dose_display": "4 vials once",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 38,
+          "source_row": "38",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -11722,14 +11727,14 @@ window.ANTIMICROBIAL_APP_DATA = {
           "hospital_drug_id": "COLIB0",
           "indication": "General adult",
           "renal_category": "GFR >50",
-          "crcl_min_ml_min": 50,
+          "crcl_min_ml_min": "50",
           "crcl_max_ml_min": "",
           "modality": "",
           "dose_display": "2 vials q12h",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 38,
+          "source_row": "38",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -11739,14 +11744,14 @@ window.ANTIMICROBIAL_APP_DATA = {
           "hospital_drug_id": "COLIB0",
           "indication": "General adult",
           "renal_category": "GFR 10–50",
-          "crcl_min_ml_min": 10,
-          "crcl_max_ml_min": 50,
+          "crcl_min_ml_min": "10",
+          "crcl_max_ml_min": "50",
           "modality": "",
           "dose_display": "1 vial q8–12h",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 38,
+          "source_row": "38",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -11757,13 +11762,13 @@ window.ANTIMICROBIAL_APP_DATA = {
           "indication": "General adult",
           "renal_category": "GFR <10",
           "crcl_min_ml_min": "",
-          "crcl_max_ml_min": 10,
+          "crcl_max_ml_min": "10",
           "modality": "",
           "dose_display": "0.5 vial q12h",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 38,
+          "source_row": "38",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -11780,7 +11785,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 38,
+          "source_row": "38",
           "review_status": "Imported",
           "publication_status": "Publish"
         }
@@ -11796,7 +11801,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "1. 熱病 2. Lexicomp 3. Pharmacotherapy. 2019;39(1):10-39.",
           "source_id": "SRC-RRT-HD",
-          "source_row": 22,
+          "source_row": "22",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -11810,7 +11815,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "1. 熱病 2. Lexicomp 3. Pharmacotherapy. 2019;39(1):10-39.",
           "source_id": "SRC-RRT-CVVH",
-          "source_row": 22,
+          "source_row": "22",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -11824,7 +11829,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "1. 熱病 2. Lexicomp 3. Pharmacotherapy. 2019;39(1):10-39.",
           "source_id": "SRC-RRT-CVVHDF",
-          "source_row": 22,
+          "source_row": "22",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -11838,7 +11843,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "",
           "source_id": "SRC-RRT-PD",
-          "source_row": 22,
+          "source_row": "22",
           "review_status": "No source recommendation",
           "publication_status": "Publish"
         },
@@ -11870,7 +11875,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 20,
+          "source_row": "20",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -11886,7 +11891,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-UTD",
           "reference_display": "UpToDate",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 20,
+          "source_row": "20",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -11902,7 +11907,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 20,
+          "source_row": "20",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -11918,7 +11923,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 20,
+          "source_row": "20",
           "review_status": "Imported continuation note",
           "publication_status": "Publish"
         }
@@ -11937,7 +11942,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 20,
+          "source_row": "20",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -11954,7 +11959,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 20,
+          "source_row": "20",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -11971,7 +11976,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 20,
+          "source_row": "20",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -11988,7 +11993,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 20,
+          "source_row": "20",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -12005,7 +12010,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 20,
+          "source_row": "20",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -12022,7 +12027,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 20,
+          "source_row": "20",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -12039,7 +12044,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 20,
+          "source_row": "20",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -12056,7 +12061,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 20,
+          "source_row": "20",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -12073,7 +12078,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-MMDX",
           "reference_display": "Micromedex",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 20,
+          "source_row": "20",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -12090,7 +12095,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 20,
+          "source_row": "20",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -12107,7 +12112,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-MMDX",
           "reference_display": "Micromedex",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 20,
+          "source_row": "20",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -12124,7 +12129,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 20,
+          "source_row": "20",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -12141,7 +12146,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 20,
+          "source_row": "20",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -12161,7 +12166,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 20,
+          "source_row": "20",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -12179,7 +12184,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 20,
+          "source_row": "20",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -12194,7 +12199,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Colistin (Polymyxin E)",
           "source_id": "SRC-PKPD",
-          "source_row": 19,
+          "source_row": "19",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -12208,7 +12213,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Colistin (Polymyxin E)",
           "source_id": "SRC-PKPD",
-          "source_row": 19,
+          "source_row": "19",
           "status": "no_data",
           "review_status": "No source value",
           "publication_status": "Publish"
@@ -12222,7 +12227,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Colistin (Polymyxin E)",
           "source_id": "SRC-PKPD",
-          "source_row": 19,
+          "source_row": "19",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -12236,7 +12241,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Colistin (Polymyxin E)",
           "source_id": "SRC-PKPD",
-          "source_row": 19,
+          "source_row": "19",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -12250,7 +12255,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Colistin (Polymyxin E)",
           "source_id": "SRC-PKPD",
-          "source_row": 19,
+          "source_row": "19",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -12264,7 +12269,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Colistin (Polymyxin E)",
           "source_id": "SRC-PKPD",
-          "source_row": 19,
+          "source_row": "19",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -12303,14 +12308,14 @@ window.ANTIMICROBIAL_APP_DATA = {
           "hospital_drug_id": "CUBI00",
           "indication": "SSTI / BSI",
           "renal_category": "GFR >30",
-          "crcl_min_ml_min": 30,
+          "crcl_min_ml_min": "30",
           "crcl_max_ml_min": "",
           "modality": "",
           "dose_display": "SSTI 4–6 mg/kg q24h; BSI 6–12 mg/kg q24h",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 35,
+          "source_row": "35",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -12321,13 +12326,13 @@ window.ANTIMICROBIAL_APP_DATA = {
           "indication": "SSTI / BSI",
           "renal_category": "GFR <30 / HD",
           "crcl_min_ml_min": "",
-          "crcl_max_ml_min": 30,
+          "crcl_max_ml_min": "30",
           "modality": "HD",
           "dose_display": "6–10 mg/kg q48h",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 35,
+          "source_row": "35",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -12344,7 +12349,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 35,
+          "source_row": "35",
           "review_status": "Imported",
           "publication_status": "Publish"
         }
@@ -12360,7 +12365,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "1. 熱病 2. Lexicomp 3. Micromedex",
           "source_id": "SRC-RRT-HD",
-          "source_row": 23,
+          "source_row": "23",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -12374,7 +12379,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "1. 熱病 2. Lexicomp 3. Micromedex",
           "source_id": "SRC-RRT-CVVH",
-          "source_row": 23,
+          "source_row": "23",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -12388,7 +12393,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "1. 熱病 2. Lexicomp 3. Micromedex",
           "source_id": "SRC-RRT-CVVHDF",
-          "source_row": 23,
+          "source_row": "23",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -12402,7 +12407,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "The ISPD guidelines recomment a loading dose of 100mg/L followed by 20mg/L maintenance dose IP daptomycin to treat peritonitis. (Antimicrob Agents Chemother. Apr. 2011; 55(4):1677–1683.)\nThere is a case study using IP daptomycin for VRE peritonitis at a dose of 100 mg/L. (Huen SC, Hall I, Topal J, et al. Successful use of intraperitoneal daptomycin in the treatment of vancomycin-resistant enterococcus peritonitis. Am J Kidney Dis. 2009; 54(3): 538–41.)",
           "reference_text": "",
           "source_id": "SRC-RRT-PD",
-          "source_row": 23,
+          "source_row": "23",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -12434,7 +12439,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 23,
+          "source_row": "23",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -12450,7 +12455,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 23,
+          "source_row": "23",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -12466,7 +12471,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 23,
+          "source_row": "23",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -12485,7 +12490,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 23,
+          "source_row": "23",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -12502,7 +12507,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 23,
+          "source_row": "23",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -12519,7 +12524,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 23,
+          "source_row": "23",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -12536,7 +12541,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 23,
+          "source_row": "23",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -12553,7 +12558,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 23,
+          "source_row": "23",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -12570,7 +12575,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 23,
+          "source_row": "23",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -12587,7 +12592,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 23,
+          "source_row": "23",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -12604,7 +12609,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 23,
+          "source_row": "23",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -12621,7 +12626,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-UTD",
           "reference_display": "UpToDate",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 23,
+          "source_row": "23",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -12638,7 +12643,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 23,
+          "source_row": "23",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -12655,7 +12660,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 23,
+          "source_row": "23",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -12672,7 +12677,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 23,
+          "source_row": "23",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -12689,7 +12694,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 23,
+          "source_row": "23",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -12709,7 +12714,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 23,
+          "source_row": "23",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -12727,7 +12732,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 23,
+          "source_row": "23",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -12742,7 +12747,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Daptomycin",
           "source_id": "SRC-PKPD",
-          "source_row": 20,
+          "source_row": "20",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -12756,7 +12761,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Daptomycin",
           "source_id": "SRC-PKPD",
-          "source_row": 20,
+          "source_row": "20",
           "status": "no_data",
           "review_status": "No source value",
           "publication_status": "Publish"
@@ -12770,7 +12775,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Daptomycin",
           "source_id": "SRC-PKPD",
-          "source_row": 20,
+          "source_row": "20",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -12784,7 +12789,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Daptomycin",
           "source_id": "SRC-PKPD",
-          "source_row": 20,
+          "source_row": "20",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -12798,7 +12803,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Daptomycin",
           "source_id": "SRC-PKPD",
-          "source_row": 20,
+          "source_row": "20",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -12812,7 +12817,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Daptomycin",
           "source_id": "SRC-PKPD",
-          "source_row": 20,
+          "source_row": "20",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -12874,7 +12879,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "Lexicomp",
           "source_id": "SRC-RRT-HD",
-          "source_row": 11,
+          "source_row": "11",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -12888,7 +12893,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "1. 熱病 2. Micromedex 3. Antimicrob Agents Chemother. 2019;63(8):e00583-19.",
           "source_id": "SRC-RRT-CVVH",
-          "source_row": 11,
+          "source_row": "11",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -12902,7 +12907,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "1. 熱病 2.Lexicomp 3. Micromedex 4. Antimicrob Agents Chemother. 2019;63(8):e00583-19. 5. J Antimicrob Chemother. 2014;69(9):2508-16.",
           "source_id": "SRC-RRT-CVVHDF",
-          "source_row": 11,
+          "source_row": "11",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -12916,7 +12921,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "",
           "source_id": "SRC-RRT-PD",
-          "source_row": 11,
+          "source_row": "11",
           "review_status": "No source recommendation",
           "publication_status": "Publish"
         },
@@ -13364,6 +13369,7 @@ window.ANTIMICROBIAL_APP_DATA = {
       "aliases": [
         "ERTI01",
         "Ertapenem",
+        "Ertapenem",
         "ETP"
       ],
       "adultDoses": [
@@ -13373,14 +13379,14 @@ window.ANTIMICROBIAL_APP_DATA = {
           "hospital_drug_id": "ERTI01",
           "indication": "General adult",
           "renal_category": "GFR >30",
-          "crcl_min_ml_min": 30,
+          "crcl_min_ml_min": "30",
           "crcl_max_ml_min": "",
           "modality": "",
           "dose_display": "1 g q24h",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 30,
+          "source_row": "30",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -13391,13 +13397,13 @@ window.ANTIMICROBIAL_APP_DATA = {
           "indication": "General adult",
           "renal_category": "GFR <30",
           "crcl_min_ml_min": "",
-          "crcl_max_ml_min": 30,
+          "crcl_max_ml_min": "30",
           "modality": "",
           "dose_display": "0.5 g q24h",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 30,
+          "source_row": "30",
           "review_status": "Imported",
           "publication_status": "Publish"
         }
@@ -13413,7 +13419,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "1.熱病 2.仿單 3.Lexicomp 4. Micromedex",
           "source_id": "SRC-RRT-HD",
-          "source_row": 12,
+          "source_row": "12",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -13427,7 +13433,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "1. 熱病 2. Lexicomp",
           "source_id": "SRC-RRT-CVVH",
-          "source_row": 12,
+          "source_row": "12",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -13441,7 +13447,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "1. 熱病 2.Lexicomp 3. Micromedex",
           "source_id": "SRC-RRT-CVVHDF",
-          "source_row": 12,
+          "source_row": "12",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -13455,7 +13461,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "",
           "source_id": "SRC-RRT-PD",
-          "source_row": 12,
+          "source_row": "12",
           "review_status": "No source recommendation",
           "publication_status": "Publish"
         },
@@ -13487,7 +13493,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 33,
+          "source_row": "33",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -13503,7 +13509,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 33,
+          "source_row": "33",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -13519,7 +13525,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 33,
+          "source_row": "33",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -13538,7 +13544,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 33,
+          "source_row": "33",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -13555,7 +13561,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 33,
+          "source_row": "33",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -13572,7 +13578,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 33,
+          "source_row": "33",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -13589,7 +13595,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 33,
+          "source_row": "33",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -13606,7 +13612,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 33,
+          "source_row": "33",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -13623,7 +13629,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 33,
+          "source_row": "33",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -13640,7 +13646,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 33,
+          "source_row": "33",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -13657,7 +13663,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 33,
+          "source_row": "33",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -13674,7 +13680,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-HID",
           "reference_display": "Handbook on Injectable Drugs",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 33,
+          "source_row": "33",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -13691,7 +13697,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 33,
+          "source_row": "33",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -13708,7 +13714,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 33,
+          "source_row": "33",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -13725,7 +13731,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 33,
+          "source_row": "33",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -13742,7 +13748,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 33,
+          "source_row": "33",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -13762,7 +13768,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 33,
+          "source_row": "33",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -13780,7 +13786,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 33,
+          "source_row": "33",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -13795,7 +13801,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Ertapenem",
           "source_id": "SRC-PKPD",
-          "source_row": 22,
+          "source_row": "22",
           "status": "no_data",
           "review_status": "No source value",
           "publication_status": "Publish"
@@ -13809,7 +13815,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Ertapenem",
           "source_id": "SRC-PKPD",
-          "source_row": 22,
+          "source_row": "22",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -13823,7 +13829,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Ertapenem",
           "source_id": "SRC-PKPD",
-          "source_row": 22,
+          "source_row": "22",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -13837,7 +13843,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Ertapenem",
           "source_id": "SRC-PKPD",
-          "source_row": 22,
+          "source_row": "22",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -13851,7 +13857,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Ertapenem",
           "source_id": "SRC-PKPD",
-          "source_row": 22,
+          "source_row": "22",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -13865,7 +13871,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Ertapenem",
           "source_id": "SRC-PKPD",
-          "source_row": 22,
+          "source_row": "22",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -13929,14 +13935,14 @@ window.ANTIMICROBIAL_APP_DATA = {
           "hospital_drug_id": "FLOI00",
           "indication": "General adult",
           "renal_category": "GFR >50",
-          "crcl_min_ml_min": 50,
+          "crcl_min_ml_min": "50",
           "crcl_max_ml_min": "",
           "modality": "",
           "dose_display": "1g (max:2g) Q8h",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 18,
+          "source_row": "18",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -13946,14 +13952,14 @@ window.ANTIMICROBIAL_APP_DATA = {
           "hospital_drug_id": "FLOI00",
           "indication": "General adult",
           "renal_category": "GFR 10–50",
-          "crcl_min_ml_min": 10,
-          "crcl_max_ml_min": 50,
+          "crcl_min_ml_min": "10",
+          "crcl_max_ml_min": "50",
           "modality": "",
           "dose_display": "1g Q12h",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 18,
+          "source_row": "18",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -13964,13 +13970,13 @@ window.ANTIMICROBIAL_APP_DATA = {
           "indication": "General adult",
           "renal_category": "GFR <10 / HD",
           "crcl_min_ml_min": "",
-          "crcl_max_ml_min": 10,
+          "crcl_max_ml_min": "10",
           "modality": "HD",
           "dose_display": "1g QD",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 18,
+          "source_row": "18",
           "review_status": "Imported",
           "publication_status": "Publish"
         }
@@ -14060,7 +14066,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 29,
+          "source_row": "29",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -14076,7 +14082,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 29,
+          "source_row": "29",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -14092,7 +14098,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 29,
+          "source_row": "29",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -14111,7 +14117,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 29,
+          "source_row": "29",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -14128,7 +14134,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 29,
+          "source_row": "29",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -14145,7 +14151,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 29,
+          "source_row": "29",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -14162,7 +14168,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 29,
+          "source_row": "29",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -14179,7 +14185,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 29,
+          "source_row": "29",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -14196,7 +14202,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 29,
+          "source_row": "29",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -14213,7 +14219,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 29,
+          "source_row": "29",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -14230,7 +14236,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 29,
+          "source_row": "29",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -14247,7 +14253,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 29,
+          "source_row": "29",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -14264,7 +14270,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 29,
+          "source_row": "29",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -14281,7 +14287,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 29,
+          "source_row": "29",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -14298,7 +14304,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 29,
+          "source_row": "29",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -14315,7 +14321,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 29,
+          "source_row": "29",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -14335,7 +14341,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 29,
+          "source_row": "29",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -14353,7 +14359,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 29,
+          "source_row": "29",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -14502,14 +14508,14 @@ window.ANTIMICROBIAL_APP_DATA = {
           "hospital_drug_id": "DIFI00",
           "indication": "UTI",
           "renal_category": "GFR >50",
-          "crcl_min_ml_min": 50,
+          "crcl_min_ml_min": "50",
           "crcl_max_ml_min": "",
           "modality": "",
           "dose_display": "200mg QD",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 46,
+          "source_row": "46",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -14519,14 +14525,14 @@ window.ANTIMICROBIAL_APP_DATA = {
           "hospital_drug_id": "DIFI00",
           "indication": "UTI",
           "renal_category": "GFR 10–50",
-          "crcl_min_ml_min": 10,
-          "crcl_max_ml_min": 50,
+          "crcl_min_ml_min": "10",
+          "crcl_max_ml_min": "50",
           "modality": "",
           "dose_display": "100mg QD",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 46,
+          "source_row": "46",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -14537,13 +14543,13 @@ window.ANTIMICROBIAL_APP_DATA = {
           "indication": "UTI",
           "renal_category": "GFR <10 / HD",
           "crcl_min_ml_min": "",
-          "crcl_max_ml_min": 10,
+          "crcl_max_ml_min": "10",
           "modality": "HD",
           "dose_display": "100mg QD",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 46,
+          "source_row": "46",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -14553,14 +14559,14 @@ window.ANTIMICROBIAL_APP_DATA = {
           "hospital_drug_id": "DIFI00",
           "indication": "Bacteremia",
           "renal_category": "GFR >50",
-          "crcl_min_ml_min": 50,
+          "crcl_min_ml_min": "50",
           "crcl_max_ml_min": "",
           "modality": "",
           "dose_display": "400mg QD",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 47,
+          "source_row": "47",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -14570,14 +14576,14 @@ window.ANTIMICROBIAL_APP_DATA = {
           "hospital_drug_id": "DIFI00",
           "indication": "Bacteremia",
           "renal_category": "GFR 10–50",
-          "crcl_min_ml_min": 10,
-          "crcl_max_ml_min": 50,
+          "crcl_min_ml_min": "10",
+          "crcl_max_ml_min": "50",
           "modality": "",
           "dose_display": "200mg QD",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 47,
+          "source_row": "47",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -14588,13 +14594,13 @@ window.ANTIMICROBIAL_APP_DATA = {
           "indication": "Bacteremia",
           "renal_category": "GFR <10 / HD",
           "crcl_min_ml_min": "",
-          "crcl_max_ml_min": 10,
+          "crcl_max_ml_min": "10",
           "modality": "HD",
           "dose_display": "200mg QD",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 47,
+          "source_row": "47",
           "review_status": "Imported",
           "publication_status": "Publish"
         }
@@ -14610,7 +14616,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "1. 熱病 2.仿單 3. Lexicomp",
           "source_id": "SRC-RRT-HD",
-          "source_row": 26,
+          "source_row": "26",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -14624,7 +14630,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "Lexicomp",
           "source_id": "SRC-RRT-CVVH",
-          "source_row": 26,
+          "source_row": "26",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -14638,7 +14644,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "Lexicomp",
           "source_id": "SRC-RRT-CVVHDF",
-          "source_row": 26,
+          "source_row": "26",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -14652,7 +14658,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "",
           "source_id": "SRC-RRT-PD",
-          "source_row": 26,
+          "source_row": "26",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -14684,7 +14690,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 26,
+          "source_row": "26",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -14700,7 +14706,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 26,
+          "source_row": "26",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -14716,7 +14722,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 26,
+          "source_row": "26",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -14735,7 +14741,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 26,
+          "source_row": "26",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -14752,7 +14758,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 26,
+          "source_row": "26",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -14769,7 +14775,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 26,
+          "source_row": "26",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -14786,7 +14792,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 26,
+          "source_row": "26",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -14803,7 +14809,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 26,
+          "source_row": "26",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -14820,7 +14826,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 26,
+          "source_row": "26",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -14837,7 +14843,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 26,
+          "source_row": "26",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -14854,7 +14860,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 26,
+          "source_row": "26",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -14871,7 +14877,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 26,
+          "source_row": "26",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -14888,7 +14894,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 26,
+          "source_row": "26",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -14905,7 +14911,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 26,
+          "source_row": "26",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -14922,7 +14928,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-HID",
           "reference_display": "Handbook on Injectable Drugs",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 26,
+          "source_row": "26",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -14939,7 +14945,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 26,
+          "source_row": "26",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -14959,7 +14965,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 26,
+          "source_row": "26",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -14977,7 +14983,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 26,
+          "source_row": "26",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -14992,7 +14998,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Fluconazole",
           "source_id": "SRC-PKPD",
-          "source_row": 37,
+          "source_row": "37",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -15006,7 +15012,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Fluconazole",
           "source_id": "SRC-PKPD",
-          "source_row": 37,
+          "source_row": "37",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -15020,7 +15026,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Fluconazole",
           "source_id": "SRC-PKPD",
-          "source_row": 37,
+          "source_row": "37",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -15034,7 +15040,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Fluconazole",
           "source_id": "SRC-PKPD",
-          "source_row": 37,
+          "source_row": "37",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -15048,7 +15054,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Fluconazole",
           "source_id": "SRC-PKPD",
-          "source_row": 37,
+          "source_row": "37",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -15062,7 +15068,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Fluconazole",
           "source_id": "SRC-PKPD",
-          "source_row": 37,
+          "source_row": "37",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -15102,14 +15108,14 @@ window.ANTIMICROBIAL_APP_DATA = {
           "hospital_drug_id": "FOSI08",
           "indication": "UTI",
           "renal_category": "GFR >50",
-          "crcl_min_ml_min": 50,
+          "crcl_min_ml_min": "50",
           "crcl_max_ml_min": "",
           "modality": "",
           "dose_display": "2 g q8h",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 40,
+          "source_row": "40",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -15119,14 +15125,14 @@ window.ANTIMICROBIAL_APP_DATA = {
           "hospital_drug_id": "FOSI08",
           "indication": "UTI",
           "renal_category": "GFR 10–50",
-          "crcl_min_ml_min": 10,
-          "crcl_max_ml_min": 50,
+          "crcl_min_ml_min": "10",
+          "crcl_max_ml_min": "50",
           "modality": "",
           "dose_display": "2 g q12h",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 40,
+          "source_row": "40",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -15137,13 +15143,13 @@ window.ANTIMICROBIAL_APP_DATA = {
           "indication": "UTI",
           "renal_category": "GFR <10 / HD",
           "crcl_min_ml_min": "",
-          "crcl_max_ml_min": 10,
+          "crcl_max_ml_min": "10",
           "modality": "HD",
           "dose_display": "<10: 2 g q24h; HD: 2 g q48h after HD",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 40,
+          "source_row": "40",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -15153,14 +15159,14 @@ window.ANTIMICROBIAL_APP_DATA = {
           "hospital_drug_id": "FOSI08",
           "indication": "Bacteremia / meningitis",
           "renal_category": "GFR >50",
-          "crcl_min_ml_min": 50,
+          "crcl_min_ml_min": "50",
           "crcl_max_ml_min": "",
           "modality": "",
           "dose_display": "4 g q8h (max 8 g)",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 41,
+          "source_row": "41",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -15170,14 +15176,14 @@ window.ANTIMICROBIAL_APP_DATA = {
           "hospital_drug_id": "FOSI08",
           "indication": "Bacteremia / meningitis",
           "renal_category": "GFR 10–50",
-          "crcl_min_ml_min": 10,
-          "crcl_max_ml_min": 50,
+          "crcl_min_ml_min": "10",
+          "crcl_max_ml_min": "50",
           "modality": "",
           "dose_display": "4 g q12h",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 41,
+          "source_row": "41",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -15188,13 +15194,13 @@ window.ANTIMICROBIAL_APP_DATA = {
           "indication": "Bacteremia / meningitis",
           "renal_category": "GFR <10 / HD",
           "crcl_min_ml_min": "",
-          "crcl_max_ml_min": 10,
+          "crcl_max_ml_min": "10",
           "modality": "HD",
           "dose_display": "<10: 2 g q12h; HD: 2 g q48h after HD",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 41,
+          "source_row": "41",
           "review_status": "Imported",
           "publication_status": "Publish"
         }
@@ -15284,7 +15290,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 46,
+          "source_row": "46",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -15300,7 +15306,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 46,
+          "source_row": "46",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -15316,7 +15322,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 46,
+          "source_row": "46",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -15335,7 +15341,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 46,
+          "source_row": "46",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -15352,7 +15358,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 46,
+          "source_row": "46",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -15369,7 +15375,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 46,
+          "source_row": "46",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -15386,7 +15392,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 46,
+          "source_row": "46",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -15403,7 +15409,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 46,
+          "source_row": "46",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -15420,7 +15426,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 46,
+          "source_row": "46",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -15437,7 +15443,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 46,
+          "source_row": "46",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -15454,7 +15460,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 46,
+          "source_row": "46",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -15471,7 +15477,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 46,
+          "source_row": "46",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -15488,7 +15494,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 46,
+          "source_row": "46",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -15505,7 +15511,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 46,
+          "source_row": "46",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -15522,7 +15528,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 46,
+          "source_row": "46",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -15539,7 +15545,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 46,
+          "source_row": "46",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -15559,7 +15565,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 46,
+          "source_row": "46",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -15577,7 +15583,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 46,
+          "source_row": "46",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -15724,7 +15730,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "Renal excretion of unchanged drug by glomerular filtration and active tubular secretion is the major route of elimination of ganciclovir. In patients with normal renal function, 89.6 ± 5.0% of IV administered ganciclovir was recovered unmetabolised in the urine.",
           "reference_text": "1. 熱病 2.仿單 3. Lexicomp 4. Micromedex",
           "source_id": "SRC-RRT-HD",
-          "source_row": 35,
+          "source_row": "35",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -15738,7 +15744,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "",
           "source_id": "SRC-RRT-CVVH",
-          "source_row": 35,
+          "source_row": "35",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -15752,7 +15758,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "Reconstitution \nReconstitute 1 vial (500 mg) with 10 mL water for injection (50 mg/mL), then transfer dose to 100 mL sodium chloride 0.9%.",
           "reference_text": "Micromedex",
           "source_id": "SRC-RRT-CVVHDF",
-          "source_row": 35,
+          "source_row": "35",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -15766,7 +15772,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "",
           "source_id": "SRC-RRT-PD",
-          "source_row": 35,
+          "source_row": "35",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -15798,7 +15804,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 25,
+          "source_row": "25",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -15814,7 +15820,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 25,
+          "source_row": "25",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -15830,7 +15836,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 25,
+          "source_row": "25",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -15849,7 +15855,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 25,
+          "source_row": "25",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -15866,7 +15872,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 25,
+          "source_row": "25",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -15883,7 +15889,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 25,
+          "source_row": "25",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -15900,7 +15906,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 25,
+          "source_row": "25",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -15917,7 +15923,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 25,
+          "source_row": "25",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -15934,7 +15940,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 25,
+          "source_row": "25",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -15951,7 +15957,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 25,
+          "source_row": "25",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -15968,7 +15974,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 25,
+          "source_row": "25",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -15985,7 +15991,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 25,
+          "source_row": "25",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -16002,7 +16008,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 25,
+          "source_row": "25",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -16019,7 +16025,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 25,
+          "source_row": "25",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -16036,7 +16042,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 25,
+          "source_row": "25",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -16053,7 +16059,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 25,
+          "source_row": "25",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -16073,7 +16079,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 25,
+          "source_row": "25",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -16091,7 +16097,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 25,
+          "source_row": "25",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -16216,14 +16222,14 @@ window.ANTIMICROBIAL_APP_DATA = {
           "hospital_drug_id": "GM-I30",
           "indication": "General adult",
           "renal_category": "GFR >50",
-          "crcl_min_ml_min": 50,
+          "crcl_min_ml_min": "50",
           "crcl_max_ml_min": "",
           "modality": "",
           "dose_display": "5.1-7mg/kg QD",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 6,
+          "source_row": "6",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -16233,14 +16239,14 @@ window.ANTIMICROBIAL_APP_DATA = {
           "hospital_drug_id": "GM-I30",
           "indication": "General adult",
           "renal_category": "GFR 10–50",
-          "crcl_min_ml_min": 10,
-          "crcl_max_ml_min": 50,
+          "crcl_min_ml_min": "10",
+          "crcl_max_ml_min": "50",
           "modality": "",
           "dose_display": "1.7-2mg/kg q12-24h",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 6,
+          "source_row": "6",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -16251,13 +16257,13 @@ window.ANTIMICROBIAL_APP_DATA = {
           "indication": "General adult",
           "renal_category": "GFR <10 / HD",
           "crcl_min_ml_min": "",
-          "crcl_max_ml_min": 10,
+          "crcl_max_ml_min": "10",
           "modality": "HD",
           "dose_display": "1.7-2mg/kg q48h (H/D); 1.7-2mg/kg q48h (CVVH)",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 6,
+          "source_row": "6",
           "review_status": "Imported",
           "publication_status": "Publish"
         }
@@ -16329,7 +16335,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "",
           "source_id": "SRC-RRT-ECMO",
-          "source_row": 9,
+          "source_row": "9",
           "review_status": "Imported",
           "publication_status": "Publish"
         }
@@ -16347,7 +16353,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 31,
+          "source_row": "31",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -16363,7 +16369,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 31,
+          "source_row": "31",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -16379,7 +16385,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 31,
+          "source_row": "31",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -16395,7 +16401,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 31,
+          "source_row": "31",
           "review_status": "Imported continuation note",
           "publication_status": "Publish"
         }
@@ -16414,7 +16420,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 31,
+          "source_row": "31",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -16431,7 +16437,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 31,
+          "source_row": "31",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -16448,7 +16454,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 31,
+          "source_row": "31",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -16465,7 +16471,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 31,
+          "source_row": "31",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -16482,7 +16488,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 31,
+          "source_row": "31",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -16499,7 +16505,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 31,
+          "source_row": "31",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -16516,7 +16522,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 31,
+          "source_row": "31",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -16533,7 +16539,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 31,
+          "source_row": "31",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -16550,7 +16556,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 31,
+          "source_row": "31",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -16567,7 +16573,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 31,
+          "source_row": "31",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -16584,7 +16590,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 31,
+          "source_row": "31",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -16601,7 +16607,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 31,
+          "source_row": "31",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -16618,7 +16624,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 31,
+          "source_row": "31",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -16638,7 +16644,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 31,
+          "source_row": "31",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -16656,7 +16662,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 31,
+          "source_row": "31",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -16671,7 +16677,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Gentamicin",
           "source_id": "SRC-PKPD",
-          "source_row": 23,
+          "source_row": "23",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -16685,7 +16691,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Gentamicin",
           "source_id": "SRC-PKPD",
-          "source_row": 23,
+          "source_row": "23",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -16699,7 +16705,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Gentamicin",
           "source_id": "SRC-PKPD",
-          "source_row": 23,
+          "source_row": "23",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -16713,7 +16719,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Gentamicin",
           "source_id": "SRC-PKPD",
-          "source_row": 23,
+          "source_row": "23",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -16727,7 +16733,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Gentamicin",
           "source_id": "SRC-PKPD",
-          "source_row": 23,
+          "source_row": "23",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -16741,7 +16747,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Gentamicin",
           "source_id": "SRC-PKPD",
-          "source_row": 23,
+          "source_row": "23",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -16805,14 +16811,14 @@ window.ANTIMICROBIAL_APP_DATA = {
           "hospital_drug_id": "IMII04",
           "indication": "General adult",
           "renal_category": "GFR >60",
-          "crcl_min_ml_min": 60,
+          "crcl_min_ml_min": "60",
           "crcl_max_ml_min": "",
           "modality": "",
           "dose_display": "500 mg q6h",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 31,
+          "source_row": "31",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -16822,14 +16828,14 @@ window.ANTIMICROBIAL_APP_DATA = {
           "hospital_drug_id": "IMII04",
           "indication": "General adult",
           "renal_category": "GFR 30–60",
-          "crcl_min_ml_min": 30,
-          "crcl_max_ml_min": 60,
+          "crcl_min_ml_min": "30",
+          "crcl_max_ml_min": "60",
           "modality": "",
           "dose_display": "500 mg q8h",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 31,
+          "source_row": "31",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -16840,13 +16846,13 @@ window.ANTIMICROBIAL_APP_DATA = {
           "indication": "General adult",
           "renal_category": "GFR <30",
           "crcl_min_ml_min": "",
-          "crcl_max_ml_min": 30,
+          "crcl_max_ml_min": "30",
           "modality": "",
           "dose_display": "500 mg q12h",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 31,
+          "source_row": "31",
           "review_status": "Imported",
           "publication_status": "Publish"
         }
@@ -16862,7 +16868,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "1.熱病 2. Lexicomp",
           "source_id": "SRC-RRT-HD",
-          "source_row": 14,
+          "source_row": "14",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -16876,7 +16882,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "1. 熱病 2. Lexicomp 3. Micromedex",
           "source_id": "SRC-RRT-CVVH",
-          "source_row": 14,
+          "source_row": "14",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -16890,7 +16896,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "Lexicomp",
           "source_id": "SRC-RRT-CVVHDF",
-          "source_row": 14,
+          "source_row": "14",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -16904,7 +16910,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "",
           "source_id": "SRC-RRT-PD",
-          "source_row": 14,
+          "source_row": "14",
           "review_status": "No source recommendation",
           "publication_status": "Publish"
         },
@@ -17244,7 +17250,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Imipenem component only",
           "source_drug_name": "Imipenem",
           "source_id": "SRC-PKPD",
-          "source_row": 24,
+          "source_row": "24",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -17258,7 +17264,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Imipenem component only",
           "source_drug_name": "Imipenem",
           "source_id": "SRC-PKPD",
-          "source_row": 24,
+          "source_row": "24",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -17272,7 +17278,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Imipenem component only",
           "source_drug_name": "Imipenem",
           "source_id": "SRC-PKPD",
-          "source_row": 24,
+          "source_row": "24",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -17286,7 +17292,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Imipenem component only",
           "source_drug_name": "Imipenem",
           "source_id": "SRC-PKPD",
-          "source_row": 24,
+          "source_row": "24",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -17300,7 +17306,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Imipenem component only",
           "source_drug_name": "Imipenem",
           "source_id": "SRC-PKPD",
-          "source_row": 24,
+          "source_row": "24",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -17314,7 +17320,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Imipenem component only",
           "source_drug_name": "Imipenem",
           "source_id": "SRC-PKPD",
-          "source_row": 24,
+          "source_row": "24",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -17380,6 +17386,7 @@ window.ANTIMICROBIAL_APP_DATA = {
         "Cravit",
         "Levofloxacin",
         "LEVI21",
+        "Levofloxacin",
         "LVX"
       ],
       "adultDoses": [
@@ -17389,14 +17396,14 @@ window.ANTIMICROBIAL_APP_DATA = {
           "hospital_drug_id": "LEVI02",
           "indication": "CAP / simple UTI",
           "renal_category": "GFR >50",
-          "crcl_min_ml_min": 50,
+          "crcl_min_ml_min": "50",
           "crcl_max_ml_min": "",
           "modality": "",
           "dose_display": "500mg QD",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 26,
+          "source_row": "26",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -17406,14 +17413,14 @@ window.ANTIMICROBIAL_APP_DATA = {
           "hospital_drug_id": "LEVI02",
           "indication": "CAP / simple UTI",
           "renal_category": "GFR 10–50",
-          "crcl_min_ml_min": 10,
-          "crcl_max_ml_min": 50,
+          "crcl_min_ml_min": "10",
+          "crcl_max_ml_min": "50",
           "modality": "",
           "dose_display": "750mg QOD",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 26,
+          "source_row": "26",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -17424,13 +17431,13 @@ window.ANTIMICROBIAL_APP_DATA = {
           "indication": "CAP / simple UTI",
           "renal_category": "GFR <10 / HD",
           "crcl_min_ml_min": "",
-          "crcl_max_ml_min": 10,
+          "crcl_max_ml_min": "10",
           "modality": "HD",
           "dose_display": "500mg QOD",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 26,
+          "source_row": "26",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -17440,14 +17447,14 @@ window.ANTIMICROBIAL_APP_DATA = {
           "hospital_drug_id": "LEVI21",
           "indication": "HAP / complicated UTI",
           "renal_category": "GFR >50",
-          "crcl_min_ml_min": 50,
+          "crcl_min_ml_min": "50",
           "crcl_max_ml_min": "",
           "modality": "",
           "dose_display": "750mg QD",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 27,
+          "source_row": "27",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -17457,14 +17464,14 @@ window.ANTIMICROBIAL_APP_DATA = {
           "hospital_drug_id": "LEVI21",
           "indication": "HAP / complicated UTI",
           "renal_category": "GFR 10–50",
-          "crcl_min_ml_min": 10,
-          "crcl_max_ml_min": 50,
+          "crcl_min_ml_min": "10",
+          "crcl_max_ml_min": "50",
           "modality": "",
           "dose_display": "750mg QOD",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 27,
+          "source_row": "27",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -17475,13 +17482,13 @@ window.ANTIMICROBIAL_APP_DATA = {
           "indication": "HAP / complicated UTI",
           "renal_category": "GFR <10 / HD",
           "crcl_min_ml_min": "",
-          "crcl_max_ml_min": 10,
+          "crcl_max_ml_min": "10",
           "modality": "HD",
           "dose_display": "500mg QOD",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 27,
+          "source_row": "27",
           "review_status": "Imported",
           "publication_status": "Publish"
         }
@@ -17497,7 +17504,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "1. 熱病 2. Lexicomp 3. Micromedex",
           "source_id": "SRC-RRT-HD",
-          "source_row": 16,
+          "source_row": "16",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -17511,7 +17518,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "1. 熱病 2. Lexicmop 3. Malone et al. Antimicrobial agents and chemotherapy. 2001. 4. 2017 台灣重症病人之 CRRT 處置操作手冊",
           "source_id": "SRC-RRT-CVVH",
-          "source_row": 16,
+          "source_row": "16",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -17525,7 +17532,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "1. 熱病 2. Lexicmop 3. Malone et al. Antimicrobial agents and chemotherapy. 2001. 4. 2017 台灣重症病人之 CRRT 處置操作手冊",
           "source_id": "SRC-RRT-CVVHDF",
-          "source_row": 16,
+          "source_row": "16",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -17539,7 +17546,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "",
           "source_id": "SRC-RRT-PD",
-          "source_row": 16,
+          "source_row": "16",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -17553,7 +17560,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "",
           "source_id": "SRC-RRT-ECMO",
-          "source_row": 8,
+          "source_row": "8",
           "review_status": "Imported",
           "publication_status": "Publish"
         }
@@ -17571,7 +17578,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 22,
+          "source_row": "22",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -17587,7 +17594,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 22,
+          "source_row": "22",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -17603,7 +17610,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 22,
+          "source_row": "22",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -17619,7 +17626,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 35,
+          "source_row": "35",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -17635,7 +17642,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 35,
+          "source_row": "35",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -17651,7 +17658,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 35,
+          "source_row": "35",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -17670,7 +17677,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 22,
+          "source_row": "22",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -17687,7 +17694,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 22,
+          "source_row": "22",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -17704,7 +17711,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 22,
+          "source_row": "22",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -17721,7 +17728,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 22,
+          "source_row": "22",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -17738,7 +17745,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 22,
+          "source_row": "22",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -17755,7 +17762,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 22,
+          "source_row": "22",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -17772,7 +17779,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 22,
+          "source_row": "22",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -17789,7 +17796,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 22,
+          "source_row": "22",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -17806,7 +17813,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 22,
+          "source_row": "22",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -17823,7 +17830,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 22,
+          "source_row": "22",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -17840,7 +17847,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 22,
+          "source_row": "22",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -17857,7 +17864,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 22,
+          "source_row": "22",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -17874,7 +17881,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 22,
+          "source_row": "22",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -17891,7 +17898,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 35,
+          "source_row": "35",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -17908,7 +17915,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 35,
+          "source_row": "35",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -17925,7 +17932,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 35,
+          "source_row": "35",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -17942,7 +17949,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 35,
+          "source_row": "35",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -17959,7 +17966,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 35,
+          "source_row": "35",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -17976,7 +17983,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 35,
+          "source_row": "35",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -17993,7 +18000,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 35,
+          "source_row": "35",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -18010,7 +18017,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 35,
+          "source_row": "35",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -18027,7 +18034,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 35,
+          "source_row": "35",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -18044,7 +18051,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 35,
+          "source_row": "35",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -18061,7 +18068,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 35,
+          "source_row": "35",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -18078,7 +18085,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 35,
+          "source_row": "35",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -18095,7 +18102,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 35,
+          "source_row": "35",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -18115,7 +18122,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 22,
+          "source_row": "22",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -18133,7 +18140,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 22,
+          "source_row": "22",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -18151,7 +18158,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 35,
+          "source_row": "35",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -18169,7 +18176,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 35,
+          "source_row": "35",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -18184,7 +18191,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Levofloxacin",
           "source_id": "SRC-PKPD",
-          "source_row": 25,
+          "source_row": "25",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -18198,7 +18205,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Levofloxacin",
           "source_id": "SRC-PKPD",
-          "source_row": 25,
+          "source_row": "25",
           "status": "no_data",
           "review_status": "No source value",
           "publication_status": "Publish"
@@ -18212,7 +18219,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Levofloxacin",
           "source_id": "SRC-PKPD",
-          "source_row": 25,
+          "source_row": "25",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -18226,7 +18233,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Levofloxacin",
           "source_id": "SRC-PKPD",
-          "source_row": 25,
+          "source_row": "25",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -18240,7 +18247,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Levofloxacin",
           "source_id": "SRC-PKPD",
-          "source_row": 25,
+          "source_row": "25",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -18254,7 +18261,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Levofloxacin",
           "source_id": "SRC-PKPD",
-          "source_row": 25,
+          "source_row": "25",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -18325,7 +18332,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 37,
+          "source_row": "37",
           "review_status": "Imported",
           "publication_status": "Publish"
         }
@@ -18341,7 +18348,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "30% of dose is removed by a 3-hour haemodialysis session.\nIn patients with GFR<10 mL/min, if platelet count drops on a dose of 600 mg twice daily, consider reducing dose to 600 mg once daily.",
           "reference_text": "",
           "source_id": "SRC-RRT-HD",
-          "source_row": 24,
+          "source_row": "24",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -18355,7 +18362,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "",
           "source_id": "SRC-RRT-CVVH",
-          "source_row": 24,
+          "source_row": "24",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -18369,7 +18376,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "",
           "source_id": "SRC-RRT-CVVHDF",
-          "source_row": 24,
+          "source_row": "24",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -18383,7 +18390,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "",
           "source_id": "SRC-RRT-PD",
-          "source_row": 24,
+          "source_row": "24",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -18415,7 +18422,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 52,
+          "source_row": "52",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -18431,7 +18438,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 52,
+          "source_row": "52",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -18447,7 +18454,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 52,
+          "source_row": "52",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -18466,7 +18473,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 52,
+          "source_row": "52",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -18483,7 +18490,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 52,
+          "source_row": "52",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -18500,7 +18507,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 52,
+          "source_row": "52",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -18517,7 +18524,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 52,
+          "source_row": "52",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -18534,7 +18541,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 52,
+          "source_row": "52",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -18551,7 +18558,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 52,
+          "source_row": "52",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -18568,7 +18575,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 52,
+          "source_row": "52",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -18585,7 +18592,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 52,
+          "source_row": "52",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -18602,7 +18609,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 52,
+          "source_row": "52",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -18619,7 +18626,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 52,
+          "source_row": "52",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -18636,7 +18643,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 52,
+          "source_row": "52",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -18653,7 +18660,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 52,
+          "source_row": "52",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -18670,7 +18677,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 52,
+          "source_row": "52",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -18690,7 +18697,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 52,
+          "source_row": "52",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -18708,7 +18715,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 52,
+          "source_row": "52",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -18723,7 +18730,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Linezolid",
           "source_id": "SRC-PKPD",
-          "source_row": 26,
+          "source_row": "26",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -18737,7 +18744,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Linezolid",
           "source_id": "SRC-PKPD",
-          "source_row": 26,
+          "source_row": "26",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -18751,7 +18758,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Linezolid",
           "source_id": "SRC-PKPD",
-          "source_row": 26,
+          "source_row": "26",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -18765,7 +18772,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Linezolid",
           "source_id": "SRC-PKPD",
-          "source_row": 26,
+          "source_row": "26",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -18779,7 +18786,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Linezolid",
           "source_id": "SRC-PKPD",
-          "source_row": 26,
+          "source_row": "26",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -18793,7 +18800,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Linezolid",
           "source_id": "SRC-PKPD",
-          "source_row": 26,
+          "source_row": "26",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -18844,14 +18851,14 @@ window.ANTIMICROBIAL_APP_DATA = {
           "hospital_drug_id": "",
           "indication": "General adult",
           "renal_category": "GFR >50",
-          "crcl_min_ml_min": 50,
+          "crcl_min_ml_min": "50",
           "crcl_max_ml_min": "",
           "modality": "",
           "dose_display": "1 g q8h",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 32,
+          "source_row": "32",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -18861,14 +18868,14 @@ window.ANTIMICROBIAL_APP_DATA = {
           "hospital_drug_id": "",
           "indication": "General adult",
           "renal_category": "CrCl 26–50",
-          "crcl_min_ml_min": 26,
-          "crcl_max_ml_min": 50,
+          "crcl_min_ml_min": "26",
+          "crcl_max_ml_min": "50",
           "modality": "",
           "dose_display": "1 g q12h",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 32,
+          "source_row": "32",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -18878,14 +18885,14 @@ window.ANTIMICROBIAL_APP_DATA = {
           "hospital_drug_id": "",
           "indication": "General adult",
           "renal_category": "CrCl 10–25",
-          "crcl_min_ml_min": 10,
-          "crcl_max_ml_min": 25,
+          "crcl_min_ml_min": "10",
+          "crcl_max_ml_min": "25",
           "modality": "",
           "dose_display": "0.5 g q12h",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 32,
+          "source_row": "32",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -18896,13 +18903,13 @@ window.ANTIMICROBIAL_APP_DATA = {
           "indication": "General adult",
           "renal_category": "GFR <10 / HD",
           "crcl_min_ml_min": "",
-          "crcl_max_ml_min": 10,
+          "crcl_max_ml_min": "10",
           "modality": "HD",
           "dose_display": "0.5 g q24h; HD後給",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 32,
+          "source_row": "32",
           "review_status": "Imported",
           "publication_status": "Publish"
         }
@@ -18918,7 +18925,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "50% is removed by HD",
           "reference_text": "Lexicomp",
           "source_id": "SRC-RRT-HD",
-          "source_row": 13,
+          "source_row": "13",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -18932,7 +18939,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "50% is removed by CVVHF",
           "reference_text": "Micromedex",
           "source_id": "SRC-RRT-CVVH",
-          "source_row": 13,
+          "source_row": "13",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -18946,7 +18953,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "13-53 % is removed by CVVHDF",
           "reference_text": "Micromedex",
           "source_id": "SRC-RRT-CVVHDF",
-          "source_row": 13,
+          "source_row": "13",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -18960,7 +18967,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "",
           "source_id": "SRC-RRT-PD",
-          "source_row": 13,
+          "source_row": "13",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -18974,7 +18981,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "",
           "source_id": "SRC-RRT-ECMO",
-          "source_row": 6,
+          "source_row": "6",
           "review_status": "Imported",
           "publication_status": "Publish"
         }
@@ -18992,7 +18999,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 36,
+          "source_row": "36",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -19008,7 +19015,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 36,
+          "source_row": "36",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -19024,7 +19031,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 36,
+          "source_row": "36",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -19091,7 +19098,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 36,
+          "source_row": "36",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -19108,7 +19115,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 36,
+          "source_row": "36",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -19125,7 +19132,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 36,
+          "source_row": "36",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -19142,7 +19149,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 36,
+          "source_row": "36",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -19159,7 +19166,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 36,
+          "source_row": "36",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -19176,7 +19183,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 36,
+          "source_row": "36",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -19193,7 +19200,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 36,
+          "source_row": "36",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -19210,7 +19217,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 36,
+          "source_row": "36",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -19227,7 +19234,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 36,
+          "source_row": "36",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -19244,7 +19251,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 36,
+          "source_row": "36",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -19261,7 +19268,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 36,
+          "source_row": "36",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -19278,7 +19285,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 36,
+          "source_row": "36",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -19295,7 +19302,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 36,
+          "source_row": "36",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -19536,7 +19543,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 36,
+          "source_row": "36",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -19554,7 +19561,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 36,
+          "source_row": "36",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -19605,7 +19612,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Meropenem",
           "source_id": "SRC-PKPD",
-          "source_row": 27,
+          "source_row": "27",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -19619,7 +19626,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Meropenem",
           "source_id": "SRC-PKPD",
-          "source_row": 27,
+          "source_row": "27",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -19633,7 +19640,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Meropenem",
           "source_id": "SRC-PKPD",
-          "source_row": 27,
+          "source_row": "27",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -19647,7 +19654,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Meropenem",
           "source_id": "SRC-PKPD",
-          "source_row": 27,
+          "source_row": "27",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -19661,7 +19668,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Meropenem",
           "source_id": "SRC-PKPD",
-          "source_row": 27,
+          "source_row": "27",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -19675,7 +19682,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Meropenem",
           "source_id": "SRC-PKPD",
-          "source_row": 27,
+          "source_row": "27",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -19730,7 +19737,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 43,
+          "source_row": "43",
           "review_status": "Imported",
           "publication_status": "Publish"
         }
@@ -19746,7 +19753,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "熱病",
           "source_id": "SRC-RRT-HD",
-          "source_row": 25,
+          "source_row": "25",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -19760,7 +19767,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "",
           "source_id": "SRC-RRT-CVVH",
-          "source_row": 25,
+          "source_row": "25",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -19774,7 +19781,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "",
           "source_id": "SRC-RRT-CVVHDF",
-          "source_row": 25,
+          "source_row": "25",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -19788,7 +19795,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "",
           "source_id": "SRC-RRT-PD",
-          "source_row": 25,
+          "source_row": "25",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -19820,7 +19827,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 39,
+          "source_row": "39",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -19836,7 +19843,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 39,
+          "source_row": "39",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -19852,7 +19859,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 39,
+          "source_row": "39",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -19871,7 +19878,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 39,
+          "source_row": "39",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -19888,7 +19895,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 39,
+          "source_row": "39",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -19905,7 +19912,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 39,
+          "source_row": "39",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -19922,7 +19929,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 39,
+          "source_row": "39",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -19939,7 +19946,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 39,
+          "source_row": "39",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -19956,7 +19963,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 39,
+          "source_row": "39",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -19973,7 +19980,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 39,
+          "source_row": "39",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -19990,7 +19997,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 39,
+          "source_row": "39",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -20007,7 +20014,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-HID",
           "reference_display": "Handbook on Injectable Drugs",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 39,
+          "source_row": "39",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -20024,7 +20031,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 39,
+          "source_row": "39",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -20041,7 +20048,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 39,
+          "source_row": "39",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -20058,7 +20065,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 39,
+          "source_row": "39",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -20075,7 +20082,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 39,
+          "source_row": "39",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -20095,7 +20102,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 39,
+          "source_row": "39",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -20113,7 +20120,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 39,
+          "source_row": "39",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -20128,7 +20135,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Metronidazole",
           "source_id": "SRC-PKPD",
-          "source_row": 28,
+          "source_row": "28",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -20142,7 +20149,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Metronidazole",
           "source_id": "SRC-PKPD",
-          "source_row": 28,
+          "source_row": "28",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -20156,7 +20163,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Metronidazole",
           "source_id": "SRC-PKPD",
-          "source_row": 28,
+          "source_row": "28",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -20170,7 +20177,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Metronidazole",
           "source_id": "SRC-PKPD",
-          "source_row": 28,
+          "source_row": "28",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -20184,7 +20191,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Metronidazole",
           "source_id": "SRC-PKPD",
-          "source_row": 28,
+          "source_row": "28",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -20198,7 +20205,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Metronidazole",
           "source_id": "SRC-PKPD",
-          "source_row": 28,
+          "source_row": "28",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -20261,7 +20268,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 50,
+          "source_row": "50",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -20278,7 +20285,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 50,
+          "source_row": "50",
           "review_status": "Imported",
           "publication_status": "Publish"
         }
@@ -20294,7 +20301,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "",
           "source_id": "SRC-RRT-HD",
-          "source_row": 32,
+          "source_row": "32",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -20308,7 +20315,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "",
           "source_id": "SRC-RRT-CVVH",
-          "source_row": 32,
+          "source_row": "32",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -20322,7 +20329,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "",
           "source_id": "SRC-RRT-CVVHDF",
-          "source_row": 32,
+          "source_row": "32",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -20336,7 +20343,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "",
           "source_id": "SRC-RRT-PD",
-          "source_row": 32,
+          "source_row": "32",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -20676,7 +20683,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Micafungin",
           "source_id": "SRC-PKPD",
-          "source_row": 41,
+          "source_row": "41",
           "status": "no_data",
           "review_status": "No source value",
           "publication_status": "Publish"
@@ -20690,7 +20697,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Micafungin",
           "source_id": "SRC-PKPD",
-          "source_row": 41,
+          "source_row": "41",
           "status": "no_data",
           "review_status": "No source value",
           "publication_status": "Publish"
@@ -20704,7 +20711,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Micafungin",
           "source_id": "SRC-PKPD",
-          "source_row": 41,
+          "source_row": "41",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -20718,7 +20725,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Micafungin",
           "source_id": "SRC-PKPD",
-          "source_row": 41,
+          "source_row": "41",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -20732,7 +20739,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Micafungin",
           "source_id": "SRC-PKPD",
-          "source_row": 41,
+          "source_row": "41",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -20746,7 +20753,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Micafungin",
           "source_id": "SRC-PKPD",
-          "source_row": 41,
+          "source_row": "41",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -20785,14 +20792,14 @@ window.ANTIMICROBIAL_APP_DATA = {
           "hospital_drug_id": "MINI03",
           "indication": "General adult",
           "renal_category": "GFR >50",
-          "crcl_min_ml_min": 50,
+          "crcl_min_ml_min": "50",
           "crcl_max_ml_min": "",
           "modality": "",
           "dose_display": "200mg Loading, then 100mg Q12h (腎功能不用調)",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 44,
+          "source_row": "44",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -20802,14 +20809,14 @@ window.ANTIMICROBIAL_APP_DATA = {
           "hospital_drug_id": "MINI03",
           "indication": "General adult",
           "renal_category": "GFR 10–50",
-          "crcl_min_ml_min": 10,
-          "crcl_max_ml_min": 50,
+          "crcl_min_ml_min": "10",
+          "crcl_max_ml_min": "50",
           "modality": "",
           "dose_display": "N/D",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 44,
+          "source_row": "44",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -20820,13 +20827,13 @@ window.ANTIMICROBIAL_APP_DATA = {
           "indication": "General adult",
           "renal_category": "GFR <10 / HD",
           "crcl_min_ml_min": "",
-          "crcl_max_ml_min": 10,
+          "crcl_max_ml_min": "10",
           "modality": "HD",
           "dose_display": "N/D",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 44,
+          "source_row": "44",
           "review_status": "Imported",
           "publication_status": "Publish"
         }
@@ -21224,7 +21231,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Minocycline",
           "source_id": "SRC-PKPD",
-          "source_row": 29,
+          "source_row": "29",
           "status": "no_data",
           "review_status": "No source value",
           "publication_status": "Publish"
@@ -21238,7 +21245,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Minocycline",
           "source_id": "SRC-PKPD",
-          "source_row": 29,
+          "source_row": "29",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -21252,7 +21259,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Minocycline",
           "source_id": "SRC-PKPD",
-          "source_row": 29,
+          "source_row": "29",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -21266,7 +21273,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Minocycline",
           "source_id": "SRC-PKPD",
-          "source_row": 29,
+          "source_row": "29",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -21280,7 +21287,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Minocycline",
           "source_id": "SRC-PKPD",
-          "source_row": 29,
+          "source_row": "29",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -21294,7 +21301,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Minocycline",
           "source_id": "SRC-PKPD",
-          "source_row": 29,
+          "source_row": "29",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -21340,7 +21347,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 29,
+          "source_row": "29",
           "review_status": "Imported",
           "publication_status": "Publish"
         }
@@ -21356,7 +21363,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "",
           "source_id": "SRC-RRT-HD",
-          "source_row": 17,
+          "source_row": "17",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -21370,7 +21377,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "",
           "source_id": "SRC-RRT-CVVH",
-          "source_row": 17,
+          "source_row": "17",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -21384,7 +21391,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "",
           "source_id": "SRC-RRT-CVVHDF",
-          "source_row": 17,
+          "source_row": "17",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -21398,7 +21405,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "",
           "source_id": "SRC-RRT-PD",
-          "source_row": 17,
+          "source_row": "17",
           "review_status": "No source recommendation",
           "publication_status": "Publish"
         },
@@ -21430,7 +21437,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 9,
+          "source_row": "9",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -21446,7 +21453,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 9,
+          "source_row": "9",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -21462,7 +21469,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 9,
+          "source_row": "9",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -21481,7 +21488,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 9,
+          "source_row": "9",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -21498,7 +21505,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 9,
+          "source_row": "9",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -21515,7 +21522,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 9,
+          "source_row": "9",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -21532,7 +21539,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 9,
+          "source_row": "9",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -21549,7 +21556,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 9,
+          "source_row": "9",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -21566,7 +21573,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 9,
+          "source_row": "9",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -21583,7 +21590,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 9,
+          "source_row": "9",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -21600,7 +21607,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 9,
+          "source_row": "9",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -21617,7 +21624,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 9,
+          "source_row": "9",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -21634,7 +21641,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 9,
+          "source_row": "9",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -21651,7 +21658,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 9,
+          "source_row": "9",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -21668,7 +21675,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 9,
+          "source_row": "9",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -21685,7 +21692,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 9,
+          "source_row": "9",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -21705,7 +21712,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 9,
+          "source_row": "9",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -21723,7 +21730,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 9,
+          "source_row": "9",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -21738,7 +21745,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Moxifloxacin",
           "source_id": "SRC-PKPD",
-          "source_row": 30,
+          "source_row": "30",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -21752,7 +21759,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Moxifloxacin",
           "source_id": "SRC-PKPD",
-          "source_row": 30,
+          "source_row": "30",
           "status": "no_data",
           "review_status": "No source value",
           "publication_status": "Publish"
@@ -21766,7 +21773,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Moxifloxacin",
           "source_id": "SRC-PKPD",
-          "source_row": 30,
+          "source_row": "30",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -21780,7 +21787,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Moxifloxacin",
           "source_id": "SRC-PKPD",
-          "source_row": 30,
+          "source_row": "30",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -21794,7 +21801,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Moxifloxacin",
           "source_id": "SRC-PKPD",
-          "source_row": 30,
+          "source_row": "30",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -21808,7 +21815,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Moxifloxacin",
           "source_id": "SRC-PKPD",
-          "source_row": 30,
+          "source_row": "30",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -21862,6 +21869,7 @@ window.ANTIMICROBIAL_APP_DATA = {
       "aliases": [
         "OXAI11",
         "Oxacillin",
+        "Oxacillin",
         "OXA"
       ],
       "adultDoses": [
@@ -21878,7 +21886,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 7,
+          "source_row": "7",
           "review_status": "Imported",
           "publication_status": "Publish"
         }
@@ -21968,7 +21976,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 37,
+          "source_row": "37",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -21984,7 +21992,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 37,
+          "source_row": "37",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -22000,7 +22008,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 37,
+          "source_row": "37",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -22019,7 +22027,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 37,
+          "source_row": "37",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -22036,7 +22044,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 37,
+          "source_row": "37",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -22053,7 +22061,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 37,
+          "source_row": "37",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -22070,7 +22078,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 37,
+          "source_row": "37",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -22087,7 +22095,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 37,
+          "source_row": "37",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -22104,7 +22112,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 37,
+          "source_row": "37",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -22121,7 +22129,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 37,
+          "source_row": "37",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -22138,7 +22146,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 37,
+          "source_row": "37",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -22155,7 +22163,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-HID",
           "reference_display": "Handbook on Injectable Drugs",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 37,
+          "source_row": "37",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -22172,7 +22180,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 37,
+          "source_row": "37",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -22189,7 +22197,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 37,
+          "source_row": "37",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -22206,7 +22214,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 37,
+          "source_row": "37",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -22223,7 +22231,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-HID",
           "reference_display": "Handbook on Injectable Drugs",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 37,
+          "source_row": "37",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -22243,7 +22251,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 37,
+          "source_row": "37",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -22261,7 +22269,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 37,
+          "source_row": "37",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -22416,7 +22424,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "",
           "source_id": "SRC-RRT-HD",
-          "source_row": 36,
+          "source_row": "36",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -22430,7 +22438,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "Micromedex",
           "source_id": "SRC-RRT-CVVH",
-          "source_row": 36,
+          "source_row": "36",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -22910,14 +22918,14 @@ window.ANTIMICROBIAL_APP_DATA = {
           "hospital_drug_id": "PIPI07",
           "indication": "General adult",
           "renal_category": "GFR >50",
-          "crcl_min_ml_min": 50,
+          "crcl_min_ml_min": "50",
           "crcl_max_ml_min": "",
           "modality": "",
           "dose_display": "4.5g Q8h",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 11,
+          "source_row": "11",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -22927,14 +22935,14 @@ window.ANTIMICROBIAL_APP_DATA = {
           "hospital_drug_id": "PIPI07",
           "indication": "General adult",
           "renal_category": "GFR 10–50",
-          "crcl_min_ml_min": 10,
-          "crcl_max_ml_min": 50,
+          "crcl_min_ml_min": "10",
+          "crcl_max_ml_min": "50",
           "modality": "",
           "dose_display": "2.25g Q6h",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 11,
+          "source_row": "11",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -22945,13 +22953,13 @@ window.ANTIMICROBIAL_APP_DATA = {
           "indication": "General adult",
           "renal_category": "GFR <10 / HD",
           "crcl_min_ml_min": "",
-          "crcl_max_ml_min": 10,
+          "crcl_max_ml_min": "10",
           "modality": "HD",
           "dose_display": "2.25g Q8h",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 11,
+          "source_row": "11",
           "review_status": "Imported",
           "publication_status": "Publish"
         }
@@ -22967,7 +22975,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "Micromedex",
           "source_id": "SRC-RRT-HD",
-          "source_row": 10,
+          "source_row": "10",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -22981,7 +22989,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "Lexicomp",
           "source_id": "SRC-RRT-CVVH",
-          "source_row": 10,
+          "source_row": "10",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -22995,7 +23003,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "Lexicomp",
           "source_id": "SRC-RRT-CVVHDF",
-          "source_row": 10,
+          "source_row": "10",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -23009,7 +23017,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "",
           "source_id": "SRC-RRT-PD",
-          "source_row": 10,
+          "source_row": "10",
           "review_status": "No source recommendation",
           "publication_status": "Publish"
         },
@@ -23023,7 +23031,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "",
           "source_id": "SRC-RRT-ECMO",
-          "source_row": 5,
+          "source_row": "5",
           "review_status": "Imported",
           "publication_status": "Publish"
         }
@@ -23041,7 +23049,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 42,
+          "source_row": "42",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -23057,7 +23065,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 42,
+          "source_row": "42",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -23073,7 +23081,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 42,
+          "source_row": "42",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -23092,7 +23100,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 42,
+          "source_row": "42",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -23109,7 +23117,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 42,
+          "source_row": "42",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -23126,7 +23134,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 42,
+          "source_row": "42",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -23143,7 +23151,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 42,
+          "source_row": "42",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -23160,7 +23168,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 42,
+          "source_row": "42",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -23177,7 +23185,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 42,
+          "source_row": "42",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -23194,7 +23202,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 42,
+          "source_row": "42",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -23211,7 +23219,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 42,
+          "source_row": "42",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -23228,7 +23236,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 42,
+          "source_row": "42",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -23245,7 +23253,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 42,
+          "source_row": "42",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -23262,7 +23270,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 42,
+          "source_row": "42",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -23279,7 +23287,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 42,
+          "source_row": "42",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -23296,7 +23304,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 42,
+          "source_row": "42",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -23316,7 +23324,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 42,
+          "source_row": "42",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -23334,7 +23342,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 42,
+          "source_row": "42",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -23490,7 +23498,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "loading_dose_display": "2.5 mg/kg",
           "special_note": "At least 100 mL NS or D5W per vial per source",
           "source_id": "SRC-DOSE-115",
-          "source_row": 39,
+          "source_row": "39",
           "review_status": "Imported",
           "publication_status": "Publish"
         }
@@ -23580,7 +23588,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 28,
+          "source_row": "28",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -23596,7 +23604,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 28,
+          "source_row": "28",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -23612,7 +23620,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 28,
+          "source_row": "28",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -23631,7 +23639,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 28,
+          "source_row": "28",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -23648,7 +23656,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 28,
+          "source_row": "28",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -23665,7 +23673,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 28,
+          "source_row": "28",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -23682,7 +23690,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 28,
+          "source_row": "28",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -23699,7 +23707,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 28,
+          "source_row": "28",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -23716,7 +23724,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 28,
+          "source_row": "28",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -23733,7 +23741,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 28,
+          "source_row": "28",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -23750,7 +23758,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 28,
+          "source_row": "28",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -23767,7 +23775,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 28,
+          "source_row": "28",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -23784,7 +23792,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 28,
+          "source_row": "28",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -23801,7 +23809,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 28,
+          "source_row": "28",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -23818,7 +23826,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 28,
+          "source_row": "28",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -23835,7 +23843,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 28,
+          "source_row": "28",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -23855,7 +23863,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 28,
+          "source_row": "28",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -23873,7 +23881,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 28,
+          "source_row": "28",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -23888,7 +23896,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Polymyxin B",
           "source_id": "SRC-PKPD",
-          "source_row": 31,
+          "source_row": "31",
           "status": "no_data",
           "review_status": "No source value",
           "publication_status": "Publish"
@@ -23902,7 +23910,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Polymyxin B",
           "source_id": "SRC-PKPD",
-          "source_row": 31,
+          "source_row": "31",
           "status": "no_data",
           "review_status": "No source value",
           "publication_status": "Publish"
@@ -23916,7 +23924,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Polymyxin B",
           "source_id": "SRC-PKPD",
-          "source_row": 31,
+          "source_row": "31",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -23930,7 +23938,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Polymyxin B",
           "source_id": "SRC-PKPD",
-          "source_row": 31,
+          "source_row": "31",
           "status": "no_data",
           "review_status": "No source value",
           "publication_status": "Publish"
@@ -23944,7 +23952,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Polymyxin B",
           "source_id": "SRC-PKPD",
-          "source_row": 31,
+          "source_row": "31",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -23958,7 +23966,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Polymyxin B",
           "source_id": "SRC-PKPD",
-          "source_row": 31,
+          "source_row": "31",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -23986,6 +23994,7 @@ window.ANTIMICROBIAL_APP_DATA = {
       ],
       "aliases": [
         "STRIB0",
+        "Streptomycin",
         "Streptomycin"
       ],
       "adultDoses": [
@@ -24092,7 +24101,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 41,
+          "source_row": "41",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -24108,7 +24117,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 41,
+          "source_row": "41",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -24124,7 +24133,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 41,
+          "source_row": "41",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -24143,7 +24152,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 41,
+          "source_row": "41",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -24160,7 +24169,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 41,
+          "source_row": "41",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -24177,7 +24186,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 41,
+          "source_row": "41",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -24194,7 +24203,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 41,
+          "source_row": "41",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -24211,7 +24220,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 41,
+          "source_row": "41",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -24228,7 +24237,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 41,
+          "source_row": "41",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -24245,7 +24254,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 41,
+          "source_row": "41",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -24262,7 +24271,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 41,
+          "source_row": "41",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -24279,7 +24288,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 41,
+          "source_row": "41",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -24296,7 +24305,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 41,
+          "source_row": "41",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -24313,7 +24322,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 41,
+          "source_row": "41",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -24330,7 +24339,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 41,
+          "source_row": "41",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -24347,7 +24356,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 41,
+          "source_row": "41",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -24367,7 +24376,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 41,
+          "source_row": "41",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -24385,7 +24394,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 41,
+          "source_row": "41",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -24511,14 +24520,14 @@ window.ANTIMICROBIAL_APP_DATA = {
           "hospital_drug_id": "BAKIB0",
           "indication": "Dose based on TMP",
           "renal_category": "GFR >30",
-          "crcl_min_ml_min": 30,
+          "crcl_min_ml_min": "30",
           "crcl_max_ml_min": "",
           "modality": "",
           "dose_display": "TMP 5–20 mg/kg/day divided q6–12h",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 42,
+          "source_row": "42",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -24528,14 +24537,14 @@ window.ANTIMICROBIAL_APP_DATA = {
           "hospital_drug_id": "BAKIB0",
           "indication": "Dose based on TMP",
           "renal_category": "GFR 10–30",
-          "crcl_min_ml_min": 10,
-          "crcl_max_ml_min": 30,
+          "crcl_min_ml_min": "10",
+          "crcl_max_ml_min": "30",
           "modality": "",
           "dose_display": "TMP 5–10 mg/kg/day divided q12h",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 42,
+          "source_row": "42",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -24546,13 +24555,13 @@ window.ANTIMICROBIAL_APP_DATA = {
           "indication": "Dose based on TMP",
           "renal_category": "GFR <10 / HD",
           "crcl_min_ml_min": "",
-          "crcl_max_ml_min": 10,
+          "crcl_max_ml_min": "10",
           "modality": "HD",
           "dose_display": "TMP 5–10 mg/kg q24h",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 42,
+          "source_row": "42",
           "review_status": "Imported",
           "publication_status": "Publish"
         }
@@ -24568,7 +24577,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "1.Serum creatinine may rise due to competition for renal secretion.\n2.About 10–20% of trimethoprim is metabolised in the liver and small amounts are excreted in the faeces via the bile, but most, about 40–60% of a dose, is excreted in urine, mainly as unchanged drug.",
           "reference_text": "1. Lexicomp 2. Micromedex",
           "source_id": "SRC-RRT-HD",
-          "source_row": 18,
+          "source_row": "18",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -24582,7 +24591,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "1. Lexicomp 2. Micromedex",
           "source_id": "SRC-RRT-CVVH",
-          "source_row": 18,
+          "source_row": "18",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -24596,7 +24605,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "",
           "source_id": "SRC-RRT-CVVHDF",
-          "source_row": 18,
+          "source_row": "18",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -24610,7 +24619,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "",
           "source_id": "SRC-RRT-PD",
-          "source_row": 18,
+          "source_row": "18",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -24642,7 +24651,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 40,
+          "source_row": "40",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -24658,7 +24667,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 40,
+          "source_row": "40",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -24674,7 +24683,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 40,
+          "source_row": "40",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -24693,7 +24702,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 40,
+          "source_row": "40",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -24710,7 +24719,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 40,
+          "source_row": "40",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -24727,7 +24736,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 40,
+          "source_row": "40",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -24744,7 +24753,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-HID",
           "reference_display": "Handbook on Injectable Drugs",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 40,
+          "source_row": "40",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -24761,7 +24770,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 40,
+          "source_row": "40",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -24778,7 +24787,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-HID",
           "reference_display": "Handbook on Injectable Drugs",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 40,
+          "source_row": "40",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -24795,7 +24804,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 40,
+          "source_row": "40",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -24812,7 +24821,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-HID",
           "reference_display": "Handbook on Injectable Drugs",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 40,
+          "source_row": "40",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -24829,7 +24838,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-HID",
           "reference_display": "Handbook on Injectable Drugs",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 40,
+          "source_row": "40",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -24846,7 +24855,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 40,
+          "source_row": "40",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -24863,7 +24872,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 40,
+          "source_row": "40",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -24880,7 +24889,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 40,
+          "source_row": "40",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -24897,7 +24906,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 40,
+          "source_row": "40",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -24917,7 +24926,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 40,
+          "source_row": "40",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -24935,7 +24944,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 40,
+          "source_row": "40",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -25066,7 +25075,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "loading_dose_display": "2–3 vials q12h ×3",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 34,
+          "source_row": "34",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -25076,14 +25085,14 @@ window.ANTIMICROBIAL_APP_DATA = {
           "hospital_drug_id": "TEII05",
           "indication": "General adult",
           "renal_category": "GFR >30",
-          "crcl_min_ml_min": 30,
+          "crcl_min_ml_min": "30",
           "crcl_max_ml_min": "",
           "modality": "",
           "dose_display": "400 mg q24h",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 34,
+          "source_row": "34",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -25093,14 +25102,14 @@ window.ANTIMICROBIAL_APP_DATA = {
           "hospital_drug_id": "TEII05",
           "indication": "General adult",
           "renal_category": "GFR 10–29",
-          "crcl_min_ml_min": 10,
-          "crcl_max_ml_min": 29,
+          "crcl_min_ml_min": "10",
+          "crcl_max_ml_min": "29",
           "modality": "",
           "dose_display": "400 mg q48h",
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 34,
+          "source_row": "34",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -25117,7 +25126,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "loading_dose_display": "",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 34,
+          "source_row": "34",
           "review_status": "Imported",
           "publication_status": "Publish"
         }
@@ -25133,7 +25142,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "Doses up to 600 mg three times a week have been used in HDF patients in severe infections.",
           "reference_text": "1. 熱病 2.仿單 3. Lexicomp 4. Micromedex",
           "source_id": "SRC-RRT-HD",
-          "source_row": 20,
+          "source_row": "20",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -25147,7 +25156,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "1. Lexicomp 2. Bellmann et al., 2010. Int. Journal of Clinical Pharmacology and Therapeutics 3. Shi et al., 2022. Frontiers in Pharmacology 4. 2017 台灣重症病人之 CRRT 處置操作手冊",
           "source_id": "SRC-RRT-CVVH",
-          "source_row": 20,
+          "source_row": "20",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -25161,7 +25170,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "1. Lexicomp 2. Bellmann et al., 2010. Int. Journal of Clinical Pharmacology and Therapeutics 3. Shi et al., 2022. Frontiers in Pharmacology 4. 2017 台灣重症病人之 CRRT 處置操作手冊",
           "source_id": "SRC-RRT-CVVHDF",
-          "source_row": 20,
+          "source_row": "20",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -25175,7 +25184,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "",
           "source_id": "SRC-RRT-PD",
-          "source_row": 20,
+          "source_row": "20",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -25207,7 +25216,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 43,
+          "source_row": "43",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -25223,7 +25232,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 43,
+          "source_row": "43",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -25239,7 +25248,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 43,
+          "source_row": "43",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -25258,7 +25267,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 43,
+          "source_row": "43",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -25275,7 +25284,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 43,
+          "source_row": "43",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -25292,7 +25301,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 43,
+          "source_row": "43",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -25309,7 +25318,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 43,
+          "source_row": "43",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -25326,7 +25335,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 43,
+          "source_row": "43",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -25343,7 +25352,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 43,
+          "source_row": "43",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -25360,7 +25369,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 43,
+          "source_row": "43",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -25377,7 +25386,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 43,
+          "source_row": "43",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -25394,7 +25403,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 43,
+          "source_row": "43",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -25411,7 +25420,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 43,
+          "source_row": "43",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -25428,7 +25437,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 43,
+          "source_row": "43",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -25445,7 +25454,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 43,
+          "source_row": "43",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -25462,7 +25471,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 43,
+          "source_row": "43",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -25482,7 +25491,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 43,
+          "source_row": "43",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -25500,7 +25509,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 43,
+          "source_row": "43",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -25631,7 +25640,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "loading_dose_display": "100 mg",
           "special_note": "Child-Pugh C: 50 mg once then 25 mg q12h per source",
           "source_id": "SRC-DOSE-115",
-          "source_row": 45,
+          "source_row": "45",
           "review_status": "Imported",
           "publication_status": "Publish"
         }
@@ -25647,7 +25656,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "AUC increased by 30% in CKD 5.",
           "reference_text": "",
           "source_id": "SRC-RRT-HD",
-          "source_row": 19,
+          "source_row": "19",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -25661,7 +25670,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "",
           "source_id": "SRC-RRT-CVVH",
-          "source_row": 19,
+          "source_row": "19",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -25675,7 +25684,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "",
           "source_id": "SRC-RRT-CVVHDF",
-          "source_row": 19,
+          "source_row": "19",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -25689,7 +25698,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "",
           "source_id": "SRC-RRT-PD",
-          "source_row": 19,
+          "source_row": "19",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -25721,7 +25730,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 45,
+          "source_row": "45",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -25737,7 +25746,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 45,
+          "source_row": "45",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -25753,7 +25762,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 45,
+          "source_row": "45",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -25772,7 +25781,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 45,
+          "source_row": "45",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -25789,7 +25798,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 45,
+          "source_row": "45",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -25806,7 +25815,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 45,
+          "source_row": "45",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -25823,7 +25832,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 45,
+          "source_row": "45",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -25840,7 +25849,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 45,
+          "source_row": "45",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -25857,7 +25866,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 45,
+          "source_row": "45",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -25874,7 +25883,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 45,
+          "source_row": "45",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -25891,7 +25900,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 45,
+          "source_row": "45",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -25908,7 +25917,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 45,
+          "source_row": "45",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -25925,7 +25934,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 45,
+          "source_row": "45",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -25942,7 +25951,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 45,
+          "source_row": "45",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -25959,7 +25968,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 45,
+          "source_row": "45",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -25976,7 +25985,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 45,
+          "source_row": "45",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -25996,7 +26005,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 45,
+          "source_row": "45",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -26014,7 +26023,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 45,
+          "source_row": "45",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -26029,7 +26038,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Tigecycline",
           "source_id": "SRC-PKPD",
-          "source_row": 32,
+          "source_row": "32",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -26043,7 +26052,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Tigecycline",
           "source_id": "SRC-PKPD",
-          "source_row": 32,
+          "source_row": "32",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -26057,7 +26066,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Tigecycline",
           "source_id": "SRC-PKPD",
-          "source_row": 32,
+          "source_row": "32",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -26071,7 +26080,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Tigecycline",
           "source_id": "SRC-PKPD",
-          "source_row": 32,
+          "source_row": "32",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -26085,7 +26094,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Tigecycline",
           "source_id": "SRC-PKPD",
-          "source_row": 32,
+          "source_row": "32",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -26099,7 +26108,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Tigecycline",
           "source_id": "SRC-PKPD",
-          "source_row": 32,
+          "source_row": "32",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -26145,7 +26154,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "loading_dose_display": "20–30 mg/kg",
           "special_note": "",
           "source_id": "SRC-DOSE-115",
-          "source_row": 33,
+          "source_row": "33",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -26155,14 +26164,14 @@ window.ANTIMICROBIAL_APP_DATA = {
           "hospital_drug_id": "VANI10",
           "indication": "General adult",
           "renal_category": "GFR >50",
-          "crcl_min_ml_min": 50,
+          "crcl_min_ml_min": "50",
           "crcl_max_ml_min": "",
           "modality": "",
           "dose_display": "15–20 mg/kg q12h",
           "loading_dose_display": "",
           "special_note": "TDM required",
           "source_id": "SRC-DOSE-115",
-          "source_row": 33,
+          "source_row": "33",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -26172,14 +26181,14 @@ window.ANTIMICROBIAL_APP_DATA = {
           "hospital_drug_id": "VANI10",
           "indication": "General adult",
           "renal_category": "CrCl 20–49",
-          "crcl_min_ml_min": 20,
-          "crcl_max_ml_min": 49,
+          "crcl_min_ml_min": "20",
+          "crcl_max_ml_min": "49",
           "modality": "",
           "dose_display": "15–20 mg/kg q24h",
           "loading_dose_display": "",
           "special_note": "TDM required",
           "source_id": "SRC-DOSE-115",
-          "source_row": 33,
+          "source_row": "33",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -26190,13 +26199,13 @@ window.ANTIMICROBIAL_APP_DATA = {
           "indication": "General adult",
           "renal_category": "CrCl <20",
           "crcl_min_ml_min": "",
-          "crcl_max_ml_min": 20,
+          "crcl_max_ml_min": "20",
           "modality": "",
           "dose_display": "15–20 mg/kg q48h",
           "loading_dose_display": "",
           "special_note": "TDM required",
           "source_id": "SRC-DOSE-115",
-          "source_row": 33,
+          "source_row": "33",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -26213,7 +26222,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "loading_dose_display": "",
           "special_note": "TDM required; source contains duplicated mg text",
           "source_id": "SRC-DOSE-115",
-          "source_row": 33,
+          "source_row": "33",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -26230,7 +26239,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "loading_dose_display": "",
           "special_note": "TDM required",
           "source_id": "SRC-DOSE-115",
-          "source_row": 33,
+          "source_row": "33",
           "review_status": "Imported",
           "publication_status": "Publish"
         }
@@ -26246,7 +26255,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "25-50% dialysed.",
           "reference_text": "1. Lexicomp 2. Micromedex",
           "source_id": "SRC-RRT-HD",
-          "source_row": 21,
+          "source_row": "21",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -26260,7 +26269,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "1. 熱病 2. Lexicomp 3. Ann Pharmacother. 2020;54(1):43-55 4. Antimicrob Agents Chemother. 2019;63(8):e00583-19.",
           "source_id": "SRC-RRT-CVVH",
-          "source_row": 21,
+          "source_row": "21",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -26274,7 +26283,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "1. 熱病 2. Lexicomp 3. Ann Pharmacother. 2020;54(1):43-55 4. Antimicrob Agents Chemother. 2019;63(8):e00583-19.",
           "source_id": "SRC-RRT-CVVHDF",
-          "source_row": 21,
+          "source_row": "21",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -26288,7 +26297,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "",
           "source_id": "SRC-RRT-PD",
-          "source_row": 21,
+          "source_row": "21",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -26302,7 +26311,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "",
           "source_id": "SRC-RRT-ECMO",
-          "source_row": 7,
+          "source_row": "7",
           "review_status": "Imported",
           "publication_status": "Publish"
         }
@@ -26320,7 +26329,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 47,
+          "source_row": "47",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -26336,7 +26345,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 47,
+          "source_row": "47",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -26352,7 +26361,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 47,
+          "source_row": "47",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -26368,7 +26377,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 47,
+          "source_row": "47",
           "review_status": "Imported continuation note",
           "publication_status": "Publish"
         }
@@ -26387,7 +26396,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 47,
+          "source_row": "47",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -26404,7 +26413,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 47,
+          "source_row": "47",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -26421,7 +26430,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 47,
+          "source_row": "47",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -26438,7 +26447,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 47,
+          "source_row": "47",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -26455,7 +26464,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 47,
+          "source_row": "47",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -26472,7 +26481,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 47,
+          "source_row": "47",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -26489,7 +26498,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 47,
+          "source_row": "47",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -26506,7 +26515,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 47,
+          "source_row": "47",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -26523,7 +26532,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 47,
+          "source_row": "47",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -26540,7 +26549,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 47,
+          "source_row": "47",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -26557,7 +26566,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 47,
+          "source_row": "47",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -26574,7 +26583,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 47,
+          "source_row": "47",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -26591,7 +26600,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 47,
+          "source_row": "47",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -26611,7 +26620,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 47,
+          "source_row": "47",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -26629,7 +26638,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 47,
+          "source_row": "47",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -26644,7 +26653,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Vancomycin",
           "source_id": "SRC-PKPD",
-          "source_row": 33,
+          "source_row": "33",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -26658,7 +26667,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Vancomycin",
           "source_id": "SRC-PKPD",
-          "source_row": 33,
+          "source_row": "33",
           "status": "no_data",
           "review_status": "No source value",
           "publication_status": "Publish"
@@ -26672,7 +26681,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Vancomycin",
           "source_id": "SRC-PKPD",
-          "source_row": 33,
+          "source_row": "33",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -26686,7 +26695,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Vancomycin",
           "source_id": "SRC-PKPD",
-          "source_row": 33,
+          "source_row": "33",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -26700,7 +26709,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Vancomycin",
           "source_id": "SRC-PKPD",
-          "source_row": 33,
+          "source_row": "33",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -26714,7 +26723,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Vancomycin",
           "source_id": "SRC-PKPD",
-          "source_row": 33,
+          "source_row": "33",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -26776,7 +26785,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "",
           "source_id": "SRC-RRT-HD",
-          "source_row": 28,
+          "source_row": "28",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -26790,7 +26799,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "",
           "source_id": "SRC-RRT-CVVH",
-          "source_row": 28,
+          "source_row": "28",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -26804,7 +26813,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "",
           "source_id": "SRC-RRT-CVVHDF",
-          "source_row": 28,
+          "source_row": "28",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -26818,7 +26827,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "note": "",
           "reference_text": "",
           "source_id": "SRC-RRT-PD",
-          "source_row": 28,
+          "source_row": "28",
           "review_status": "Imported",
           "publication_status": "Publish"
         },
@@ -26850,7 +26859,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 49,
+          "source_row": "49",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -26866,7 +26875,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 49,
+          "source_row": "49",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -26882,7 +26891,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 49,
+          "source_row": "49",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -26901,7 +26910,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 49,
+          "source_row": "49",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -26918,7 +26927,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 49,
+          "source_row": "49",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -26935,7 +26944,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 49,
+          "source_row": "49",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -26952,7 +26961,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 49,
+          "source_row": "49",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -26969,7 +26978,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 49,
+          "source_row": "49",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -26986,7 +26995,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 49,
+          "source_row": "49",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -27003,7 +27012,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 49,
+          "source_row": "49",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -27020,7 +27029,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 49,
+          "source_row": "49",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -27037,7 +27046,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 49,
+          "source_row": "49",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -27054,7 +27063,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 49,
+          "source_row": "49",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -27071,7 +27080,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 49,
+          "source_row": "49",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -27088,7 +27097,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 49,
+          "source_row": "49",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -27105,7 +27114,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "",
           "reference_display": "",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 49,
+          "source_row": "49",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -27125,7 +27134,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 49,
+          "source_row": "49",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         },
@@ -27143,7 +27152,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "reference_ids": "REF-PI",
           "reference_display": "藥品仿單",
           "source_id": "SRC-DILUTION-2025",
-          "source_row": 49,
+          "source_row": "49",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
         }
@@ -27158,7 +27167,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Voriconazole",
           "source_id": "SRC-PKPD",
-          "source_row": 43,
+          "source_row": "43",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -27172,7 +27181,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Voriconazole",
           "source_id": "SRC-PKPD",
-          "source_row": 43,
+          "source_row": "43",
           "status": "no_data",
           "review_status": "No source value",
           "publication_status": "Publish"
@@ -27186,7 +27195,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Voriconazole",
           "source_id": "SRC-PKPD",
-          "source_row": 43,
+          "source_row": "43",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -27200,7 +27209,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Voriconazole",
           "source_id": "SRC-PKPD",
-          "source_row": 43,
+          "source_row": "43",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -27214,7 +27223,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Voriconazole",
           "source_id": "SRC-PKPD",
-          "source_row": 43,
+          "source_row": "43",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
@@ -27228,7 +27237,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "component_scope": "Whole drug",
           "source_drug_name": "Voriconazole",
           "source_id": "SRC-PKPD",
-          "source_row": 43,
+          "source_row": "43",
           "status": "available",
           "review_status": "Imported",
           "publication_status": "Publish"
