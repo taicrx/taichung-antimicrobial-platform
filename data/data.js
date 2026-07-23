@@ -2,8 +2,8 @@ window.ANTIMICROBIAL_APP_DATA = {
   "meta": {
     "title": "臺中醫院抗感染製劑資訊平台",
     "appVersion": "1.0.0-beta",
-    "datasetVersion": "D20260723.3",
-    "datasetPublishedAt": "2026-07-23T10:35:54.873Z",
+    "datasetVersion": "D20260723.4",
+    "datasetPublishedAt": "2026-07-23T10:38:20.256Z",
     "publicationMode": "Google Sheet publication_status=Publish",
     "productCount": 49,
     "conceptCount": 47,
