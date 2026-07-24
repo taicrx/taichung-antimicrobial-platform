@@ -2,8 +2,8 @@ window.ANTIMICROBIAL_APP_DATA = {
   "meta": {
     "title": "臺中醫院抗感染製劑資訊平台",
     "appVersion": "1.0.0-beta",
-    "datasetVersion": "D20260723.4",
-    "datasetPublishedAt": "2026-07-23T10:38:20.256Z",
+    "datasetVersion": "D20260724.1",
+    "datasetPublishedAt": "2026-07-24T01:21:40.101Z",
     "publicationMode": "Google Sheet publication_status=Publish",
     "productCount": 49,
     "conceptCount": 47,
@@ -26314,11 +26314,28 @@ window.ANTIMICROBIAL_APP_DATA = {
           "modality": "",
           "dose_display": "6 mg/kg Q12H on day 1, then 4 mg/kg Q12H",
           "loading_dose_display": "",
-          "special_note": "肝功能異常需減半劑量",
+          "special_note": "肝功能異常需減半劑量、CrCl <50 建議用po (IV含有SBECD)",
           "source_id": "熱病",
           "source_row": "",
           "review_status": "No source row",
           "publication_status": "Publish"
+        },
+        {
+          "dose_id": "DOSE-0133",
+          "drug_concept_id": "DRG-VORICONAZOLE",
+          "hospital_drug_id": "VORO00",
+          "indication": "General adult",
+          "renal_category": "No renal adjustment",
+          "crcl_min_ml_min": "",
+          "crcl_max_ml_min": "",
+          "modality": "",
+          "dose_display": "40 kg以上 200-300 mg q12h, 40kg以下(or BMI <18.5) 100-150 mg q12h",
+          "loading_dose_display": "要loading: 6 mg/kg twice daily for 2 doses",
+          "special_note": "Administer at least 1 hour before or 1 hour after a meal",
+          "source_id": "UpToDate",
+          "source_row": "",
+          "review_status": "",
+          "publication_status": ""
         }
       ],
       "rrtDoses": [
