@@ -2,8 +2,8 @@ window.ANTIMICROBIAL_APP_DATA = {
   "meta": {
     "title": "臺中醫院抗感染製劑資訊平台",
     "appVersion": "1.0.0-beta",
-    "datasetVersion": "D20260727.2",
-    "datasetPublishedAt": "2026-07-27T03:03:43.523Z",
+    "datasetVersion": "D20260727.3",
+    "datasetPublishedAt": "2026-07-27T03:09:10.974Z",
     "publicationMode": "Google Sheet publication_status=Publish",
     "productCount": 49,
     "conceptCount": 47,
@@ -24798,6 +24798,22 @@ window.ANTIMICROBIAL_APP_DATA = {
           "source_row": "43",
           "review_status": "Imported exact product row",
           "publication_status": "Publish"
+        },
+        {
+          "administration_id": "ADM-0158",
+          "drug_concept_id": "DRG-TEICOPLANIN",
+          "hospital_drug_id": "TEII05",
+          "route": "PO",
+          "status": "allowed",
+          "administration_instruction": "Clostridium difficile: 100 to 200 mg orally twice daily for 7 to 14 days",
+          "maximum_rate_display": "",
+          "special_note": "",
+          "reference_ids": "",
+          "reference_display": "Sanofi",
+          "source_id": "",
+          "source_row": "",
+          "review_status": "",
+          "publication_status": ""
         }
       ],
       "compatibility": [
