@@ -2,8 +2,8 @@ window.ANTIMICROBIAL_APP_DATA = {
   "meta": {
     "title": "臺中醫院抗感染製劑資訊平台",
     "appVersion": "1.0.0-beta",
-    "datasetVersion": "D20260828.1",
-    "datasetPublishedAt": "2026-08-28T07:52:30.801Z",
+    "datasetVersion": "D20260828.2",
+    "datasetPublishedAt": "2026-08-28T08:05:37.069Z",
     "publicationMode": "Google Sheet publication_status=Publish",
     "productCount": 49,
     "conceptCount": 47,
@@ -8255,9 +8255,9 @@ window.ANTIMICROBIAL_APP_DATA = {
           "raw_source_value": "",
           "reference_ids": "",
           "reference_display": "",
-          "source_id": "SRC-DILUTION-2025",
+          "source_id": "",
           "source_row": "",
-          "review_status": "No exact product source row",
+          "review_status": "2028.08.28",
           "publication_status": "Publish"
         },
         {
@@ -8272,9 +8272,9 @@ window.ANTIMICROBIAL_APP_DATA = {
           "raw_source_value": "",
           "reference_ids": "",
           "reference_display": "",
-          "source_id": "SRC-DILUTION-2025",
+          "source_id": "",
           "source_row": "",
-          "review_status": "No exact product source row",
+          "review_status": "2028.08.28",
           "publication_status": "Publish"
         },
         {
@@ -8289,9 +8289,9 @@ window.ANTIMICROBIAL_APP_DATA = {
           "raw_source_value": "",
           "reference_ids": "",
           "reference_display": "",
-          "source_id": "SRC-DILUTION-2025",
+          "source_id": "",
           "source_row": "",
-          "review_status": "No exact product source row",
+          "review_status": "2028.08.28",
           "publication_status": "Publish"
         },
         {
@@ -8306,9 +8306,9 @@ window.ANTIMICROBIAL_APP_DATA = {
           "raw_source_value": "",
           "reference_ids": "",
           "reference_display": "",
-          "source_id": "SRC-DILUTION-2025",
+          "source_id": "",
           "source_row": "",
-          "review_status": "No exact product source row",
+          "review_status": "2028.08.28",
           "publication_status": "Publish"
         },
         {
@@ -8323,9 +8323,9 @@ window.ANTIMICROBIAL_APP_DATA = {
           "raw_source_value": "",
           "reference_ids": "",
           "reference_display": "",
-          "source_id": "SRC-DILUTION-2025",
+          "source_id": "",
           "source_row": "",
-          "review_status": "No exact product source row",
+          "review_status": "2028.08.28",
           "publication_status": "Publish"
         },
         {
@@ -8340,9 +8340,9 @@ window.ANTIMICROBIAL_APP_DATA = {
           "raw_source_value": "",
           "reference_ids": "",
           "reference_display": "",
-          "source_id": "SRC-DILUTION-2025",
+          "source_id": "",
           "source_row": "",
-          "review_status": "No exact product source row",
+          "review_status": "2028.08.28",
           "publication_status": "Publish"
         },
         {
@@ -8357,9 +8357,9 @@ window.ANTIMICROBIAL_APP_DATA = {
           "raw_source_value": "",
           "reference_ids": "",
           "reference_display": "",
-          "source_id": "SRC-DILUTION-2025",
+          "source_id": "",
           "source_row": "",
-          "review_status": "No exact product source row",
+          "review_status": "2028.08.28",
           "publication_status": "Publish"
         },
         {
@@ -8374,9 +8374,9 @@ window.ANTIMICROBIAL_APP_DATA = {
           "raw_source_value": "",
           "reference_ids": "",
           "reference_display": "",
-          "source_id": "SRC-DILUTION-2025",
+          "source_id": "",
           "source_row": "",
-          "review_status": "No exact product source row",
+          "review_status": "2028.08.29",
           "publication_status": "Publish"
         },
         {
@@ -8391,9 +8391,9 @@ window.ANTIMICROBIAL_APP_DATA = {
           "raw_source_value": "",
           "reference_ids": "",
           "reference_display": "",
-          "source_id": "SRC-DILUTION-2025",
+          "source_id": "",
           "source_row": "",
-          "review_status": "No exact product source row",
+          "review_status": "2028.08.28",
           "publication_status": "Publish"
         },
         {
@@ -8408,9 +8408,9 @@ window.ANTIMICROBIAL_APP_DATA = {
           "raw_source_value": "",
           "reference_ids": "",
           "reference_display": "",
-          "source_id": "SRC-DILUTION-2025",
+          "source_id": "",
           "source_row": "",
-          "review_status": "No exact product source row",
+          "review_status": "2028.08.28",
           "publication_status": "Publish"
         },
         {
@@ -8420,14 +8420,14 @@ window.ANTIMICROBIAL_APP_DATA = {
           "phase": "Dilution",
           "solution_code": "KCL_NS",
           "solution_name": "KCl in normal saline",
-          "status": "no_data",
+          "status": "compatible",
           "condition_display": "",
           "raw_source_value": "",
-          "reference_ids": "",
+          "reference_ids": "Trissel's™ 2 ",
           "reference_display": "",
-          "source_id": "SRC-DILUTION-2025",
+          "source_id": "",
           "source_row": "",
-          "review_status": "No exact product source row",
+          "review_status": "2028.08.28",
           "publication_status": "Publish"
         },
         {
@@ -8442,9 +8442,9 @@ window.ANTIMICROBIAL_APP_DATA = {
           "raw_source_value": "",
           "reference_ids": "",
           "reference_display": "",
-          "source_id": "SRC-DILUTION-2025",
+          "source_id": "",
           "source_row": "",
-          "review_status": "No exact product source row",
+          "review_status": "2028.08.28",
           "publication_status": "Publish"
         },
         {
@@ -8459,9 +8459,9 @@ window.ANTIMICROBIAL_APP_DATA = {
           "raw_source_value": "",
           "reference_ids": "",
           "reference_display": "",
-          "source_id": "SRC-DILUTION-2025",
+          "source_id": "",
           "source_row": "",
-          "review_status": "No exact product source row",
+          "review_status": "2028.08.28",
           "publication_status": "Publish"
         }
       ],
