@@ -2,8 +2,8 @@ window.ANTIMICROBIAL_APP_DATA = {
   "meta": {
     "title": "臺中醫院抗感染製劑資訊平台",
     "appVersion": "1.0.0-beta",
-    "datasetVersion": "D20260915.1",
-    "datasetPublishedAt": "2026-09-15T09:34:33.772Z",
+    "datasetVersion": "D20260915.2",
+    "datasetPublishedAt": "2026-09-15T09:35:31.123Z",
     "publicationMode": "Google Sheet publication_status=Publish",
     "productCount": 49,
     "conceptCount": 47,
@@ -16496,7 +16496,7 @@ window.ANTIMICROBIAL_APP_DATA = {
           "raw_source_value": "",
           "reference_ids": "",
           "reference_display": "",
-          "source_id": "SRC-DILUTION-2025",
+          "source_id": "Trissel's™ 2 Clinical Pharmaceutics Database",
           "source_row": "",
           "review_status": "No exact product source row",
           "publication_status": "Publish"
